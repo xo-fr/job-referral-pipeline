@@ -1,11 +1,8 @@
 name: Scan big tech (every 2h, offset)
 
 on:
-  schedule:
-    - cron: "30 1-23/2 * * *"   # every 2h at :30 UTC on ODD hours (= 7:00, 9:00,
-                                # 11:00... IST) - exactly halfway between the full
-                                # sweeps, so the big-name sources are covered
-                                # every 60 min instead of bunched beside a sweep
+  # No schedule here: the 4-hourly full sweep already covers big tech, and the
+  # original job-monitor repo keeps its hourly big-tech scan. Manual runs only.
   workflow_dispatch:
 
 permissions:
@@ -32,7 +29,7 @@ jobs:
         run: python -m monitor.main --tier bigtech
       - name: Commit state
         run: |
-          git config user.name "job-monitor-bot"
+          git config user.name "referral-pipeline-bot"
           git config user.email "actions@users.noreply.github.com"
           # A concurrent scan, or a status write from the dashboard, can land
           # first. Rebasing onto it conflicts inside jobs.json, so instead

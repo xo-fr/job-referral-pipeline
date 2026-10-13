@@ -1,0 +1,29 @@
+# Chromium profile created by launchPersistentContext — holds your live
+# LinkedIn session cookies and login data. Never commit this.
+profile/
+
+# Outreach log: who has already been processed, with real names. Personal data.
+state.json
+
+# Debug artifacts dropped by the script when a step fails
+debug-*.png
+debug-*.txt
+
+# Dependencies
+node_modules/
+
+# Logs / editor / OS cruft
+*.log
+npm-debug.log*
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Playwright MCP output (snapshots, screenshots, console logs)
+.playwright-mcp/
+
+# Resume copies, pipeline data (contacts, drafts, decisions), API keys
+private/
+data/
+.env
