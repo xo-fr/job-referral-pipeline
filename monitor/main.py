@@ -19,7 +19,7 @@ import sys
 
 import yaml
 
-from . import notify, profiles, state
+from . import match, notify, profiles, state
 from .fetchers import FETCHERS
 
 
@@ -86,6 +86,8 @@ def main():
     ap.add_argument("--no-notify", action="store_true",
                     help="save state but send no Discord messages (use after "
                          "repairing a fetcher, to absorb its backlog quietly)")
+    ap.add_argument("--no-match", action="store_true",
+                    help="skip Gemini resume matching for this run")
     ap.add_argument("--include-staff", action="store_true",
                     help="widen the band: also admit Staff engineer titles")
     args = ap.parse_args()
@@ -143,6 +145,18 @@ def main():
     if args.dry_run:
         print("\nDry run: nothing saved or sent.")
         return
+
+    if not args.no_match:
+        # Scores new postings while their bodies are in hand, then any
+        # unscored backlog. A Gemini failure is logged, never fatal: the
+        # scan's own results still get saved and announced.
+        try:
+            match.run(st, new)
+        except Exception as e:  # noqa: BLE001
+            print(f"match: failed - {e}")
+        for j in new:
+            if st["jobs"].get(j["id"], {}).get("match"):
+                j["match"] = st["jobs"][j["id"]]["match"]
 
     state.save(st, profile.state_path)
     if new and not seeding and not args.no_notify:

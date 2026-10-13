@@ -91,6 +91,15 @@ def rel_date(text: str) -> str:
     return ""
 
 
+# Long enough for a whole posting, short enough to keep one Gemini call cheap.
+DESCRIPTION_LIMIT = 8000
+
+
+def full_text(html_or_text: str) -> str:
+    """The posting body as plain text, for resume matching (match.py)."""
+    return clean_text(html_or_text, DESCRIPTION_LIMIT)
+
+
 def clean_text(html_or_text: str, limit: int = 180) -> str:
     """Strip tags/entities and collapse whitespace into a short plain snippet."""
     if not html_or_text:

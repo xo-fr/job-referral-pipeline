@@ -16,6 +16,10 @@ WORKPLACE_ICON = {"Remote": "🏠", "Hybrid": "🔀", "On-site": "🏢"}
 def _fields(j: dict) -> list:
     """Inline embed fields, skipping anything the ATS did not provide."""
     out = []
+    m = j.get("match")
+    if m:
+        out.append({"name": "🎯 Resume match", "value": f"**{m['score']}** · {m['verdict']}",
+                    "inline": True})
     if j.get("comp"):
         out.append({"name": "💰 Compensation", "value": j["comp"][:1024], "inline": True})
     if j.get("posted_at"):

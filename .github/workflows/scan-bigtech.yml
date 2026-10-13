@@ -26,6 +26,9 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           JOBSPY_PROXIES: ${{ secrets.JOBSPY_PROXIES }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          RESUME_TEXT: ${{ secrets.RESUME_TEXT }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
         run: python -m monitor.main --tier bigtech
       - name: Commit state
         run: |

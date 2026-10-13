@@ -45,7 +45,10 @@ exposure, so it is off by default and worth turning on only for the narrow,
 high-value searches.
 """
 import os
+import re
 import time
+
+from .http import DESCRIPTION_LIMIT
 
 # Boards that take a country hint, and the JobSpy argument carrying it.
 _DEFAULT_SITES = ("linkedin",)
@@ -198,6 +201,11 @@ def jobspy(c):
             continue
         site = _s(row.get("site")) or "jobspy"
         description = _s(row.get("description")) if fetch_desc else ""
+        # Naukri and Indeed return the body whether asked or not; LinkedIn only
+        # with fetch_description. Kept apart from `description` above so the
+        # snippet/yoe behaviour stays as it was - this copy is for match.py.
+        body = _s(row.get("description"))
+        li = re.search(r"linkedin\.com/jobs/view/(\d+)", url)
         out.append({
             "company": company,
             "title": title,
@@ -216,6 +224,10 @@ def jobspy(c):
             "workplace": _workplace(row),
             "department": _s(row.get("job_function")),
             "snippet": description[:180].rstrip() + ("…" if len(description) > 180 else ""),
+            "description": body[:DESCRIPTION_LIMIT],
+            # LinkedIn's logged-out job view, an HTML fragment with the body
+            "detail_url": ("https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/"
+                           + li.group(1)) if li else "",
             "yoe": _yoe(description, title),
             # This posting is almost certainly also on the employer's own board.
             # Let state.add_new fold it into that copy rather than track both.

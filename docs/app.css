@@ -136,6 +136,19 @@ main { padding:12px 24px 40px; max-width:1240px; margin:0 auto; }
 .badge.remote { color:#8ab4ff; border-color:rgba(138,180,255,.22); background:rgba(138,180,255,.06); }
 .badge.fresh { color:#ffd479; border-color:rgba(255,212,121,.22); background:rgba(255,212,121,.06); }
 .badge.yoe { color:#c3b6ff; border-color:rgba(195,182,255,.22); background:rgba(195,182,255,.06); }
+.badge.match { font-weight:650; }
+.badge.match.strong { color:#7ee2a8; border-color:rgba(126,226,168,.35); background:rgba(126,226,168,.10); }
+.badge.match.good { color:#8ab4ff; border-color:rgba(138,180,255,.35); background:rgba(138,180,255,.10); }
+.badge.match.stretch { color:#ffd479; border-color:rgba(255,212,121,.3); background:rgba(255,212,121,.06); }
+.badge.match.poor { color:var(--muted); }
+.why { margin-top:6px; font-size:11.5px; color:var(--muted); }
+.why summary { cursor:pointer; width:max-content; }
+.why summary:hover { color:var(--text); }
+.why ul { margin:6px 0 0; padding-left:18px; }
+.why li.fit::marker { content:"✓  "; color:#7ee2a8; }
+.why li.gap::marker { content:"△  "; color:#ffd479; }
+.why .pitch { margin:6px 0 0; font-style:italic; color:var(--text); }
+.why .kw { margin:4px 0 0; }
 .badge.urgent { color:#ff9b8a; border-color:rgba(255,155,138,.3); background:rgba(255,155,138,.08); }
 .snip { color:var(--dim); font-size:11.5px; margin-top:6px; line-height:1.45; }
 

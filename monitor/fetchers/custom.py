@@ -8,7 +8,7 @@ import html
 import re
 
 from .. import filters
-from .http import session, get_json, get_text, post_json, iso_date, clean_text
+from .http import session, get_json, get_text, post_json, iso_date, clean_text, full_text
 
 
 def _sched(value: str) -> str:
@@ -39,6 +39,9 @@ def amazon(c):
                 j.get("job_schedule_type", "")),
             "department": j.get("job_category", "") or j.get("business_category", ""),
             "snippet": clean_text(j.get("description_short", "") or j.get("description", "")),
+            "description": full_text(" ".join(filter(None, [
+                j.get("description", ""), j.get("basic_qualifications", ""),
+                j.get("preferred_qualifications", "")]))),
             "yoe": filters.parse_yoe(
                 (j.get("basic_qualifications", "") or "") + " " + (j.get("description", "") or ""),
                 j.get("title", "")),
@@ -68,6 +71,8 @@ def microsoft(c):
                 "url": f"https://jobs.careers.microsoft.com/global/en/job/{j.get('jobId','')}",
                 "external_id": str(j.get("jobId", "")),
                 "source": "microsoft careers",
+                "detail_url": ("https://gcsservices.careers.microsoft.com/search/api/v1/"
+                               f"job/{j.get('jobId', '')}?lang=en_us"),
                 "posted_at": iso_date(props.get("postingDate")),
                 "employment_type": props.get("employmentType", ""),
                 "workplace": ("Remote" if str(props.get("workSiteFlexibility", "")).lower()
@@ -311,6 +316,7 @@ def phenom(c):
                 "department": (cats[0].get("name", "") if cats and
                                isinstance(cats[0], dict) else ""),
                 "snippet": clean_text(j.get("description", "")),
+                "description": full_text(body),
                 "yoe": filters.parse_yoe(clean_text(body, 6000), j.get("title", "")),
             })
         if len(rows) < limit:

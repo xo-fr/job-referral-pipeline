@@ -36,6 +36,12 @@ jobs:
           # Optional. LinkedIn throttles datacenter IPs, which is what this
           # runner is; set the secret and the jobspy fetcher routes through it.
           JOBSPY_PROXIES: ${{ secrets.JOBSPY_PROXIES }}
+          # Resume matching (monitor/match.py). Both unset = scan without scores.
+          # RESUME_TEXT is the plain-text resume; it never lands in the repo.
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          RESUME_TEXT: ${{ secrets.RESUME_TEXT }}
+          # Optional repo variable to pin a model (default gemini-flash-lite-latest)
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
         run: python -m monitor.main --tier all ${{ inputs.no_notify && '--no-notify' || '' }}
       - name: Commit state
         run: |

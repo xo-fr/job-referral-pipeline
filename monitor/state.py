@@ -184,7 +184,10 @@ def save(state: dict, path: str | None = None) -> None:
 
 
 ENRICH = ("posted_at", "comp", "employment_type", "workplace", "department",
-          "role", "yoe", "deadline")
+          "role", "yoe", "deadline",
+          # where describe.py can re-fetch the body later, for a posting
+          # match.py could not score in the run that found it
+          "detail_url")
 
 
 def source_health(state: dict, counts: dict) -> list:
@@ -295,8 +298,10 @@ def add_new(state: dict, jobs: list) -> list:
             seen[ck] = jid
         if sk:
             soft_seen.setdefault(sk, jid)
-        # the notification copy also carries the (unstored) description snippet
-        new.append(dict(entry, id=jid, snippet=j.get("snippet", "")))
+        # the notification copy also carries the (unstored) snippet, and the
+        # (unstored) body that match.py scores against the resume
+        new.append(dict(entry, id=jid, snippet=j.get("snippet", ""),
+                        description=j.get("description", "")))
     return new
 
 

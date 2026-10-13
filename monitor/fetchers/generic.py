@@ -6,10 +6,11 @@ plus best-effort enrichment: {posted_at, comp, employment_type, workplace,
 department, snippet}. Any enrichment field the ATS does not expose is "".
 Filtering happens later in filters.py.
 """
+import html
 import re
 
 from .. import filters
-from .http import session, get_json, post_json, iso_date, rel_date, clean_text
+from .http import session, get_json, post_json, iso_date, rel_date, clean_text, full_text
 
 # Ashby/SmartRecruiters use their own vocabulary; normalize to one set.
 EMPLOYMENT = {
@@ -49,6 +50,10 @@ def greenhouse(c):
             "posted_at": iso_date(j.get("first_published") or j.get("updated_at")),
             "department": depts[0] if depts else "",
             "snippet": clean_text(j.get("content", "")),
+            # content arrives entity-escaped, so it is unescaped twice
+            "description": full_text(html.unescape(j.get("content", "") or "")),
+            "detail_url": ("https://boards-api.greenhouse.io/v1/boards/"
+                           f"{c['token']}/jobs/{j.get('id', '')}"),
             # almost never populated (0.2% of boards) but free to carry
             "deadline": iso_date(j.get("application_deadline")),
             # only present when the board is configured with_content
@@ -84,6 +89,10 @@ def lever(c):
             "workplace": _norm(WORKPLACE, j.get("workplaceType", "")),
             "department": cats.get("team", "") or cats.get("department", ""),
             "snippet": clean_text(j.get("descriptionPlain", "")),
+            "description": full_text(" ".join(filter(None, [
+                j.get("descriptionPlain", ""),
+                *(f"{l.get('text', '')}: {l.get('content', '')}" for l in j.get("lists") or []),
+                j.get("additionalPlain", "")]))),
             "yoe": filters.parse_yoe(j.get("descriptionPlain", ""), j.get("text", "")),
         })
     return out
@@ -118,6 +127,7 @@ def ashby(c):
             "workplace": _norm(WORKPLACE, workplace),
             "department": j.get("department", "") or j.get("team", ""),
             "snippet": clean_text(j.get("descriptionPlain", "")),
+            "description": full_text(j.get("descriptionPlain", "")),
             "yoe": filters.parse_yoe(j.get("descriptionPlain", ""), j.get("title", "")),
         })
     return out
@@ -299,6 +309,9 @@ def _workday_pass(s, url, c, search, facets):
                 "external_id": j.get("bulletFields", [""])[0] if j.get("bulletFields") else path,
                 "source": "workday",
                 "posted_at": rel_date(j.get("postedOn", "")),
+                # the listing carries no body; this returns jobPostingInfo
+                "detail_url": (f"https://{c['host']}/wday/cxs/{c['tenant']}/"
+                               f"{c['site']}{path}") if path else "",
             })
         offset += limit
     return out
@@ -367,6 +380,7 @@ def eightfold(c):
             "department": j.get("department", "") or j.get("business_unit", ""),
             "workplace": _norm(WORKPLACE, j.get("work_location_option", "")),
             "snippet": clean_text(j.get("job_description", "")),
+            "description": full_text(j.get("job_description", "")),
         })
     return out
 
@@ -387,6 +401,8 @@ def smartrecruiters(c):
             "url": f"https://jobs.smartrecruiters.com/{c['token']}/{j.get('id','')}",
             "external_id": str(j.get("id", "")),
             "source": "smartrecruiters",
+            "detail_url": ("https://api.smartrecruiters.com/v1/companies/"
+                           f"{c['token']}/postings/{j.get('id', '')}"),
             "posted_at": iso_date(j.get("releasedDate")),
             "employment_type": _norm(
                 EMPLOYMENT, (j.get("typeOfEmployment") or {}).get("label", "")),

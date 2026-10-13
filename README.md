@@ -28,6 +28,41 @@ There is no server and no cost: it runs entirely on GitHub Actions and GitHub Pa
 
 ---
 
+## Referral pipeline (this fork)
+
+This repo is a fork of the job monitor that adds **resume matching** and, in
+[`outreach/`](outreach/), the **LinkedIn referral outreach** that acts on it. The original
+monitor keeps running unchanged in its own repo; this one scans every 4 hours, offset
+from it, and has no Discord unless you add a webhook.
+
+On each scan, every new in-scope posting gets its full description fetched
+([`monitor/describe.py`](monitor/describe.py)) and is scored against your resume by Gemini
+([`monitor/match.py`](monitor/match.py)). The score, reasons, gaps, a one-line pitch and
+shared keywords land in `jobs.json` as a `match` block, and the dashboard can filter and
+sort by them.
+
+**`jobs.json` is public.** The prompt keeps match output fit to publish (gaps describe the
+posting, never you), and the resume itself stays in a secret.
+
+| Secret / variable | What |
+|---|---|
+| `GEMINI_API_KEY` (secret) | Google AI Studio key |
+| `RESUME_TEXT` (secret) | Your resume as plain text |
+| `GEMINI_MODEL` (variable, optional) | Pin a model; default `gemini-flash-lite-latest` |
+
+Without the key or resume, scans run as before with no scores. Naukri posting bodies sit
+behind a CAPTCHA, so those are scored from the title alone, capped at 70 and marked `*`.
+
+Run it locally, or score postings found before matching existed:
+
+```bash
+# resume at private/resume.txt (gitignored), key in the environment
+python -m monitor.match --dry-run --limit 3          # try it, save nothing
+python -m monitor.match --since 2026-10-10 --limit 30
+```
+
+---
+
 ## Contents
 
 1. [What gets matched](#1-what-gets-matched)

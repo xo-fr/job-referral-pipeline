@@ -311,6 +311,11 @@ function comparator(mode) {
       const ya = a[1].yoe == null ? 99 : a[1].yoe, yb = b[1].yoe == null ? 99 : b[1].yoe;
       if (ya !== yb) return ya - yb;
     }
+    if (mode === "match") {
+      // unscored postings sort after every scored one, newest first among them
+      const ma = a[1].match ? a[1].match.score : -1, mb = b[1].match ? b[1].match.score : -1;
+      if (ma !== mb) return mb - ma;
+    }
     if (mode === "posted") {
       // fall back to first_seen so entries with no posted_at still order sanely
       const pa = a[1].posted_at || a[1].first_seen || "";
@@ -326,7 +331,8 @@ function render() {
         comp = $("fCompany").value, q = $("fSearch").value.toLowerCase(),
         role = $("fRole").value, yoe = $("fYoe").value,
         src = $("fSource") ? $("fSource").value : "",
-        loc = $("fLocation") ? $("fLocation").value : "";
+        loc = $("fLocation") ? $("fLocation").value : "",
+        fm = $("fMatch") ? $("fMatch").value : "";
   // "base" applies every filter EXCEPT tier, so each tile answers
   // "how many would I see if I picked this tier?"
   const base = Object.entries(data.jobs).filter(([id, j]) =>
@@ -336,6 +342,7 @@ function render() {
       (!role || (j.role || DEFAULT_ROLE) === role) &&
       (!yoe || (yoe === "unstated" ? j.yoe == null : j.yoe != null && j.yoe <= +yoe)) &&
       (!src || (src === "linkedin") === isBoard(j)) &&
+      (!fm || (fm === "unscored" ? !j.match : !!j.match && j.match.score >= +fm)) &&
       (!q || (j.title + " " + j.location + " " + j.company).toLowerCase().includes(q)));
   renderKpi(base, tier, status);
   renderActivity();
@@ -409,6 +416,7 @@ function jobRow(g) {
         ${member ? "" : `<span class="pill" style="--tint:var(--t-${esc(rj.tier)})">${esc(rj.tier)}</span>`}
         <div class="meta">${meta}</div>
         ${badges(rj, lead)}
+        ${member ? "" : why(rj)}
       </div>
       <div class="btns">
         ${mk("applied", "\u2713 Applied")}${mk("skip", "\u2717 Skip")}${mk("interview", "\u2605 Interview")}
@@ -545,6 +553,11 @@ function daysOld(d){
 
 function badges(j, lead = ""){
   const b = lead ? [lead] : [];
+  if (j.match)
+    b.push(`<span class="badge match ${esc(j.match.verdict)}" title="Resume match by ${
+      esc(j.match.model)} on ${esc(j.match.at)}${
+      j.match.basis === "title" ? " - from the title only, no description was available" : ""
+    }">🎯 ${esc(j.match.score)}${j.match.basis === "title" ? "*" : ""}</span>`);
   if (j.comp) b.push(`<span class="badge comp">💰 ${esc(j.comp)}</span>`);
   const age = daysOld(j.posted_at);
   if (age !== null && age <= 3) b.push(`<span class="badge fresh">🔥 ${age <= 0 ? "today" : age + "d ago"}</span>`);
@@ -562,6 +575,20 @@ function badges(j, lead = ""){
     b.push(`<span class="badge">${esc(ROLE_LABEL[j.role] || j.role)}</span>`);
   if (j.department) b.push(`<span class="badge">🗂 ${esc(j.department)}</span>`);
   return b.length ? `<div class="badges">${b.join("")}</div>` : "";
+}
+
+// The Gemini verdict behind the score (monitor/match.py), folded away until
+// asked for. <details> needs no handler, so the list's click delegation is
+// unaffected.
+function why(j){
+  const m = j.match;
+  if (!m) return "";
+  const li = (xs, cls) => (xs || []).map(x => `<li class="${cls}">${esc(x)}</li>`).join("");
+  return `<details class="why"><summary>Why ${esc(m.score)}?</summary>
+    <ul>${li(m.reasons, "fit")}${li(m.gaps, "gap")}</ul>
+    ${m.pitch ? `<p class="pitch">“${esc(m.pitch)}”</p>` : ""}
+    ${(m.keywords || []).length ? `<p class="kw">${m.keywords.map(esc).join(" · ")}</p>` : ""}
+  </details>`;
 }
 
 // Everything here arrives from third-party job boards and a community-edited
@@ -684,7 +711,7 @@ function saveSettings(){
   localStorage.gh_branch=$("ghBranch").value.trim()||"main"; localStorage.gh_token=$("ghToken").value.trim();
   $("dlg").close(); toast("Settings saved");
 }
-["fTier","fStatus","fCompany","fLocation","fSort","fRole","fYoe","fSource"]
+["fTier","fStatus","fCompany","fLocation","fSort","fRole","fYoe","fSource","fMatch"]
   .forEach(id => { if ($(id)) $(id).onchange = render; });
 $("tiles").addEventListener("click", e => {
   const t = e.target.closest(".tile");
