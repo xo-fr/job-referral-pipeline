@@ -78,7 +78,7 @@ def test_clean_clamps_and_recomputes_verdict():
 def test_clean_caps_title_only_matches():
     out = match.clean({"score": 92, "reasons": [], "gaps": [], "pitch": "", "keywords": []},
                       "title")
-    assert out["score"] == 70 and out["verdict"] == "good" and out["basis"] == "title"
+    assert out["score"] == 60 and out["verdict"] == "stretch" and out["basis"] == "title"
 
 
 @pytest.mark.parametrize("score,verdict", [(85, "strong"), (84, "good"), (70, "good"),
@@ -174,3 +174,17 @@ def test_dry_run_writes_nothing(monkeypatch, armed):
     monkeypatch.setattr(match, "call_gemini", lambda *a, **k: _reply())
     match.run(st, dry_run=True)
     assert "match" not in st["jobs"]["a"]
+
+
+def test_resume_contact_details_are_scrubbed(monkeypatch):
+    monkeypatch.setenv("RESUME_TEXT", "Pune | +91 9876543210 | me.x@gmail.com | Java 17")
+    out = match.load_resume()
+    assert out == "Pune | [phone] | [email] | Java 17"
+
+
+def test_gaps_about_the_person_are_never_published():
+    out = match.clean({"score": 50, "reasons": [], "pitch": "", "keywords": [], "gaps": [
+        "Node.js", "Resume lacks React", "No professional PHP experience",
+        "Limited evidence of testing", "12+ years experience", "Candidate is junior"]},
+        "description")
+    assert out["gaps"] == ["Node.js", "12+ years experience"]

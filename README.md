@@ -48,10 +48,10 @@ posting, never you), and the resume itself stays in a secret.
 |---|---|
 | `GEMINI_API_KEY` (secret) | Google AI Studio key |
 | `RESUME_TEXT` (secret) | Your resume as plain text |
-| `GEMINI_MODEL` (variable, optional) | Pin a model; default `gemini-flash-lite-latest` |
+| `GEMINI_MODEL` (variable, optional) | Pin a model; default `gemini-3.1-flash-lite` |
 
 Without the key or resume, scans run as before with no scores. Naukri posting bodies sit
-behind a CAPTCHA, so those are scored from the title alone, capped at 70 and marked `*`.
+behind a CAPTCHA, so those are scored from the title alone, capped at 60 and marked `*`.
 
 Run it locally, or score postings found before matching existed:
 

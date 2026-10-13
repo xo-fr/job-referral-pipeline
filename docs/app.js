@@ -585,7 +585,8 @@ function why(j){
   if (!m) return "";
   const li = (xs, cls) => (xs || []).map(x => `<li class="${cls}">${esc(x)}</li>`).join("");
   return `<details class="why"><summary>Why ${esc(m.score)}?</summary>
-    <ul>${li(m.reasons, "fit")}${li(m.gaps, "gap")}</ul>
+    <ul>${li(m.reasons, "fit")}${(m.gaps || []).length
+      ? `<li class="gap">Posting also asks for: ${m.gaps.map(esc).join(", ")}</li>` : ""}</ul>
     ${m.pitch ? `<p class="pitch">“${esc(m.pitch)}”</p>` : ""}
     ${(m.keywords || []).length ? `<p class="kw">${m.keywords.map(esc).join(" · ")}</p>` : ""}
   </details>`;
