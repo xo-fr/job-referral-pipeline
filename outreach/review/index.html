@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Referral Review</title>
+<style>
+:root {
+  --bg:#0d0f13; --panel:#151922; --panel2:#1b2130; --line:#262d3d; --text:#e6e9ef; --muted:#8a93a6;
+  --accent:#8ab4ff; --good:#7ee2a8; --warn:#ffd479; --bad:#ff9b8a; --focus:#8ab4ff;
+  --strong-bg:rgba(126,226,168,.14); --good-bg:rgba(138,180,255,.14); --stretch-bg:rgba(255,212,121,.12); --poor-bg:rgba(138,147,166,.12);
+}
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    --bg:#f6f7f9; --panel:#fff; --panel2:#f0f2f6; --line:#e1e5ec; --text:#1b2030; --muted:#5d6678;
+    --accent:#2f62d9; --good:#14864a; --warn:#9a6a00; --bad:#c2412d; --focus:#2f62d9;
+    --strong-bg:rgba(20,134,74,.10); --good-bg:rgba(47,98,217,.10); --stretch-bg:rgba(154,106,0,.10); --poor-bg:rgba(93,102,120,.10);
+  }
+}
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--text); font:14px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif; }
+header { position:sticky; top:0; z-index:5; background:var(--bg); border-bottom:1px solid var(--line); padding:12px 16px; }
+.wrap { max-width:980px; margin:0 auto; }
+.top { display:flex; align-items:center; gap:12px; flex-wrap:wrap; }
+h1 { font-size:16px; margin:0; font-weight:650; }
+.src { color:var(--muted); font-size:12px; flex:1; min-width:160px; }
+button, select, input, textarea { font:inherit; color:inherit; }
+button { background:var(--panel2); border:1px solid var(--line); border-radius:8px; padding:6px 12px; cursor:pointer; }
+button:hover { border-color:var(--muted); }
+button:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-visible { outline:2px solid var(--focus); outline-offset:1px; }
+select, input[type=search] { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:6px 10px; }
+.budget { margin-top:10px; display:flex; align-items:center; gap:12px; font-size:13px; }
+.meter { flex:1; height:8px; background:var(--panel2); border-radius:99px; overflow:hidden; max-width:320px; }
+.meter > i { display:block; height:100%; background:var(--good); width:0; transition:width .2s; }
+.controls { margin-top:10px; display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+.seg { display:inline-flex; border:1px solid var(--line); border-radius:8px; overflow:hidden; }
+.seg button { border:0; border-radius:0; background:var(--panel); }
+.seg button[aria-pressed="true"] { background:var(--panel2); color:var(--accent); font-weight:600; }
+.controls input[type=search] { flex:1; min-width:160px; }
+.hint { color:var(--muted); font-size:12px; margin-top:8px; }
+kbd { border:1px solid var(--line); border-bottom-width:2px; border-radius:4px; padding:0 5px; font-size:11px; background:var(--panel); }
+main { padding:14px 16px 60px; }
+.card { display:grid; grid-template-columns:56px 1fr auto; gap:14px; background:var(--panel); border:1px solid var(--line);
+        border-radius:12px; padding:14px; margin-bottom:10px; }
+.card.focus { border-color:var(--focus); box-shadow:0 0 0 1px var(--focus); }
+.card.approved { border-left:4px solid var(--good); }
+.card.rejected { opacity:.6; }
+.score { width:52px; height:52px; border-radius:50%; display:grid; place-items:center; font-weight:700; font-size:17px; }
+.score.strong { background:var(--strong-bg); color:var(--good); }
+.score.good { background:var(--good-bg); color:var(--accent); }
+.score.stretch { background:var(--stretch-bg); color:var(--warn); }
+.score.poor, .score.none { background:var(--poor-bg); color:var(--muted); }
+.score small { font-size:10px; font-weight:500; }
+.title { font-weight:600; font-size:15px; color:var(--text); text-decoration:none; }
+.title:hover { color:var(--accent); text-decoration:underline; }
+.meta { color:var(--muted); font-size:12.5px; margin-top:2px; }
+.stale { color:var(--warn); }
+.tag { display:inline-block; font-size:11px; padding:1px 7px; border:1px solid var(--line); border-radius:99px; margin-left:6px; color:var(--muted); }
+ul.why { margin:8px 0 0; padding-left:18px; font-size:13px; }
+ul.why li { margin:1px 0; }
+ul.why li.fit::marker { content:"\2713  "; color:var(--good); }
+ul.why li.gap::marker { content:"\25B3  "; color:var(--warn); }
+.kw { color:var(--muted); font-size:12px; margin-top:4px; }
+.pitch { margin-top:10px; }
+.pitch label { font-size:11px; color:var(--muted); text-transform:uppercase; letter-spacing:.04em; display:flex; justify-content:space-between; }
+.pitch textarea { width:100%; margin-top:4px; resize:vertical; min-height:44px; background:var(--panel2); border:1px solid var(--line);
+                  border-radius:8px; padding:7px 9px; font-size:13px; }
+.pitch .edited { color:var(--warn); text-transform:none; letter-spacing:0; }
+.acts { display:flex; flex-direction:column; gap:6px; align-items:stretch; min-width:108px; }
+.acts .approve { border-color:var(--good); color:var(--good); }
+.acts .reject { color:var(--bad); }
+.acts .state { font-size:12px; color:var(--muted); text-align:center; }
+.empty { color:var(--muted); text-align:center; padding:40px 0; }
+.more { display:block; margin:10px auto; }
+#toast { position:fixed; bottom:16px; left:50%; transform:translateX(-50%); background:var(--panel2); border:1px solid var(--line);
+         padding:8px 14px; border-radius:8px; display:none; }
+@media (max-width:640px) {
+  header { position:static; }
+  .card { grid-template-columns:44px 1fr; }
+  .score { width:42px; height:42px; font-size:15px; }
+  .acts { grid-column:1 / -1; flex-direction:row; }
+  .acts button { flex:1; }
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="top">
+      <h1>Referral review</h1>
+      <span class="src" id="src">loading…</span>
+      <button id="refresh" title="Fetch the latest jobs.json">↻ Refresh jobs</button>
+    </div>
+    <div class="budget">
+      <span id="budgetText"></span>
+      <div class="meter" aria-hidden="true"><i id="budgetBar"></i></div>
+    </div>
+    <div class="controls">
+      <div class="seg" role="group" aria-label="View">
+        <button data-view="todo" aria-pressed="true">To review <span id="nTodo"></span></button>
+        <button data-view="approved" aria-pressed="false">Approved <span id="nApproved"></span></button>
+        <button data-view="rejected" aria-pressed="false">Rejected <span id="nRejected"></span></button>
+      </div>
+      <select id="minScore" aria-label="Minimum match score">
+        <option value="85">Strong (85+)</option>
+        <option value="70" selected>Good or better (70+)</option>
+        <option value="50">Stretch or better (50+)</option>
+        <option value="0">Any score</option>
+        <option value="-1">Include unscored</option>
+      </select>
+      <select id="sort" aria-label="Sort">
+        <option value="score">Best match first</option>
+        <option value="posted">Newest posted first</option>
+      </select>
+      <input type="search" id="q" placeholder="Search title, company, location…" aria-label="Search">
+    </div>
+    <div class="hint"><kbd>j</kbd>/<kbd>k</kbd> move · <kbd>a</kbd> approve · <kbd>r</kbd> reject · <kbd>u</kbd> undo · <kbd>o</kbd> open posting · <kbd>e</kbd> edit pitch</div>
+  </div>
+</header>
+<main><div class="wrap" id="list"></div></main>
+<div id="toast" role="status"></div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const ESC = { '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' };
+const esc = (s) => (s == null ? '' : String(s)).replace(/[&<>"']/g, (c) => ESC[c]);
+const safeUrl = (u) => (/^https?:\/\//i.test(u || '') ? esc(u) : '');
+const PAGE = 100;
+
+let S = null;                 // server payload
+let view = 'todo', shown = PAGE, focusId = null;
+
+const today = () => new Date().toLocaleDateString('en-CA');   // YYYY-MM-DD, local
+const daysAgo = (d) => { const ms = Date.now() - Date.parse(d + 'T00:00:00'); return isNaN(ms) ? null : Math.floor(ms / 864e5); };
+const scoreOf = (j) => (j.match ? j.match.score : -1);
+
+async function load(refresh = false) {
+  $('src').textContent = refresh ? 'refreshing…' : 'loading…';
+  const r = await fetch('/api/state' + (refresh ? '?refresh=1' : ''));
+  S = await r.json();
+  const scored = Object.values(S.jobs).filter((j) => j.match).length;
+  $('src').textContent = `${Object.keys(S.jobs).length} jobs · ${scored} scored · scan ${S.updated ? new Date(S.updated).toLocaleString() : '?'}`;
+  $('src').title = S.source;
+  render();
+}
+
+// Every job the page knows: the live feed, plus approved/rejected ones that
+// have since dropped out of it (shown from their snapshot).
+function allJobs() {
+  const out = Object.entries(S.jobs).map(([id, j]) => [id, j]);
+  for (const [id, d] of Object.entries(S.decisions)) if (!S.jobs[id] && d.job) out.push([id, d.job]);
+  return out;
+}
+
+function visible() {
+  const min = +$('minScore').value, q = $('q').value.trim().toLowerCase();
+  const rows = allJobs().filter(([id, j]) => {
+    const d = S.decisions[id]?.decision;
+    if (view === 'todo' ? d : d !== view) return false;
+    // the public dashboard's "skip" means you already dismissed it there
+    if (view === 'todo' && j.status === 'skip') return false;
+    if (view === 'todo' && (min < 0 ? false : scoreOf(j) < min)) return false;
+    return !q || `${j.title} ${j.company} ${j.location}`.toLowerCase().includes(q);
+  });
+  const posted = (j) => j.posted_at || j.first_seen || '';
+  if (view !== 'todo') rows.sort((a, b) => (S.decisions[b[0]].decided_at || '').localeCompare(S.decisions[a[0]].decided_at || ''));
+  else if ($('sort').value === 'score') rows.sort((a, b) => scoreOf(b[1]) - scoreOf(a[1]) || posted(b[1]).localeCompare(posted(a[1])));
+  else rows.sort((a, b) => posted(b[1]).localeCompare(posted(a[1])) || scoreOf(b[1]) - scoreOf(a[1]));
+  return rows;
+}
+
+function renderCounts() {
+  const ds = Object.values(S.decisions);
+  const appr = ds.filter((d) => d.decision === 'approved'), rej = ds.filter((d) => d.decision === 'rejected');
+  const min = +$('minScore').value;
+  const todo = allJobs().filter(([id, j]) => !S.decisions[id] && j.status !== 'skip' && (min < 0 || scoreOf(j) >= min)).length;
+  $('nTodo').textContent = todo; $('nApproved').textContent = appr.length; $('nRejected').textContent = rej.length;
+
+  const { invitesPerDay, contactsPerJob } = S.budget;
+  const target = Math.ceil(invitesPerDay / contactsPerJob);
+  const n = appr.filter((d) => new Date(d.decided_at).toLocaleDateString('en-CA') === today()).length;
+  const invites = Math.min(n * contactsPerJob, invitesPerDay);
+  $('budgetText').innerHTML = `Today: <b>${n}</b> of ${target} jobs approved · ≈${invites} of ${invitesPerDay} invites planned`
+    + (n >= target ? ' · <span style="color:var(--good)">budget full</span>' : '');
+  $('budgetBar').style.width = Math.min(100, (n / target) * 100) + '%';
+}
+
+function card(id, j) {
+  const d = S.decisions[id], m = j.match;
+  const cls = m ? m.verdict : 'none';
+  const age = daysAgo(j.posted_at || j.first_seen);
+  const href = safeUrl(j.url);
+  const title = href ? `<a class="title" href="${href}" target="_blank" rel="noopener">${esc(j.title)}</a>` : `<span class="title">${esc(j.title)}</span>`;
+  const pitch = d?.pitch ?? m?.pitch ?? '';
+  const edited = d?.pitch && d.pitch !== m?.pitch;
+  const li = (xs) => (xs || []).map((x) => `<li class="fit">${esc(x)}</li>`).join('');
+  return `<article class="card ${d ? d.decision : ''}" data-id="${esc(id)}" tabindex="-1">
+    <div class="score ${cls}" title="${m ? esc(`${m.verdict} · ${m.model} · ${m.at}${m.basis === 'title' ? ' · title only' : ''}`) : 'not scored yet'}">
+      ${m ? esc(m.score) + (m.basis === 'title' ? '<small>*</small>' : '') : '–'}</div>
+    <div>
+      ${title}${j.tier ? `<span class="tag">${esc(j.tier)}</span>` : ''}${j.status && j.status !== 'new' ? `<span class="tag">${esc(j.status)} on dashboard</span>` : ''}
+      <div class="meta">${esc(j.company)} · ${esc(j.location)}${age != null ? ` · ${age <= 0 ? 'today' : age + 'd ago'}` : ''}${age > 30 ? ' · <span class="stale" title="Old postings are often filled or stale">stale</span>' : ''}${j.yoe != null ? ` · ${esc(j.yoe)}+ yrs` : ''}</div>
+      ${m ? `<ul class="why">${li(m.reasons)}${(m.gaps || []).length ? `<li class="gap">Posting also asks for: ${m.gaps.map(esc).join(', ')}</li>` : ''}</ul>
+             ${(m.keywords || []).length ? `<div class="kw">${m.keywords.map(esc).join(' · ')}</div>` : ''}` : ''}
+      ${m || d ? `<div class="pitch"><label for="p-${esc(id)}">Pitch for outreach <span class="edited">${edited ? 'edited' : ''}</span></label>
+        <textarea id="p-${esc(id)}" rows="2" maxlength="400" data-pitch="${esc(id)}">${esc(pitch)}</textarea></div>` : ''}
+    </div>
+    <div class="acts">
+      ${d ? `<div class="state">${d.decision === 'approved' ? '✓ approved' : '✗ rejected'}<br>${esc(new Date(d.decided_at).toLocaleDateString())}</div>
+             <button data-act="undo">Undo</button>`
+          : `<button class="approve" data-act="approved">✓ Approve</button><button class="reject" data-act="rejected">✗ Reject</button>`}
+    </div>
+  </article>`;
+}
+
+function render() {
+  renderCounts();
+  const rows = visible();
+  if (!rows.some(([id]) => id === focusId)) focusId = rows[0]?.[0] || null;
+  $('list').innerHTML = rows.slice(0, shown).map(([id, j]) => card(id, j)).join('')
+    + (rows.length > shown ? `<button class="more" id="more">Show more (${rows.length - shown} left)</button>` : '')
+    || `<p class="empty">${view === 'todo' ? 'Nothing left to review at this score. Lower the filter, or refresh after the next scan.' : 'Nothing here yet.'}</p>`;
+  setFocus(focusId, false);
+}
+
+function setFocus(id, scroll = true) {
+  document.querySelectorAll('.card.focus').forEach((c) => c.classList.remove('focus'));
+  focusId = id;
+  const el = id && document.querySelector(`.card[data-id="${CSS.escape(id)}"]`);
+  if (el) { el.classList.add('focus'); if (scroll) el.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); }
+}
+
+function toast(msg) {
+  const t = $('toast'); t.textContent = msg; t.style.display = 'block';
+  clearTimeout(toast.t); toast.t = setTimeout(() => (t.style.display = 'none'), 1800);
+}
+
+async function decide(id, decision) {
+  const ta = document.querySelector(`textarea[data-pitch="${CSS.escape(id)}"]`);
+  const body = { id, decision };
+  if (ta && decision) body.pitch = ta.value;
+  // the next card takes focus once this one leaves the list
+  const ids = visible().map(([i]) => i), next = ids[ids.indexOf(id) + 1] || ids[ids.indexOf(id) - 1] || null;
+  const r = await fetch('/api/decide', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
+  const out = await r.json();
+  if (!r.ok) return toast(out.error || 'save failed');
+  if (out.record) S.decisions[id] = out.record; else delete S.decisions[id];
+  if (view === 'todo' || decision === null) focusId = next;
+  render();
+  toast(decision === 'approved' ? 'Approved' : decision === 'rejected' ? 'Rejected' : 'Undone');
+}
+
+// Pitch edits on an approved/rejected job save when you leave the box.
+$('list').addEventListener('change', (e) => {
+  const id = e.target.dataset.pitch;
+  if (id && S.decisions[id]) decide(id, S.decisions[id].decision);
+});
+$('list').addEventListener('click', (e) => {
+  if (e.target.id === 'more') { shown += PAGE; return render(); }
+  const c = e.target.closest('.card');
+  if (!c) return;
+  const b = e.target.closest('button[data-act]');
+  if (b) return decide(c.dataset.id, b.dataset.act === 'undo' ? null : b.dataset.act);
+  if (!e.target.closest('a, textarea')) setFocus(c.dataset.id, false);
+});
+document.querySelectorAll('.seg button').forEach((b) => (b.onclick = () => {
+  view = b.dataset.view; shown = PAGE; focusId = null;
+  document.querySelectorAll('.seg button').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+  render();
+}));
+['minScore', 'sort'].forEach((id) => ($(id).onchange = () => { shown = PAGE; render(); }));
+$('q').oninput = () => { shown = PAGE; render(); };
+$('refresh').onclick = () => load(true);
+
+document.addEventListener('keydown', (e) => {
+  if (e.target.matches('input, textarea, select') || e.ctrlKey || e.metaKey || e.altKey) {
+    if (e.key === 'Escape') e.target.blur();
+    return;
+  }
+  const ids = [...document.querySelectorAll('.card')].map((c) => c.dataset.id);
+  const i = ids.indexOf(focusId);
+  const d = focusId && S.decisions[focusId];
+  if (e.key === 'j') setFocus(ids[Math.min(i + 1, ids.length - 1)]);
+  else if (e.key === 'k') setFocus(ids[Math.max(i - 1, 0)]);
+  else if (e.key === 'a' && focusId && !d) decide(focusId, 'approved');
+  else if (e.key === 'r' && focusId && !d) decide(focusId, 'rejected');
+  else if (e.key === 'u' && d) decide(focusId, null);
+  else if (e.key === 'o' && focusId) document.querySelector(`.card[data-id="${CSS.escape(focusId)}"] a.title`)?.click();
+  else if (e.key === 'e' && focusId) { document.querySelector(`textarea[data-pitch="${CSS.escape(focusId)}"]`)?.focus(); e.preventDefault(); }
+  else return;
+  e.preventDefault();
+});
+
+load().catch((e) => ($('src').textContent = 'failed to load: ' + e.message));
+</script>
+</body>
+</html>

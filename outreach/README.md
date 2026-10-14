@@ -7,6 +7,27 @@ hard cap per run.
 It drives a real Chromium window on your own machine using your own logged-in
 session. There is no API key, no scraping service, and nothing leaves your computer.
 
+## Reviewing scored jobs (referral pipeline)
+
+The cloud scan scores every new posting against your resume (see the repo README).
+Pick which ones are worth outreach on a local review page:
+
+```bash
+npm run review          # opens http://127.0.0.1:4477
+```
+
+It reads the published `jobs.json` from GitHub (no `git pull` needed) and saves your
+decisions to `data/pipeline.json`, which is gitignored. For each job you can approve,
+reject, or edit the one-line pitch that later outreach messages are built on. The meter
+shows today's approvals against the invite budget: 20 invites/day ÷ ~6 contacts per job
+≈ 4 jobs/day (`INVITES_PER_DAY`, `CONTACTS_PER_JOB`).
+
+Keys: `j`/`k` move · `a` approve · `r` reject · `u` undo · `o` open posting · `e` edit pitch.
+
+The server only listens on 127.0.0.1 and refuses requests from any other page.
+
+---
+
 **Read [Before you run this](#before-you-run-this) first** — automating invites is
 against LinkedIn's User Agreement.
 

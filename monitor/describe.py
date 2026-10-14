@@ -13,11 +13,14 @@ import concurrent.futures as cf
 import html
 import json
 import re
+import time
 
 from .fetchers.http import DESCRIPTION_LIMIT, full_text, get_text, session
 
 # Shorter than this and the "body" is a cookie banner or an app shell.
 MIN_BODY = 400
+# Seconds between LinkedIn guest-API calls (see fill).
+LI_GAP = 2.0
 
 LI_MARKUP = re.compile(r'class="show-more-less-html__markup[^"]*"[^>]*>(.*?)</div>', re.S)
 NOISE = re.compile(r"<(script|style|noscript|svg|head)\b.*?</\1>", re.S | re.I)
@@ -88,14 +91,26 @@ def fetch(job: dict, s=None) -> str:
     return job.get("description") or ""
 
 
-def fill(jobs: list, workers: int = 4) -> int:
+def _linkedin_bound(job: dict) -> bool:
+    return (len(job.get("description") or "") < MIN_BODY
+            and "linkedin.com" in (job.get("detail_url") or job.get("url") or ""))
+
+
+def fill(jobs: list, workers: int = 4, li_gap: float = LI_GAP) -> int:
     """Set `description` on every job that lacks one. Returns how many have one.
 
-    A few threads, not one per job: LinkedIn rate-limits a burst from one IP,
-    and a GitHub runner is one IP.
+    Other hosts go a few at a time in parallel. LinkedIn goes one at a time
+    with a pause: four parallel guest-API calls came back throttled for 4 of
+    7 postings in a trial, and a GitHub runner is one IP.
     """
     s = session()
+    li = [j for j in jobs if _linkedin_bound(j)]
+    rest = [j for j in jobs if not _linkedin_bound(j)]
     with cf.ThreadPoolExecutor(max_workers=workers) as ex:
-        for job, body in zip(jobs, ex.map(lambda j: fetch(j, s), jobs)):
+        for job, body in zip(rest, ex.map(lambda j: fetch(j, s), rest)):
             job["description"] = body
+    for i, job in enumerate(li):
+        if i:
+            time.sleep(li_gap)
+        job["description"] = fetch(job, s)
     return sum(1 for j in jobs if len(j.get("description") or "") >= MIN_BODY)

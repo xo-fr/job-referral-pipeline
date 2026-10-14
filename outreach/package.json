@@ -2,6 +2,12 @@
   "name": "linkedin-outreach",
   "version": "1.0.0",
   "type": "module",
-  "scripts": { "setup": "npx playwright install chromium", "start": "node outreach.mjs" },
-  "dependencies": { "playwright": "^1.48.0" }
+  "scripts": {
+    "setup": "npx playwright install chromium",
+    "start": "node outreach.mjs",
+    "review": "node review/server.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0"
+  }
 }
