@@ -3581,7 +3581,8 @@
    "status": "new",
    "tier": "mid",
    "title": "Custom Software Engineer",
-   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Ahmedabad/Custom-Software-Engineer_ATCI-5764541-S2067962"
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Ahmedabad/Custom-Software-Engineer_ATCI-5764541-S2067962",
+   "workplace": "Work From Office"
   },
   "accenture:31f142041ab4": {
    "company": "Accenture",
@@ -15734,6 +15735,20 @@
    "title": "Software Development Engineer II",
    "url": "https://www.amazon.jobs/jobs/10576171/software-development-engineer-ii?cmpid=DA_INAD200785B"
   },
+  "amazon-com:42f02a1b0637": {
+   "company": "Amazon.com",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "TS, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer, Finance Technology",
+   "url": "https://www.amazon.jobs/jobs/10583673/software-development-engineer-finance-technology?cmpid=DA_INAD200785B"
+  },
   "amazon-com:5707f1ec3f21": {
    "company": "Amazon.com",
    "employment_type": "Full-time",
@@ -16308,6 +16323,7 @@
   },
   "amazon:3d602169065c": {
    "company": "Amazon",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4455901962",
    "first_seen": "2026-10-02",
    "location": "Chennai, Tamil Nadu, India",
    "posted_at": "2026-10-01",
@@ -16572,6 +16588,20 @@
    "title": "Software Development Engineer",
    "url": "https://www.linkedin.com/jobs/view/4455783957"
   },
+  "amazon:64d1b194efdc": {
+   "company": "Amazon",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4455904587",
+   "first_seen": "2026-10-23",
+   "location": "Chennai, Tamil Nadu, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer, Appstore Commerce",
+   "url": "https://www.linkedin.com/jobs/view/4455904587"
+  },
   "amazon:674a299b6d19": {
    "company": "Amazon",
    "department": "Software Development",
@@ -16655,6 +16685,45 @@
    "tier": "mid",
    "title": "Software Dev Engineer II, Amazon Detail Page",
    "url": "https://www.linkedin.com/jobs/view/4479817623"
+  },
+  "amazon:6d24add2a496": {
+   "company": "Amazon",
+   "department": "Software Development",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "Bengaluru, Karnataka, IND",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [
+     "Kinesis",
+     "CloudFront"
+    ],
+    "keywords": [
+     "Java",
+     "AWS",
+     "EC2",
+     "S3",
+     "DynamoDB"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected and shipped no-fix vulnerability support for a security console, directly enabling a $10M ARR renewal, and I am ready to apply this experience to scale Prime Video's systems.",
+    "reasons": [
+     "6+ years of experience in backend systems",
+     "Expertise in Java, Spring Boot, and Microservices",
+     "Proven track record with AWS and high-scale system design"
+    ],
+    "score": 95,
+    "verdict": "strong"
+   },
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "source": "amazon.jobs",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer, Prime Video Experience Tech ",
+   "url": "https://www.amazon.jobs/en/jobs/10580361/software-development-engineer-prime-video-experience-tech",
+   "yoe": 2
   },
   "amazon:7288b70d66f0": {
    "company": "Amazon",
@@ -18645,6 +18714,7 @@
   },
   "apollo-io:ebb90d771630": {
    "company": "Apollo.io",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4465805327",
    "first_seen": "2026-10-02",
    "location": "Bengaluru East, Karnataka, India",
    "posted_at": "2026-10-02",
@@ -19849,6 +19919,20 @@
    "url": "https://www.naukri.com/job-listings-lead-java-developer-ascendion-india-pvt-ltd-mumbai-bengaluru-10-to-15-years-151026033967",
    "workplace": "Work From Office"
   },
+  "ascendion:25bef3f91b70": {
+   "company": "Ascendion",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4481691451",
+   "first_seen": "2026-10-23",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Mid Java Developer",
+   "url": "https://www.linkedin.com/jobs/view/4481691451"
+  },
   "ascendion:54a7d63ed9c0": {
    "company": "Ascendion",
    "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4481361476",
@@ -20780,6 +20864,20 @@
    "url": "https://www.naukri.com/job-listings-java-technical-lead-exp-11-years-atyeti-mumbai-pune-gurugram-11-to-15-years-010926037023",
    "workplace": "Hybrid"
   },
+  "au-small-finance-bank:03fccae64fe7": {
+   "company": "AU Small Finance Bank",
+   "first_seen": "2026-10-23",
+   "location": "Jaipur, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer",
+   "url": "https://autalenthub.darwinbox.in/ms/candidatev2/main/careers/jobDetails/a67221779cfa3d",
+   "workplace": "Work From Office"
+  },
   "au-small-finance-bank:3c80a6e1e253": {
    "company": "AU SMALL FINANCE BANK",
    "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4480231021",
@@ -20793,6 +20891,20 @@
    "tier": "lead",
    "title": "Lead - Developer",
    "url": "https://www.linkedin.com/jobs/view/4480231021"
+  },
+  "au-small-finance-bank:5303c4dc2b8e": {
+   "company": "AU Small Finance Bank",
+   "first_seen": "2026-10-23",
+   "location": "Bengaluru, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer",
+   "url": "https://autalenthub.darwinbox.in/ms/candidatev2/main/careers/jobDetails/a67221779cfa3d",
+   "workplace": "Work From Office"
   },
   "au-small-finance-bank:d24451a3e868": {
    "company": "AU Small Finance Bank",
@@ -22214,6 +22326,40 @@
    "title": "Full Stack Engineer",
    "url": "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Full-Stack-Engineer_JR-0000122689"
   },
+  "barclays:6a1e6b99b7e4": {
+   "company": "Barclays",
+   "detail_url": "https://barclays.wd3.myworkdayjobs.com/wday/cxs/barclays/External_Career_Site_Barclays/job/Chennai-DLF-IT-Park/Software-Engineer---JAVA_JR-0000125348",
+   "first_seen": "2026-10-23",
+   "location": "Chennai, DLF IT Park",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "REST API",
+     "Microservices",
+     "AWS"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected and shipped no-fix vulnerability support for the Nexpose security console, directly enabling a $10M ARR renewal while modernizing legacy AWS SDK integrations.",
+    "reasons": [
+     "Extensive experience with Java 17, Spring Boot, and microservices",
+     "Proven track record in legacy system migration and modernization",
+     "Strong background in secure coding and vulnerability remediation"
+    ],
+    "score": 95,
+    "verdict": "strong"
+   },
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer - JAVA",
+   "url": "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Chennai-DLF-IT-Park/Software-Engineer---JAVA_JR-0000125348"
+  },
   "barclays:6e735fc14236": {
    "company": "Barclays",
    "first_seen": "2026-10-02",
@@ -22225,6 +22371,40 @@
    "tier": "mid",
    "title": "Actimize Developer",
    "url": "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Actimize-Developer_JR-0000122603-1"
+  },
+  "barclays:735040d253d0": {
+   "company": "Barclays",
+   "detail_url": "https://barclays.wd3.myworkdayjobs.com/wday/cxs/barclays/External_Career_Site_Barclays/job/Chennai-DLF-IT-Park/Software-Engineer---JAVA_JR-0000125339",
+   "first_seen": "2026-10-23",
+   "location": "Chennai, DLF IT Park",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "REST API",
+     "Oracle SQL",
+     "AWS"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected and shipped a no-fix vulnerability support system for the Nexpose security console, which closed a critical customer-reported gap and directly enabled a $10M ARR renewal.",
+    "reasons": [
+     "Extensive experience with Java 17 and Spring Boot microservices",
+     "Proven track record in legacy system migration and modernization",
+     "Strong background in REST API development and database optimization"
+    ],
+    "score": 95,
+    "verdict": "strong"
+   },
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer - JAVA",
+   "url": "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Chennai-DLF-IT-Park/Software-Engineer---JAVA_JR-0000125339"
   },
   "barclays:74814dec4e31": {
    "company": "Barclays",
@@ -22408,6 +22588,40 @@
    "title": "Full Stack Engineer",
    "url": "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Full-Stack-Engineer_JR-0000123867-1"
   },
+  "barclays:993294f6c61e": {
+   "company": "Barclays",
+   "detail_url": "https://barclays.wd3.myworkdayjobs.com/wday/cxs/barclays/External_Career_Site_Barclays/job/Chennai-DLF-IT-Park/Software-Engineer---JAVA_JR-0000125347",
+   "first_seen": "2026-10-23",
+   "location": "Chennai, DLF IT Park",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "REST API",
+     "AWS",
+     "Microservices"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected an AI-driven remediation workflow that cut average fix time by 75% and led the migration of AWS SDK v1 to v2 across 5+ repositories to ensure long-term support compliance.",
+    "reasons": [
+     "Extensive experience with Java and Spring Boot microservices",
+     "Proven track record in legacy system migration and modernization",
+     "Strong background in secure coding and vulnerability remediation"
+    ],
+    "score": 95,
+    "verdict": "strong"
+   },
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer - JAVA",
+   "url": "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Chennai-DLF-IT-Park/Software-Engineer---JAVA_JR-0000125347"
+  },
   "barclays:9d29acab25f9": {
    "company": "Barclays",
    "detail_url": "https://barclays.wd3.myworkdayjobs.com/wday/cxs/barclays/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Senior-Application-Developer_JR-0000116582",
@@ -22459,6 +22673,20 @@
    "tier": "senior",
    "title": "Senior Full Stack Developer",
    "url": "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Senior-Full-Stack-Developer_JR-0000114896"
+  },
+  "barclays:a684a0239030": {
+   "company": "Barclays",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4480605686",
+   "first_seen": "2026-10-23",
+   "location": "Pune Division, Maharashtra, India",
+   "posted_at": "2026-10-23",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "FullStack Developer",
+   "url": "https://www.linkedin.com/jobs/view/4480605686"
   },
   "barclays:ab5a5c5d40ac": {
    "company": "Barclays",
@@ -22904,6 +23132,44 @@
    "title": "Sr. Software Engineer (IS)",
    "url": "https://www.linkedin.com/jobs/view/4472987122"
   },
+  "barclays:f8eb4f13ed80": {
+   "company": "Barclays",
+   "detail_url": "https://barclays.wd3.myworkdayjobs.com/wday/cxs/barclays/External_Career_Site_Barclays/job/Bengaluru-Maruthi-Onyx---TESCO-TSA/Customer-Journey---Software-Engineer---AVP_JR-0000136786",
+   "first_seen": "2026-10-23",
+   "location": "2 Locations",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [
+     "People-manager role",
+     "React frontend",
+     "Node.js"
+    ],
+    "keywords": [
+     "Java",
+     "AWS",
+     "Docker",
+     "REST API",
+     "Microservices"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I have 6+ years of experience architecting backend systems, including a project where I remediated 1,200+ security vulnerabilities and cut average fix time by 75% using an AI-driven workflow.",
+    "reasons": [
+     "Senior Software Engineer with 6+ years of experience",
+     "Architected and shipped no-fix vulnerability support for the Nexpose security console",
+     "Directed a cross-functional team to remediate 1,200+ security vulnerabilities"
+    ],
+    "score": 40,
+    "verdict": "poor"
+   },
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Customer Journey - Software Engineer - AVP",
+   "url": "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Bengaluru-Maruthi-Onyx---TESCO-TSA/Customer-Journey---Software-Engineer---AVP_JR-0000136786"
+  },
   "barclays:fa56806a65ad": {
    "company": "Barclays",
    "detail_url": "https://barclays.wd3.myworkdayjobs.com/wday/cxs/barclays/External_Career_Site_Barclays/job/Pune-Gera-Commerzone-SEZ/Full-Stack-Engineer_JR-0000123256-1",
@@ -23255,6 +23521,20 @@
    "url": "https://www.naukri.com/job-listings-fullstack-engineer-benvily-bengaluru-1-to-3-years-221026035936",
    "workplace": "Work From Office"
   },
+  "best-of-breed-software-solutions-india-private-limited-official:16cf5e82f703": {
+   "company": "Best Of Breed Software Solutions India Private Limited Official",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4481666056",
+   "first_seen": "2026-10-23",
+   "location": "Pune Division, Maharashtra, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Developer / Engineer-Java Spring Boot",
+   "url": "https://www.linkedin.com/jobs/view/4481666056"
+  },
   "bestq:f331937d856b": {
    "comp": "₹14,000 - ₹15,000 / month",
    "company": "BestQ",
@@ -23379,6 +23659,21 @@
    "tier": "lead",
    "title": "Senior Backend Engineer - Tech Lead",
    "url": "https://www.linkedin.com/jobs/view/4478412528"
+  },
+  "billbring-payment-solution-pvt-ltd:4c9952463791": {
+   "comp": "₹6L - ₹7L / yr",
+   "company": "Billbring Payment Solution Pvt Ltd",
+   "first_seen": "2026-10-23",
+   "location": "Gurugram, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Backend Java Developer",
+   "url": "https://www.naukri.com/job-listings-backend-java-developer-billbring-solution-pvt-ltd-gurugram-3-to-7-years-231026020110",
+   "workplace": "Work From Office"
   },
   "billtrust:636d7e047aca": {
    "company": "Billtrust",
@@ -24668,6 +24963,20 @@
    "title": "Java developer",
    "url": "https://www.linkedin.com/jobs/view/4469901436"
   },
+  "bny:4b772a827765": {
+   "company": "BNY",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "MH, India",
+   "posted_at": "2026-10-23",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Specialist, Full-Stack Engineer",
+   "url": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/requisitions/preview/83291"
+  },
   "bny:76d4f109843c": {
    "company": "BNY",
    "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4437858469",
@@ -25037,6 +25346,21 @@
    "url": "https://www.naukri.com/job-listings-software-developer-bot-vfx-chennai-6-to-10-years-151026919661",
    "workplace": "Work From Office"
   },
+  "botree-software:cc3e3304379a": {
+   "comp": "₹7L - ₹8L / yr",
+   "company": "Botree Software",
+   "first_seen": "2026-10-23",
+   "location": "Chennai, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Java Developer",
+   "url": "https://www.naukri.com/job-listings-senior-java-developer-botree-software-chennai-4-to-6-years-150926014415",
+   "workplace": "Work From Office"
+  },
   "bounteous:0c77ba0fd1e3": {
    "comp": "₹15L - ₹30L / yr",
    "company": "Bounteous",
@@ -25111,6 +25435,21 @@
    "title": "Java Backend Developer/Lead | BI-FHJEI",
    "url": "https://www.naukri.com/job-listings-java-backend-developer-lead-bi-fhjei-bounteous-bengaluru-4-to-8-years-211026012619",
    "workplace": "Work From Office"
+  },
+  "bounteous:a2c8d9f83276": {
+   "comp": "₹15L - ₹30L / yr",
+   "company": "Bounteous",
+   "first_seen": "2026-10-23",
+   "location": "Bengaluru, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Bounteous- We are Hiring For Java Developer Role - BI-CJCEF",
+   "url": "https://www.naukri.com/job-listings-bounteous-we-are-hiring-for-java-developer-role-bi-cjcef-bounteous-bengaluru-5-to-10-years-231026024608",
+   "workplace": "Hybrid"
   },
   "bounteous:be0a42eae7b2": {
    "company": "Bounteous",
@@ -25581,6 +25920,20 @@
    "title": "Cloud / Full Stack – Software Engineer",
    "url": "https://www.linkedin.com/jobs/view/4478766170"
   },
+  "build-hire:e37894cbea81": {
+   "company": "Build & Hire",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4482837335",
+   "first_seen": "2026-10-23",
+   "location": "Pune Division, Maharashtra, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer - Java",
+   "url": "https://www.linkedin.com/jobs/view/4482837335"
+  },
   "butterfly-technology:63181283e022": {
    "company": "Butterfly Technology",
    "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4480336694",
@@ -25771,6 +26124,7 @@
   },
   "candescent:fa0e56c5bf7a": {
    "company": "Candescent",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4434542497",
    "first_seen": "2026-10-02",
    "location": "Greater Bengaluru Area",
    "posted_at": "2026-10-01",
@@ -26338,6 +26692,34 @@
    "url": "https://www.naukri.com/job-listings-java-developer-capgemini-bengaluru-6-to-9-years-161026013924",
    "workplace": "Work From Office"
   },
+  "capgemini:a631a5516b12": {
+   "company": "Capgemini",
+   "first_seen": "2026-10-23",
+   "location": "Bengaluru, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "lead",
+   "title": "Lead Software Engineer",
+   "url": "https://www.naukri.com/job-listings-lead-software-engineer-capgemini-technology-services-india-limited-bengaluru-3-to-8-years-231026930705",
+   "workplace": "Work From Office"
+  },
+  "capgemini:ad4bf7abf3ed": {
+   "company": "Capgemini",
+   "first_seen": "2026-10-23",
+   "location": "Hyderabad, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer",
+   "url": "https://www.naukri.com/job-listings-senior-software-engineer-capgemini-technology-services-india-limited-hyderabad-1-to-6-years-231026930656",
+   "workplace": "Work From Office"
+  },
   "capgemini:adc3fc349523": {
    "company": "Capgemini",
    "first_seen": "2026-10-16",
@@ -26793,6 +27175,21 @@
    "title": "Sr. Lead Software Engineer",
    "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Bangalore-In/Sr-Lead-Software-Engineer_R999979-1"
   },
+  "caprus-it:d6a7941c451e": {
+   "comp": "₹10L - ₹20L / yr",
+   "company": "Caprus It",
+   "first_seen": "2026-10-23",
+   "location": "Bengaluru, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer",
+   "url": "https://www.naukri.com/job-listings-software-engineer-caprus-it-bengaluru-6-to-11-years-231026028984",
+   "workplace": "Work From Office"
+  },
   "captalent-hr:94e2e88503f9": {
    "comp": "₹8L - ₹14L / yr",
    "company": "Captalent Hr",
@@ -26971,6 +27368,21 @@
    "title": "Associate Professional, Software Engineering",
    "url": "https://www.naukri.com/job-listings-associate-professional-software-engineering-cargill-business-services-india-private-limited-bengaluru-2-to-7-years-211026922785",
    "workplace": "Work From Office"
+  },
+  "carousell:b7f705022bb7": {
+   "company": "Carousell",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "KA, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "lead",
+   "title": "Lead Software Engineer",
+   "url": "https://jobs.smartrecruiters.com/CarousellGroup/744000157386284-lead-software-engineer",
+   "workplace": "Remote"
   },
   "cartney:037df6caec4c": {
    "company": "Cartney",
@@ -27271,6 +27683,20 @@
    "title": "Senior Full Stack Developer",
    "url": "https://www.linkedin.com/jobs/view/4472652374"
   },
+  "centific:8e42ed2e80f8": {
+   "company": "Centific",
+   "first_seen": "2026-10-23",
+   "location": "Hyderabad, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer",
+   "url": "https://www.naukri.com/job-listings-senior-software-engineer-centific-hyderabad-7-to-12-years-231026032351",
+   "workplace": "Hybrid"
+  },
   "centific:e40532fe6c9e": {
    "company": "Centific",
    "first_seen": "2026-10-23",
@@ -27419,6 +27845,20 @@
    "url": "https://www.naukri.com/job-listings-java-full-stack-lead-immediate-cerebra-hyderabad-bengaluru-10-to-12-years-231026011990",
    "workplace": "Work From Office"
   },
+  "cerebra:dd7016d3fed5": {
+   "company": "Cerebra",
+   "first_seen": "2026-10-23",
+   "location": "Hyderabad, Chennai, Bengaluru, India",
+   "posted_at": "2026-10-23",
+   "role": "platform",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "IBM Content Platform Engineer (CPE) Developer",
+   "url": "https://www.naukri.com/job-listings-ibm-content-platform-engineer-cpe-developer-cerebra-hyderabad-chennai-bengaluru-4-to-6-years-231026031492",
+   "workplace": "Work From Office"
+  },
   "cerebra:e6ebe220f942": {
    "company": "Cerebra",
    "first_seen": "2026-10-22",
@@ -27432,6 +27872,20 @@
    "title": "Java Full Stack Lead",
    "url": "https://www.naukri.com/job-listings-java-full-stack-lead-cerebra-hyderabad-bengaluru-10-to-15-years-221026032390",
    "workplace": "Work From Office"
+  },
+  "ces:53201f77a0e7": {
+   "company": "CES",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4480637665",
+   "first_seen": "2026-10-23",
+   "location": "Chennai, Tamil Nadu, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Java Software Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4480637665"
   },
   "cfo-foresight:ef74a7af21e3": {
    "comp": "₹2.5L - ₹6L / yr",
@@ -27594,6 +28048,20 @@
    "title": "Java AWS Developer",
    "url": "https://www.naukri.com/job-listings-java-aws-developer-cgi-hyderabad-chennai-bengaluru-5-to-7-years-161026008689",
    "workplace": "Work From Office"
+  },
+  "cgi:551916b9d83f": {
+   "company": "CGI",
+   "first_seen": "2026-10-23",
+   "location": "Hyderabad, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Back End Developer",
+   "url": "https://www.naukri.com/job-listings-java-back-end-developer-cgi-hyderabad-7-to-10-years-231026025182",
+   "workplace": "Hybrid"
   },
   "cgi:58d5763c52d4": {
    "company": "CGI",
@@ -28161,6 +28629,20 @@
    "title": "Java Technical Lead",
    "url": "https://www.linkedin.com/jobs/view/4474148661"
   },
+  "ciel-hr:7ca5a019863e": {
+   "company": "CIEL HR",
+   "first_seen": "2026-10-23",
+   "location": "Bengaluru, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer",
+   "url": "https://www.naukri.com/job-listings-senior-software-engineer-ciel-hr-bengaluru-5-to-10-years-231026032620",
+   "workplace": "Work From Office"
+  },
   "ciena:b0eb811e4bb8": {
    "company": "Ciena",
    "first_seen": "2026-10-02",
@@ -28185,6 +28667,20 @@
    "tier": "senior",
    "title": "Senior Full Stack Engineer",
    "url": "https://www.naukri.com/job-listings-senior-full-stack-engineer-ciklum-chennai-6-to-11-years-151026031909",
+   "workplace": "Hybrid"
+  },
+  "ciklum:5ae6386f91ed": {
+   "company": "Ciklum",
+   "first_seen": "2026-10-23",
+   "location": "Chennai, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "lead",
+   "title": "Lead Java Developer",
+   "url": "https://www.naukri.com/job-listings-lead-java-developer-ciklum-chennai-8-to-13-years-231026032229",
    "workplace": "Hybrid"
   },
   "ciklum:92deded5f7ea": {
@@ -29669,6 +30165,82 @@
    "title": "Java and Big Data Developer",
    "url": "https://jobs.citi.com/job/pune/java-and-big-data-developer/287/102161064304"
   },
+  "citi:2668ca30f808": {
+   "company": "Citi",
+   "detail_url": "https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/job/Pune-Maharashtra-India/Senior-Java-Developer_26999947",
+   "first_seen": "2026-10-23",
+   "location": "Pune Maharashtra India",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [
+     "10+ years experience",
+     "Kubernetes",
+     "React or Angular"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "Microservices",
+     "Docker",
+     "REST API"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected an AI-driven remediation workflow that cut average fix time by 75% and led the delivery of enterprise-scale Java microservices for global platforms.",
+    "reasons": [
+     "Senior Java Spring Boot microservices experience",
+     "Proven technical leadership in cross-functional teams",
+     "Experience with AI-driven development workflows"
+    ],
+    "score": 75,
+    "verdict": "good"
+   },
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "source": "workday",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Java Developer",
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-Java-Developer_26999947"
+  },
+  "citi:26a44ea8424b": {
+   "company": "Citi",
+   "detail_url": "https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/job/Pune-Maharashtra-India/Ab-Initio-Developer_261001991",
+   "first_seen": "2026-10-23",
+   "location": "Pune Maharashtra India",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [
+     "Ab Initio",
+     "ETL pipelines",
+     "Financial Service industry"
+    ],
+    "keywords": [
+     "Java",
+     "SQL",
+     "Docker",
+     "CI/CD",
+     "Python"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected and shipped a no-fix vulnerability support system for the Nexpose security console, directly enabling a $10M ARR renewal.",
+    "reasons": [
+     "6+ years of experience in Java backend systems",
+     "Expertise in REST APIs and Microservices",
+     "Experience with AWS and CI/CD pipelines"
+    ],
+    "score": 45,
+    "verdict": "poor"
+   },
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Ab Initio Developer",
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Ab-Initio-Developer_261001991"
+  },
   "citi:27967410f522": {
    "company": "Citi",
    "detail_url": "https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/job/Chennai-Tamil-Nadu-India/PKI-Engineer---Java--Cloud-Expert_26998783-1",
@@ -29799,6 +30371,56 @@
    "tier": "lead",
    "title": "Java Lead Application Developer",
    "url": "https://www.linkedin.com/jobs/view/4470405265"
+  },
+  "citi:30e6fdfeb475": {
+   "company": "Citi",
+   "detail_url": "https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/job/Pune-Maharashtra-India/Spring-Boot-Microservice-Developer_261001413",
+   "first_seen": "2026-10-23",
+   "location": "2 Locations",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [
+     "Financial Service industry experience"
+    ],
+    "keywords": [
+     "Spring Boot",
+     "Microservices",
+     "Java",
+     "REST API",
+     "SQL"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected a delegation microservice in Spring Boot that reduced manual handoffs by 40% and led a team to remediate 1,200+ security vulnerabilities, enabling a $10M ARR renewal.",
+    "reasons": [
+     "6+ years of experience with Java and Spring Boot",
+     "Architected and shipped microservices for BPM platforms",
+     "Experience with security vulnerability remediation and REST API development"
+    ],
+    "score": 85,
+    "verdict": "strong"
+   },
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Spring Boot Microservice Developer",
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Spring-Boot-Microservice-Developer_261001413"
+  },
+  "citi:3118a069416a": {
+   "company": "Citi",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "TN, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Java DBA Engineer",
+   "url": "https://jobs.citi.com/job/chennai/senior-java-dba-engineer/287/102286993952"
   },
   "citi:3319605d7187": {
    "company": "Citi",
@@ -30298,6 +30920,42 @@
    "title": "Senior Java Backend Developer",
    "url": "https://www.linkedin.com/jobs/view/4481606875"
   },
+  "citi:6a07cf98519e": {
+   "company": "Citi",
+   "detail_url": "https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/job/Pune-Maharashtra-India/Java-FullStack_261002145",
+   "first_seen": "2026-10-23",
+   "location": "Pune Maharashtra India",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [
+     "Frontend framework experience"
+    ],
+    "keywords": [
+     "Java",
+     "Spring",
+     "REST Web services",
+     "SQL",
+     "Oracle"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected and delivered a delegation microservice in Spring Boot that enabled automated task reassignment and reduced manual handoffs by 40%.",
+    "reasons": [
+     "6+ years of Java and Spring Boot experience",
+     "Extensive background in REST API development",
+     "Proven expertise with Oracle SQL and database optimization"
+    ],
+    "score": 85,
+    "verdict": "strong"
+   },
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java FullStack",
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Java-FullStack_261002145"
+  },
   "citi:6b59b006dca8": {
    "company": "Citi",
    "detail_url": "https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/job/Pune-Maharashtra-India/Java-Developer_26999187",
@@ -30441,6 +31099,43 @@
    "tier": "senior",
    "title": "Senior Java DBA Engineer",
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/1124-SHIVAJI-GARDENS-MOONLI/Senior-Java-DBA-Engineer_261001878"
+  },
+  "citi:76b5043b0031": {
+   "company": "Citi",
+   "detail_url": "https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/job/Pune-Maharashtra-India/Full-Stack--Developer--Java-React-_261002150",
+   "first_seen": "2026-10-23",
+   "location": "Pune Maharashtra India",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [
+     "ReactJS",
+     "Financial Service industry experience"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "REST API",
+     "Microservices",
+     "Object-oriented design"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected and shipped a no-fix vulnerability support system that enabled a $10M ARR renewal and led a team to remediate 1,200+ security vulnerabilities using Java and Spring Boot.",
+    "reasons": [
+     "6+ years of Java/Spring Boot experience",
+     "Enterprise-scale backend systems architecture",
+     "Experience with REST APIs and microservices"
+    ],
+    "score": 65,
+    "verdict": "stretch"
+   },
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack  Developer (Java/React)",
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Full-Stack--Developer--Java-React-_261002150"
   },
   "citi:796ccec46d77": {
    "company": "Citi",
@@ -30588,6 +31283,20 @@
    "title": "Senior Software Engineer – Automation",
    "url": "https://jobs.citi.com/job/pune/senior-software-engineer-automation/287/102161063456"
   },
+  "citi:84b29fe6ed03": {
+   "company": "Citi",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "TN, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "lead",
+   "title": "Senior Java Lead Engineer",
+   "url": "https://jobs.citi.com/job/chennai/senior-java-lead-engineer/287/102286994064"
+  },
   "citi:84cba7a5c7d5": {
    "company": "Citi",
    "detail_url": "https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/job/Pune-Maharashtra-India/Java-Fullstack-Developer_26997847",
@@ -30657,6 +31366,43 @@
    "title": "Full Stack Developer",
    "url": "https://www.linkedin.com/jobs/view/4479680665"
   },
+  "citi:85c2f0078247": {
+   "company": "Citi",
+   "detail_url": "https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/job/Pune-Maharashtra-India/Java-Developer_261000753",
+   "first_seen": "2026-10-23",
+   "location": "2 Locations",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [
+     "Kubernetes",
+     "Apache Kafka"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "REST API",
+     "PostgreSQL",
+     "Docker"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected an AI-driven remediation workflow that cut average security fix time by 75% and delivered a microservice that reduced manual handoffs by 40% using Spring Boot.",
+    "reasons": [
+     "Senior Java backend experience",
+     "Spring Boot microservices expertise",
+     "Proven track record in security and performance optimization"
+    ],
+    "score": 95,
+    "verdict": "strong"
+   },
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Developer",
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Java-Developer_261000753"
+  },
   "citi:8602cab27d43": {
    "company": "Citi",
    "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4479682580",
@@ -30695,6 +31441,43 @@
    "tier": "mid",
    "title": "Java Developer",
    "url": "https://www.linkedin.com/jobs/view/4479682580"
+  },
+  "citi:89a1662c53f7": {
+   "company": "Citi",
+   "detail_url": "https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/job/Pune-Maharashtra-India/Backend-Java-Developer_261001513",
+   "first_seen": "2026-10-23",
+   "location": "Pune Maharashtra India",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [
+     "Oracle PL/SQL packages",
+     "Financial Services domain"
+    ],
+    "keywords": [
+     "Java 17",
+     "Spring Boot",
+     "Microservices Architecture",
+     "Docker",
+     "Python"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected an AI-driven remediation workflow that cut average security fix time by 75% and delivered a delegation microservice in Spring Boot that reduced manual handoffs by 40%.",
+    "reasons": [
+     "6+ years of experience with Java 17 and Spring Boot",
+     "Proven track record in microservices architecture and REST API development",
+     "Experience with Oracle SQL optimization and AI-driven workflows"
+    ],
+    "score": 90,
+    "verdict": "strong"
+   },
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Backend Java Developer",
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Backend-Java-Developer_261001513"
   },
   "citi:8b55657cfb20": {
    "company": "Citi",
@@ -30776,6 +31559,20 @@
    "tier": "mid",
    "title": "Java spark Developer",
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/DLF-CYBERCITY-12B/Java-spark-Developer_26991300-1"
+  },
+  "citi:939e133ad7a6": {
+   "company": "Citi",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "TN, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Java Backend Developer",
+   "url": "https://jobs.citi.com/job/chennai/senior-java-backend-developer/287/102287013536"
   },
   "citi:946a26b1c02c": {
    "company": "Citi",
@@ -30861,6 +31658,43 @@
    "title": "Java, Microservices and Oracle PL SQL Developer",
    "url": "https://jobs.citi.com/job/pune/java-microservices-and-oracle-pl-sql-developer/287/102000051280"
   },
+  "citi:9cc8d93480ec": {
+   "company": "Citi",
+   "detail_url": "https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/job/Pune-Maharashtra-India/Java-Full-Stack-Developer-with-React-JS_26999098",
+   "first_seen": "2026-10-23",
+   "location": "Pune Maharashtra India",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [
+     "ReactJS",
+     "HTML5/JavaScript/CSS",
+     "Financial Service industry experience"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "REST API",
+     "Microservices"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected and delivered a delegation microservice in Spring Boot that enabled automated task reassignment and reduced manual handoffs by 40%.",
+    "reasons": [
+     "6+ years of Java and Spring Boot backend experience",
+     "Proven track record of REST API and microservices development",
+     "Experience with complex enterprise-scale systems and security remediation"
+    ],
+    "score": 65,
+    "verdict": "stretch"
+   },
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Full Stack Developer with React JS",
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Java-Full-Stack-Developer-with-React-JS_26999098"
+  },
   "citi:9e6b69ac3841": {
    "company": "Citi",
    "first_seen": "2026-10-02",
@@ -30885,6 +31719,44 @@
    "tier": "lead",
    "title": "AWS Application Developer lead Engineer",
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Chennai-Tamil-Nadu-India/AWS-Lead-Solution-Engineer_26982011"
+  },
+  "citi:a137ac5be821": {
+   "company": "Citi",
+   "detail_url": "https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/job/Pune-Maharashtra-India/Java-Fullstack-Developer_261001542-1",
+   "first_seen": "2026-10-23",
+   "location": "Pune Maharashtra India",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [
+     "Angular or React frontend",
+     "TypeScript",
+     "Financial services domain"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "Oracle SQL",
+     "REST API",
+     "AWS"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected a delegation microservice in Spring Boot that reduced manual handoffs by 40% and optimized Oracle SQL queries to improve execution speed by 15%.",
+    "reasons": [
+     "Senior Java backend expertise",
+     "Extensive Oracle SQL optimization experience",
+     "Spring Boot microservices development"
+    ],
+    "score": 65,
+    "verdict": "stretch"
+   },
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Fullstack Developer",
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Java-Fullstack-Developer_261001542-1"
   },
   "citi:a33003ffd136": {
    "company": "Citi",
@@ -30989,6 +31861,44 @@
    "tier": "mid",
    "title": "Java Angular Full Stack Engineer",
    "url": "https://www.linkedin.com/jobs/view/4463568480"
+  },
+  "citi:b12a608f05c0": {
+   "company": "Citi",
+   "detail_url": "https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/job/Chennai-Tamil-Nadu-India/Java-Developer_26998982",
+   "first_seen": "2026-10-23",
+   "location": "Chennai Tamil Nadu India",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [
+     "Apache Kafka",
+     "Kubernetes",
+     "Application monitoring tools"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "Spring Data JPA",
+     "Microservices",
+     "Docker"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected and shipped a no-fix vulnerability support system for a security console, directly enabling a $10M ARR renewal while modernizing AWS integrations across 5+ repositories.",
+    "reasons": [
+     "6+ years of experience with Java and Spring Boot",
+     "Microservices architecture and REST API development",
+     "Experience with Spring Data JPA and SQL optimization"
+    ],
+    "score": 85,
+    "verdict": "strong"
+   },
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Developer",
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Chennai-Tamil-Nadu-India/Java-Developer_26998982"
   },
   "citi:b1a2d0d9b0da": {
    "company": "Citi",
@@ -31105,6 +32015,44 @@
    "tier": "senior",
    "title": "Senior FullStack Developer-Java Angular",
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-FullStack-Developer-Java-Angular_26992973"
+  },
+  "citi:b51c57dd39e2": {
+   "company": "Citi",
+   "detail_url": "https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/job/Chennai-Tamil-Nadu-India/Bigdata-Backend-Engineer_261001252",
+   "first_seen": "2026-10-23",
+   "location": "Chennai Tamil Nadu India",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [
+     "Apache Spark / PySpark",
+     "Financial reconciliation systems",
+     "Capital Markets domain"
+    ],
+    "keywords": [
+     "Java",
+     "SQL",
+     "Python",
+     "REST API",
+     "Docker"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected a delegation microservice in Spring Boot that automated task reassignment and reduced manual handoffs by 40%, while also optimizing REST API latency by 28% through Redis caching.",
+    "reasons": [
+     "6+ years of backend engineering experience",
+     "Strong Java and SQL expertise",
+     "Experience with enterprise-scale systems and microservices"
+    ],
+    "score": 65,
+    "verdict": "stretch"
+   },
+   "posted_at": "2026-10-23",
+   "role": "backend",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Bigdata Backend Engineer",
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Chennai-Tamil-Nadu-India/Bigdata-Backend-Engineer_261001252"
   },
   "citi:b5ba72706681": {
    "company": "Citi",
@@ -31518,6 +32466,44 @@
    "title": "Fullstack Developer",
    "url": "https://jobs.citi.com/job/pune/fullstack-developer/287/102000043984"
   },
+  "citi:da6b26101f18": {
+   "company": "Citi",
+   "detail_url": "https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/job/Pune-Maharashtra-India/Fullstack-Developer_26996009",
+   "first_seen": "2026-10-23",
+   "location": "Pune Maharashtra India",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [
+     "Angular",
+     "TypeScript",
+     "RxJS"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "REST APIs",
+     "Microservices",
+     "Jenkins"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected a delegation microservice in Spring Boot that reduced manual handoffs by 40% and optimized REST API latency by 300ms through request restructuring and Redis caching.",
+    "reasons": [
+     "Senior Java and Spring Boot backend expertise",
+     "Experience with REST API design and microservices",
+     "Proven track record in enterprise-scale system architecture"
+    ],
+    "score": 55,
+    "verdict": "stretch"
+   },
+   "posted_at": "2026-10-23",
+   "role": "fullstack",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Fullstack Developer",
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Fullstack-Developer_26996009"
+  },
   "citi:dc9f3ea4e12f": {
    "company": "Citi",
    "detail_url": "https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/job/Pune-Maharashtra-India/Platform-Engineering-Lead--Data-Services---Reporting_26981788",
@@ -31637,6 +32623,44 @@
    "tier": "mid",
    "title": "Java Application Developer",
    "url": "https://jobs.citi.com/job/pune/java-application-developer/287/101944266160"
+  },
+  "citi:f0a0489db546": {
+   "company": "Citi",
+   "detail_url": "https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/job/Pune-Maharashtra-India/Senior-Java-Developer_26995344",
+   "first_seen": "2026-10-23",
+   "location": "Pune Maharashtra India",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [
+     "People management",
+     "Apache Kafka",
+     "8+ years experience"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "Microservices",
+     "Oracle SQL",
+     "REST API"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected a delegation microservice in Spring Boot that reduced manual handoffs by 40% and led a team to remediate 1,200+ security vulnerabilities, cutting fix times by 75%.",
+    "reasons": [
+     "Senior Software Engineer with 6+ years of experience",
+     "Spring Boot microservices for a BPM platform",
+     "Java 17 and Oracle SQL optimization"
+    ],
+    "score": 40,
+    "verdict": "poor"
+   },
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "source": "workday",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Java Developer",
+   "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Pune-Maharashtra-India/Senior-Java-Developer_26995344"
   },
   "citi:f29bc76f0e4b": {
    "company": "Citi",
@@ -31883,6 +32907,20 @@
    "title": "Senior Software Engineer - SSE II",
    "url": "https://www.linkedin.com/jobs/view/4453686204"
   },
+  "cleartrip:9880aa61adfe": {
+   "company": "Cleartrip",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4481683153",
+   "first_seen": "2026-10-23",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4481683153"
+  },
   "clearwater-analytics-cwan:0b2a0af8d1b4": {
    "company": "Clearwater Analytics (CWAN)",
    "employment_type": "Full-time",
@@ -32058,6 +33096,21 @@
    "tier": "mid",
    "title": "Software Engineer",
    "url": "https://grnh.se/vnru3l3d5us"
+  },
+  "cliccot-technology-pvt-ltd:e97db39abe82": {
+   "comp": "₹20,000 - ₹40,000 / month",
+   "company": "CLICCOT TECHNOLOGY PVT LTD",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "TN, India",
+   "posted_at": "2026-10-23",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Developer - CCTV Developer",
+   "url": "https://in.indeed.com/viewjob?jk=8c7e8d290b58c09f"
   },
   "clo-virtual-fashion:8ed75c2a64d2": {
    "company": "CLO Virtual Fashion",
@@ -32262,6 +33315,21 @@
    "tier": "mid",
    "title": "Java Developer",
    "url": "https://www.naukri.com/job-listings-java-developer-clover-infotech-mumbai-thane-navi-mumbai-5-to-10-years-151026012647",
+   "workplace": "Work From Office"
+  },
+  "clover-infotech:150c25ef7c00": {
+   "comp": "₹5.5L - ₹11L / yr",
+   "company": "Clover Infotech",
+   "first_seen": "2026-10-23",
+   "location": "Navi Mumbai, Mumbai (All Areas), India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Full Stack Developer",
+   "url": "https://www.naukri.com/job-listings-java-full-stack-developer-clover-infotech-navi-mumbai-mumbai-all-areas-4-to-9-years-231026030770",
    "workplace": "Work From Office"
   },
   "clover-infotech:3c6f1c69b8c0": {
@@ -33030,6 +34098,20 @@
    "title": "Java Full stack developer",
    "url": "https://www.linkedin.com/jobs/view/4480271727"
   },
+  "cognizant:30c8ea39e107": {
+   "company": "Cognizant",
+   "first_seen": "2026-10-23",
+   "location": "Chennai, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Java Developer",
+   "url": "https://www.naukri.com/job-listings-senior-java-developer-cognizant-chennai-6-to-10-years-231026014513",
+   "workplace": "Hybrid"
+  },
   "cognizant:3471d34f68db": {
    "company": "Cognizant",
    "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4463246886",
@@ -33407,6 +34489,45 @@
    "title": "Lead Software Engineer",
    "url": "https://careers.cognizant.com/global-en/jobs/00069778661/lead-software-engineer/"
   },
+  "cognizant:9c6b423f7de5": {
+   "company": "Cognizant",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4481654871",
+   "first_seen": "2026-10-23",
+   "location": "Chennai, Tamil Nadu, India",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [
+     "Angular",
+     "Frontend development",
+     "Oracle Certified Professional Java Programmer"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "Microservices",
+     "REST API",
+     "SQL"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected a delegation microservice in Spring Boot that reduced manual handoffs by 40% and led the remediation of 1,200+ security vulnerabilities, cutting average fix time by 75%.",
+    "reasons": [
+     "6+ years of experience in Java and Spring Boot",
+     "Architected and shipped microservices for BPM platforms",
+     "Proven track record of optimizing REST API performance"
+    ],
+    "score": 65,
+    "verdict": "stretch"
+   },
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Sr. Software Engineer B2",
+   "url": "https://www.linkedin.com/jobs/view/4481654871"
+  },
   "cognizant:a4c094d843f2": {
    "company": "Cognizant",
    "first_seen": "2026-10-18",
@@ -33588,6 +34709,20 @@
    "title": "Java Full stack developer",
    "url": "https://www.naukri.com/job-listings-java-full-stack-developer-cognizant-pune-8-to-12-years-191026020063",
    "workplace": "Work From Office"
+  },
+  "cognizant:e55cc58cf623": {
+   "company": "Cognizant",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "TN, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "senior",
+   "title": "Sr. Software Engineer B2",
+   "url": "https://careers.cognizant.com/global-en/jobs/000703797310/sr-software-engineer-b2/"
   },
   "cognizant:e7f2c60c960b": {
    "company": "Cognizant",
@@ -34101,6 +35236,35 @@
    "title": "Senior Software Development Engineer",
    "url": "https://www.linkedin.com/jobs/view/4474139502"
   },
+  "congruent-solutions:f54c091c5715": {
+   "company": "Congruent Solutions",
+   "first_seen": "2026-10-23",
+   "location": "Chennai(Guindy), India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer",
+   "url": "https://www.naukri.com/job-listings-senior-software-engineer-congruent-solutions-chennai-4-to-7-years-231026029742",
+   "workplace": "Work From Office"
+  },
+  "connexial-digital-technology:96d537cb17d1": {
+   "comp": "₹16L - ₹27.5L / yr",
+   "company": "Connexial Digital Technology",
+   "first_seen": "2026-10-23",
+   "location": "Hyderabad, Pune, Bangalore & Chennai, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "TOP MNC Hiring For Java Backend/Java Full Stack / .Net Full Developer",
+   "url": "https://www.naukri.com/job-listings-top-mnc-hiring-for-java-backend-java-full-stack-net-full-developer-connexial-digital-technology-hyderabad-pune-bangalore-chennai-5-to-10-years-231026014573",
+   "workplace": "Hybrid"
+  },
   "connexr:e5b3493ab5c5": {
    "company": "ConnexR",
    "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4479117971",
@@ -34172,6 +35336,19 @@
    "url": "https://www.naukri.com/job-listings-software-development-engineer-2-convegenius-noida-2-to-4-years-161026024775",
    "workplace": "Work From Office"
   },
+  "convegenius:8ea8c8c085c1": {
+   "company": "Convegenius",
+   "first_seen": "2026-10-23",
+   "location": "JK, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer 2 (SDE 2)",
+   "url": "https://convegenius.keka.com/careers/jobdetails/166636?source=indeed%20job%20posts"
+  },
   "convegenius:b89eafce46df": {
    "company": "Convegenius",
    "first_seen": "2026-10-23",
@@ -34184,6 +35361,20 @@
    "tier": "mid",
    "title": "Software Development Engineer 2 (SDE 2)",
    "url": "https://convegenius.keka.com/careers/jobdetails/166638?source=indeed%20job%20posts"
+  },
+  "convergent-science:fa7e43b552a5": {
+   "company": "Convergent Science",
+   "first_seen": "2026-10-23",
+   "location": "Pune, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "GUI Software Developer",
+   "url": "https://convergecfd.com/about/careers",
+   "workplace": "Work From Office"
   },
   "conversehr-business-solutions:53127a7f6360": {
    "comp": "₹10L - ₹15L / yr",
@@ -34443,6 +35634,20 @@
    "title": "Senior Backend Developer",
    "url": "https://www.linkedin.com/jobs/view/4480962415"
   },
+  "creospan-inc:01a111bf862b": {
+   "company": "Creospan Inc.",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4481669404",
+   "first_seen": "2026-10-23",
+   "location": "Pune City, Maharashtra, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Engineer (Java, React- Pune/ Chennai)",
+   "url": "https://www.linkedin.com/jobs/view/4481669404"
+  },
   "creospan-private-limited:0729f2cf2c7f": {
    "company": "Creospan Private Limited",
    "first_seen": "2026-10-02",
@@ -34601,6 +35806,20 @@
    "tier": "mid",
    "title": "Backend Engineer II (Pune, Hybrid)",
    "url": "https://www.linkedin.com/jobs/view/4480030639"
+  },
+  "crowdstrike:d4e0c0d72c09": {
+   "company": "CrowdStrike",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4426806510",
+   "first_seen": "2026-10-23",
+   "location": "Pune City, Maharashtra, India",
+   "posted_at": "2026-10-23",
+   "role": "backend",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Sr. Backend Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4426806510"
   },
   "crunchyroll:3fce9120611d": {
    "company": "Crunchyroll",
@@ -34899,6 +36118,7 @@
   },
   "d-e-shaw-india-private-limited:11d3944ea393": {
    "company": "D. E. Shaw India Private Limited",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4426380665",
    "first_seen": "2026-10-02",
    "location": "Hyderabad, Telangana, India",
    "posted_at": "2026-10-02",
@@ -35952,6 +37172,7 @@
   },
   "deloitte:5ba5bc2f6331": {
    "company": "Deloitte",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4464875268",
    "first_seen": "2026-10-02",
    "location": "Bengaluru, Karnataka, India",
    "posted_at": "2026-10-02",
@@ -36849,6 +38070,7 @@
   },
   "deutsche-bank:ccddc200b563": {
    "company": "Deutsche Bank",
+   "detail_url": "https://db.wd3.myworkdayjobs.com/wday/cxs/db/DBWebSite/job/Pune---Business-Bay/Senior-Data-Platform-Engineer_R0450199",
    "first_seen": "2026-10-02",
    "location": "Pune - Business Bay",
    "posted_at": "2026-09-09",
@@ -36921,6 +38143,40 @@
    "tier": "senior",
    "title": "Sr. Engineer, Java Engineer",
    "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebSite/job/Pune---Margarpatta/Sr-Engineer--Java-Engineer_R0447742"
+  },
+  "deutsche-bank:f15f4794e3e4": {
+   "company": "Deutsche Bank",
+   "detail_url": "https://db.wd3.myworkdayjobs.com/wday/cxs/db/DBWebSite/job/Pune---Margarpatta/Coupa-Config-Developer--NCT_R0445501",
+   "first_seen": "2026-10-23",
+   "location": "Pune - Margarpatta",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [
+     "Coupa Risk Assess implementation",
+     "Coupa workflow configuration",
+     "Vendor Risk Management"
+    ],
+    "keywords": [
+     "SQL"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I have 6+ years of experience architecting enterprise-scale backend systems and led a team to remediate 1,200+ security vulnerabilities, directly enabling a $10M ARR renewal.",
+    "reasons": [
+     "No Coupa Risk Assess experience",
+     "No workflow configuration experience in Coupa",
+     "Primary experience in Java backend development"
+    ],
+    "score": 35,
+    "verdict": "poor"
+   },
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Coupa Config Developer, NCT",
+   "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebSite/job/Pune---Margarpatta/Coupa-Config-Developer--NCT_R0445501"
   },
   "deutsche-bank:f2313a7f1bb7": {
    "company": "Deutsche Bank",
@@ -37199,6 +38455,20 @@
    "tier": "mid",
    "title": "Full-stack Developer",
    "url": "https://dikshatech.com/job/777df55c-e215-4284-b42e-e1394f9ffc2f/"
+  },
+  "dikshatek-viet-nam:86352aee7ed5": {
+   "comp": "₹5L - ₹17L / yr",
+   "company": "Dikshatek Viet Nam",
+   "first_seen": "2026-10-23",
+   "location": "KA, India",
+   "posted_at": "2026-10-23",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Developer",
+   "url": "https://in.indeed.com/viewjob?jk=9c6b4906f269bff1"
   },
   "diligente-technologies:b634117a39e5": {
    "company": "Diligente Technologies",
@@ -37499,6 +38769,84 @@
    "title": "Software Developer",
    "url": "https://www.naukri.com/job-listings-software-developer-dream-jobs-staffing-solution-chennai-0-to-3-years-131026016753",
    "workplace": "Remote"
+  },
+  "dreampath-services:cbe8e06d71a8": {
+   "company": "Dreampath Services",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4481671036",
+   "first_seen": "2026-10-23",
+   "location": "Mohali district, India",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [
+     "Apache Kafka",
+     "Kubernetes",
+     "Helm charts"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "Microservices",
+     "MySQL",
+     "Docker"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected and delivered a delegation microservice in Spring Boot that reduced manual handoffs by 40% and optimized REST API latency by 300ms through request restructuring and Redis caching.",
+    "reasons": [
+     "6+ years of experience in Java and Spring Boot",
+     "Expertise in microservices architecture and REST API development",
+     "Proven track record in database optimization and system performance tuning"
+    ],
+    "score": 80,
+    "verdict": "good"
+   },
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Backend Engineer – Java & Kafka",
+   "url": "https://www.linkedin.com/jobs/view/4481671036"
+  },
+  "dreampath-services:f0cc318604f8": {
+   "company": "Dreampath Services",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4481647617",
+   "first_seen": "2026-10-23",
+   "location": "Mohali district, India",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [
+     "Apache Kafka",
+     "Kubernetes",
+     "Helm charts"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "Microservices",
+     "MySQL",
+     "Docker"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected and shipped a delegation microservice in Spring Boot that reduced manual handoffs by 40% and have extensive experience leading backend feature development in enterprise environments.",
+    "reasons": [
+     "6+ years of experience in Java and Spring Boot",
+     "Microservices architecture design and delivery",
+     "Experience with Docker and MySQL query optimization"
+    ],
+    "score": 85,
+    "verdict": "strong"
+   },
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "lead",
+   "title": "Lead Backend Java Developer",
+   "url": "https://www.linkedin.com/jobs/view/4481647617"
   },
   "drip-capital:8b6e86f50717": {
    "company": "Drip Capital",
@@ -37842,6 +39190,20 @@
    "title": "Full Stack Developer",
    "url": "https://www.naukri.com/job-listings-full-stack-developer-easemytrip-com-noida-gurugram-5-to-10-years-220424001918",
    "workplace": "Work From Office"
+  },
+  "ebay:025c9550b95c": {
+   "company": "eBay",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4463905937",
+   "first_seen": "2026-10-23",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-10-23",
+   "role": "backend",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "MTS 1, Software Engineer - Backend",
+   "url": "https://www.linkedin.com/jobs/view/4463905937"
   },
   "ebay:070f5926864f": {
    "company": "eBay",
@@ -38625,6 +39987,20 @@
    "url": "https://www.naukri.com/job-listings-sr-software-engineer-ekloud-faridabad-5-to-10-years-011026502968",
    "workplace": "Work From Office"
   },
+  "elabs-infotech:8fd6b128ecd3": {
+   "company": "Elabs Infotech",
+   "first_seen": "2026-10-23",
+   "location": "Hyderabad, Bengaluru, Mumbai (All Areas), India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Informatica IDMC Developer",
+   "url": "https://www.naukri.com/job-listings-informatica-idmc-developer-elabs-infotech-hyderabad-bengaluru-mumbai-all-areas-4-to-9-years-231026031911",
+   "workplace": "Hybrid"
+  },
   "elabs-infotech:b732365216b4": {
    "comp": "₹10L - ₹20L / yr",
    "company": "Elabs Infotech",
@@ -38737,6 +40113,20 @@
    "title": "Urgent Hiring-Technical Trainer ( software development)",
    "url": "https://www.naukri.com/job-listings-urgent-hiring-technical-trainer-software-development-elevado-softwares-coimbatore-1-to-2-years-211026004639",
    "workplace": "Work From Office"
+  },
+  "elsevier:2ccb309e901d": {
+   "company": "Elsevier",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4481694314",
+   "first_seen": "2026-10-23",
+   "location": "Karahal, Madhya Pradesh, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Software Engineer III",
+   "url": "https://www.linkedin.com/jobs/view/4481694314"
   },
   "eltropy:a2e00d2d6ca3": {
    "company": "Eltropy",
@@ -39124,6 +40514,20 @@
    "title": "Software Engineer, Senior (Java + React)",
    "url": "https://www.linkedin.com/jobs/view/4482724429"
   },
+  "engradar:95a174a0fd92": {
+   "company": "EngRadar",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4482724453",
+   "first_seen": "2026-10-23",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-10-22",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4482724453"
+  },
   "engradar:d4f89d260f62": {
    "company": "EngRadar",
    "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4482123855",
@@ -39280,6 +40684,20 @@
    "tier": "mid",
    "title": "Full Stack Engineer",
    "url": "https://www.linkedin.com/jobs/view/4476699604"
+  },
+  "envestnet:6348cda0543a": {
+   "company": "Envestnet",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4482845899",
+   "first_seen": "2026-10-23",
+   "location": "Trivandrum, Kerala, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Development Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4482845899"
   },
   "envisioned-strategy-consulting-private-limited:a811697a2d5b": {
    "company": "Envisioned Strategy Consulting Private Limited",
@@ -39446,6 +40864,20 @@
    "title": "Senior Software Developer - Java FS Angular",
    "url": "https://www.naukri.com/job-listings-senior-software-developer-java-fs-angular-epam-systems-hyderabad-chennai-bengaluru-5-to-8-years-040926021902",
    "workplace": "Work From Office"
+  },
+  "epam-systems:3384119281f9": {
+   "company": "Epam Systems",
+   "first_seen": "2026-10-23",
+   "location": "Chennai, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Java Developer",
+   "url": "https://www.naukri.com/job-listings-senior-java-developer-epam-systems-chennai-5-to-10-years-140826014895",
+   "workplace": "Hybrid"
   },
   "epam-systems:3ce034da2924": {
    "company": "Epam Systems",
@@ -40460,6 +41892,34 @@
    "title": "Senior Developer (Oracle CPQ Developer)",
    "url": "https://careers.publicisgroupe.com/epsilon/jobs/172409?lang=en-us"
   },
+  "equalizercm-services:3d27a328c867": {
+   "company": "EqualizeRCM Services",
+   "first_seen": "2026-10-23",
+   "location": "Hyderabad, India",
+   "posted_at": "2026-10-23",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Walk-in Drive For Full Stack Developer @Knack RCM, Hyderabad",
+   "url": "https://www.naukri.com/job-listings-walk-in-drive-for-full-stack-developer-knack-rcm-hyderabad-equalizercm-services-hyderabad-2-to-7-years-221026026829",
+   "workplace": "Work From Office"
+  },
+  "equalizercm-services:94a294eec2df": {
+   "company": "EqualizeRCM Services",
+   "first_seen": "2026-10-23",
+   "location": "Hyderabad, India",
+   "posted_at": "2026-10-23",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Immediate openings For Full Stack Developer @Knack RCM, Hyderabad",
+   "url": "https://www.naukri.com/job-listings-immediate-openings-for-full-stack-developer-knack-rcm-hyderabad-equalizercm-services-hyderabad-2-to-7-years-221026027595",
+   "workplace": "Work From Office"
+  },
   "equilend:f294d1141569": {
    "company": "Equilend",
    "first_seen": "2026-10-14",
@@ -40537,6 +41997,19 @@
    "tier": "senior",
    "title": "Senior Software Engineer - Java",
    "url": "https://www.linkedin.com/jobs/view/4479692196"
+  },
+  "ericsson:5dcb73b56303": {
+   "company": "Ericsson",
+   "first_seen": "2026-10-23",
+   "location": "KA, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer - C",
+   "url": "https://jobs.ericsson.com/careers/job/563121777445305?domain=ericsson.com"
   },
   "esko:b2cd818f412e": {
    "company": "Esko",
@@ -40659,6 +42132,21 @@
    "title": "Sr. React Developer - Full Stack with Java",
    "url": "https://www.naukri.com/job-listings-sr-react-developer-full-stack-with-java-everite-solutions-hyderabad-5-to-10-years-201026000168",
    "workplace": "Hybrid"
+  },
+  "evoke-hr:0363858ac6fa": {
+   "comp": "₹14L - ₹24L / yr",
+   "company": "Evoke HR",
+   "first_seen": "2026-10-23",
+   "location": "Mumbai, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "lead",
+   "title": "Java Lead",
+   "url": "https://www.naukri.com/job-listings-java-lead-evoke-hr-mumbai-7-to-12-years-231026031319",
+   "workplace": "Work From Office"
   },
   "exatech-inc:4ab46b533298": {
    "company": "ExaTech Inc",
@@ -41612,6 +43100,7 @@
   },
   "experity:97bacde2a30b": {
    "company": "Experity",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4455719664",
    "first_seen": "2026-10-02",
    "location": "Greater Bengaluru Area",
    "posted_at": "2026-10-01",
@@ -41906,6 +43395,20 @@
    "url": "https://www.naukri.com/job-listings-platform-infrastructure-devsecops-developer-ey-kochi-5-to-10-years-221026035156",
    "workplace": "Work From Office"
   },
+  "ey:9dc37c01ec87": {
+   "company": "EY",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4481655447",
+   "first_seen": "2026-10-23",
+   "location": "Trivandrum, Kerala, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "GigNow- - INS - Guidewire - JAVA - Senior",
+   "url": "https://www.linkedin.com/jobs/view/4481655447"
+  },
   "ey:a14d2a1f7147": {
    "company": "EY",
    "first_seen": "2026-10-14",
@@ -41960,6 +43463,20 @@
    "title": "Software Engineer",
    "url": "https://www.naukri.com/job-listings-software-engineer-ernst-young-llp-hyderabad-10-to-15-years-131026946203",
    "workplace": "Work From Office"
+  },
+  "ey:bd5131ebaf8e": {
+   "company": "EY",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4480638217",
+   "first_seen": "2026-10-23",
+   "location": "Hyderabad, Telangana, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "R and CT-RCT-SCALA and JAVA FULLSTACK-BE-SENIOR",
+   "url": "https://www.linkedin.com/jobs/view/4480638217"
   },
   "ey:cf03c2a4fc7d": {
    "company": "EY",
@@ -43011,6 +44528,20 @@
    "title": "Senior Developer, Applications",
    "url": "https://www.linkedin.com/jobs/view/4470382336"
   },
+  "flexday:8c2b6a12a3d1": {
+   "company": "Flexday",
+   "first_seen": "2026-10-23",
+   "location": "Remote, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer",
+   "url": "https://www.flexday.ai/careers/senior-software-engineer",
+   "workplace": "Remote"
+  },
   "flexiple:2c6f8925af60": {
    "company": "Flexiple",
    "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4480899508",
@@ -43160,6 +44691,7 @@
   },
   "fm:62724b2bb6d5": {
    "company": "FM",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4482872142",
    "first_seen": "2026-10-02",
    "location": "Bengaluru, Karnataka, India",
    "posted_at": "2026-10-01",
@@ -43759,6 +45291,7 @@
   },
   "ge-healthcare:e4bc34cf709e": {
    "company": "GE HealthCare",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4465686519",
    "first_seen": "2026-10-02",
    "location": "Bengaluru, Karnataka, India",
    "posted_at": "2026-10-02",
@@ -45667,6 +47200,20 @@
    "title": "Backend Engineer - Crypto and Payments",
    "url": "https://apply.workable.com/j/EF229DD86C"
   },
+  "gra-enterprises-chennai:48ba15e6a58f": {
+   "company": "Gra Enterprises Chennai",
+   "first_seen": "2026-10-23",
+   "location": "Chennai, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer",
+   "url": "https://www.naukri.com/job-listings-software-engineer-gra-enterprises-chennai-chennai-0-to-5-years-231026021243",
+   "workplace": "Work From Office"
+  },
   "grab-greco-llp:ed251d89ae2b": {
    "company": "Grab Greco Llp",
    "first_seen": "2026-10-02",
@@ -46330,6 +47877,7 @@
   },
   "harness:1fea2a604952": {
    "company": "Harness",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4472931982",
    "first_seen": "2026-10-02",
    "location": "Bengaluru, Karnataka, India",
    "posted_at": "2026-10-01",
@@ -46927,6 +48475,20 @@
    "title": "Java Full Stack Developer",
    "url": "https://www.naukri.com/job-listings-java-full-stack-developer-hdfc-bank-kolkata-11-to-16-years-141026040481",
    "workplace": "Hybrid"
+  },
+  "hdfc-bank:25d144abfed7": {
+   "company": "Hdfc Bank",
+   "first_seen": "2026-10-23",
+   "location": "Bengaluru, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Java Developer",
+   "url": "https://www.naukri.com/job-listings-senior-java-developer-hdfc-bank-bengaluru-8-to-12-years-231026026877",
+   "workplace": "Work From Office"
   },
   "hdfc-life-ltd:03bab12665db": {
    "company": "Hdfc Life Ltd",
@@ -47644,6 +49206,20 @@
    "url": "https://www.naukri.com/job-listings-java-back-end-developer-hirexa-solutions-pune-chennai-bengaluru-5-to-10-years-011026017928",
    "workplace": "Work From Office"
   },
+  "hiringtag:24f7864dbefc": {
+   "company": "HiringTag",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "DL, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Developer",
+   "url": "https://in.indeed.com/viewjob?jk=5873d96cd15a2366"
+  },
   "hirojet:74119b35b08a": {
    "company": "HiroJet",
    "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4481127778",
@@ -47721,6 +49297,278 @@
    "tier": "senior",
    "title": "Senior Backend Engineer",
    "url": "https://in.indeed.com/viewjob?jk=8a49de782a58eda3"
+  },
+  "honeybee-tech-solutions:05fbb06fb14d": {
+   "comp": "₹5L - ₹7L / yr",
+   "company": "Honeybee Tech Solutions",
+   "first_seen": "2026-10-23",
+   "location": "Pimpri-Chinchwad, Pune, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "lead",
+   "title": "PLSQL Lead - Java OR Angular",
+   "url": "https://www.naukri.com/job-listings-plsql-lead-java-or-angular-honeybee-tech-solutions-pimpri-chinchwad-pune-5-to-6-years-231026924620",
+   "workplace": "Work From Office"
+  },
+  "honeybee-tech-solutions:07ee214f9aa8": {
+   "company": "Honeybee Tech Solutions",
+   "first_seen": "2026-10-23",
+   "location": "Hyderabad, Pune, Ahmedabad, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "AS 400 Software Engineer  RPG Developer",
+   "url": "https://www.naukri.com/job-listings-as-400-software-engineer-rpg-developer-honeybee-tech-solutions-private-limited-hyderabad-pune-ahmedabad-3-to-5-years-231026930234",
+   "workplace": "Work From Office"
+  },
+  "honeybee-tech-solutions:37d9ce04c9e6": {
+   "company": "Honeybee Tech Solutions",
+   "first_seen": "2026-10-23",
+   "location": "Hyderabad, India",
+   "posted_at": "2026-10-23",
+   "role": "backend",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Backend Engineer",
+   "url": "https://www.naukri.com/job-listings-senior-backend-engineer-honeybee-tech-solutions-private-limited-hyderabad-6-to-8-years-231026932130",
+   "workplace": "Work From Office"
+  },
+  "honeybee-tech-solutions:50adb0bc49ca": {
+   "comp": "₹3L - ₹5L / yr",
+   "company": "Honeybee Tech Solutions",
+   "first_seen": "2026-10-23",
+   "location": "Navi Mumbai, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Developer",
+   "url": "https://www.naukri.com/job-listings-java-developer-honeybee-tech-solutions-navi-mumbai-3-to-6-years-231026924967",
+   "workplace": "Work From Office"
+  },
+  "honeybee-tech-solutions:58b7a1db7e75": {
+   "comp": "₹3L - ₹6L / yr",
+   "company": "Honeybee Tech Solutions",
+   "first_seen": "2026-10-23",
+   "location": "Nashik, Pune, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "AS/400 iSeries Software Engineer RPG Developer - Synon CA2E",
+   "url": "https://www.naukri.com/job-listings-as-400-iseries-software-engineer-rpg-developer-synon-ca2e-honeybee-tech-solutions-nashik-pune-3-to-5-years-231026924484",
+   "workplace": "Work From Office"
+  },
+  "honeybee-tech-solutions:6f4662b6a0e8": {
+   "company": "Honeybee Tech Solutions",
+   "first_seen": "2026-10-23",
+   "location": "Pune, Bengaluru, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Spring Boot Developer",
+   "url": "https://www.naukri.com/job-listings-java-spring-boot-developer-honeybee-tech-solutions-private-limited-pune-bengaluru-3-to-5-years-231026932269",
+   "workplace": "Work From Office"
+  },
+  "honeybee-tech-solutions:6f5c41a4cabe": {
+   "company": "Honeybee Tech Solutions",
+   "first_seen": "2026-10-23",
+   "location": "Pune, Bengaluru, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Angular Frontend Developer",
+   "url": "https://www.naukri.com/job-listings-java-angular-frontend-developer-honeybee-tech-solutions-private-limited-pune-bengaluru-3-to-5-years-231026932110",
+   "workplace": "Work From Office"
+  },
+  "honeybee-tech-solutions:78b86f3fdb0c": {
+   "company": "Honeybee Tech Solutions",
+   "first_seen": "2026-10-23",
+   "location": "Hyderabad, Bengaluru, India",
+   "posted_at": "2026-10-23",
+   "role": "backend",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Back End Developer",
+   "url": "https://www.naukri.com/job-listings-back-end-developer-honeybee-tech-solutions-private-limited-hyderabad-bengaluru-3-to-5-years-231026930221",
+   "workplace": "Work From Office"
+  },
+  "honeybee-tech-solutions:7d3d5fe5fee7": {
+   "company": "Honeybee Tech Solutions",
+   "first_seen": "2026-10-23",
+   "location": "Pune, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Full Stack Developer",
+   "url": "https://www.naukri.com/job-listings-java-full-stack-developer-honeybee-tech-solutions-private-limited-pune-3-to-5-years-231026928727",
+   "workplace": "Work From Office"
+  },
+  "honeybee-tech-solutions:81f1d8c87583": {
+   "company": "Honeybee Tech Solutions",
+   "first_seen": "2026-10-23",
+   "location": "Pune, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Angular Java Developer",
+   "url": "https://www.naukri.com/job-listings-angular-java-developer-honeybee-tech-solutions-private-limited-pune-3-to-5-years-231026932166",
+   "workplace": "Work From Office"
+  },
+  "honeybee-tech-solutions:8f72facf7724": {
+   "comp": "₹5L - ₹6L / yr",
+   "company": "Honeybee Tech Solutions",
+   "first_seen": "2026-10-23",
+   "location": "Pune, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Developer",
+   "url": "https://www.naukri.com/job-listings-java-developer-honeybee-tech-solutions-private-limited-pune-3-to-5-years-231026930223",
+   "workplace": "Work From Office"
+  },
+  "honeybee-tech-solutions:93abc559fa9a": {
+   "company": "Honeybee Tech Solutions",
+   "first_seen": "2026-10-23",
+   "location": "Pune, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Full Stack  - cloud Professional",
+   "url": "https://www.naukri.com/job-listings-java-full-stack-cloud-professional-honeybee-tech-solutions-private-limited-pune-3-to-4-years-231026932148",
+   "workplace": "Work From Office"
+  },
+  "honeybee-tech-solutions:9cf47e69fad3": {
+   "company": "Honeybee Tech Solutions",
+   "first_seen": "2026-10-23",
+   "location": "Pune, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Angular Fullstack Developer",
+   "url": "https://www.naukri.com/job-listings-java-angular-fullstack-developer-honeybee-tech-solutions-private-limited-pune-3-to-5-years-231026928749",
+   "workplace": "Work From Office"
+  },
+  "honeybee-tech-solutions:a462e96181b1": {
+   "company": "Honeybee Tech Solutions",
+   "first_seen": "2026-10-23",
+   "location": "Pune, Bengaluru, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Full Stack Professional with cloud",
+   "url": "https://www.naukri.com/job-listings-java-full-stack-professional-with-cloud-honeybee-tech-solutions-private-limited-pune-bengaluru-3-to-5-years-231026929501",
+   "workplace": "Work From Office"
+  },
+  "honeybee-tech-solutions:a4b29880d80b": {
+   "company": "Honeybee Tech Solutions",
+   "first_seen": "2026-10-23",
+   "location": "Nashik, Pune, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "As400 Developer",
+   "url": "https://www.naukri.com/job-listings-as400-developer-honeybee-tech-solutions-private-limited-nashik-pune-3-to-4-years-231026930246",
+   "workplace": "Work From Office"
+  },
+  "honeybee-tech-solutions:bab62bf46674": {
+   "company": "Honeybee Tech Solutions",
+   "first_seen": "2026-10-23",
+   "location": "Pune, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Developer Java + Angular",
+   "url": "https://www.naukri.com/job-listings-full-stack-developer-java-angular-honeybee-tech-solutions-private-limited-pune-3-to-7-years-231026928715",
+   "workplace": "Work From Office"
+  },
+  "honeybee-tech-solutions:c96da71b7b61": {
+   "company": "Honeybee Tech Solutions",
+   "first_seen": "2026-10-23",
+   "location": "Pune, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Rpg Developer",
+   "url": "https://www.naukri.com/job-listings-rpg-developer-honeybee-tech-solutions-private-limited-pune-3-to-4-years-231026932145",
+   "workplace": "Work From Office"
+  },
+  "honeybee-tech-solutions:cffd63588db3": {
+   "comp": "₹4L - ₹8L / yr",
+   "company": "Honeybee Tech Solutions",
+   "first_seen": "2026-10-23",
+   "location": "Pune, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Angular Backend Developer",
+   "url": "https://www.naukri.com/job-listings-java-angular-backend-developer-honeybee-tech-solutions-private-limited-pune-3-to-5-years-231026932175",
+   "workplace": "Work From Office"
+  },
+  "honeybee-tech-solutions:de313597dd22": {
+   "comp": "₹3L - ₹5.5L / yr",
+   "company": "Honeybee Tech Solutions",
+   "first_seen": "2026-10-23",
+   "location": "Navi Mumbai, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Back End Developer",
+   "url": "https://www.naukri.com/job-listings-java-back-end-developer-honeybee-tech-solutions-navi-mumbai-3-to-5-years-231026924966",
+   "workplace": "Work From Office"
   },
   "honeywell-aerospace:0cf31fcb58a1": {
    "company": "Honeywell Aerospace",
@@ -47917,6 +49765,20 @@
    "title": "AIML Cloud Developer",
    "url": "https://www.linkedin.com/jobs/view/4480955719"
   },
+  "hpe-aruba-networking:cdb6e9093d64": {
+   "company": "HPE Aruba Networking",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4482827282",
+   "first_seen": "2026-10-23",
+   "location": "Kondapur, Telangana, India",
+   "posted_at": "2026-10-23",
+   "role": "platform",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Cloud Developer",
+   "url": "https://www.linkedin.com/jobs/view/4482827282"
+  },
   "hr-india-solutions:930127965df2": {
    "comp": "₹12L - ₹22L / yr",
    "company": "HR India Solutions",
@@ -47961,6 +49823,20 @@
    "title": "Senior Software Engineer",
    "url": "https://harbingergroup.darwinbox.in/ms/candidatev2/main/careers/jobDetails/a6ad5c0808e454"
   },
+  "hsbc:12eeda834304": {
+   "company": "HSBC",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4482853901",
+   "first_seen": "2026-10-23",
+   "location": "Pune Division, Maharashtra, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Java, Spring Boot, Microservices / Senior Consultant Specialist",
+   "url": "https://www.linkedin.com/jobs/view/4482853901"
+  },
   "hsbc:4f2dce24a51b": {
    "company": "HSBC",
    "employment_type": "Full-time",
@@ -48002,6 +49878,20 @@
    "tier": "mid",
    "title": "Backend Frameworkes ,Web Application/Consultant Specialist",
    "url": "https://www.linkedin.com/jobs/view/4480977488"
+  },
+  "hsbc:9605769ce70b": {
+   "company": "HSBC",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4482855885",
+   "first_seen": "2026-10-23",
+   "location": "Pune Division, Maharashtra, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Java, Microservice, RDBMS / Senior Consultant Specialist",
+   "url": "https://www.linkedin.com/jobs/view/4482855885"
   },
   "hsbc:965baeef95b9": {
    "company": "HSBC",
@@ -48714,7 +50604,8 @@
    "status": "new",
    "tier": "mid",
    "title": "Application Developer-Cloud FullStack",
-   "url": "https://www.linkedin.com/jobs/view/4480010522"
+   "url": "https://www.linkedin.com/jobs/view/4480010522",
+   "workplace": "Work From Office"
   },
   "ibm:3097f1981488": {
    "company": "IBM",
@@ -49639,6 +51530,20 @@
    "url": "https://www.naukri.com/job-listings-software-engineer-indmax-it-services-coimbatore-1-to-2-years-211026017106",
    "workplace": "Work From Office"
   },
+  "indmax-it-services:d02311d3e160": {
+   "company": "Indmax It Services",
+   "first_seen": "2026-10-23",
+   "location": "Hyderabad, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Walk-in || Software Engineer",
+   "url": "https://www.naukri.com/job-listings-software-engineer-indmax-it-services-hyderabad-1-to-2-years-231026026089",
+   "workplace": "Work From Office"
+  },
   "indmax-it-services:fa2100947e42": {
    "company": "Indmax It Services",
    "first_seen": "2026-10-02",
@@ -49846,6 +51751,21 @@
    "url": "https://www.naukri.com/job-listings-microsoft-dynamics-nav-bc-developer-infolog-technologies-leaflink-technology-tiruchirappalli-2-to-5-years-161026021892",
    "workplace": "Work From Office"
   },
+  "infopie-business-solutions:38fdb86d01f6": {
+   "comp": "₹20L - ₹35L / yr",
+   "company": "Infopie Business Solutions",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "MH, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Developer (6-9 years only)",
+   "url": "https://in.indeed.com/viewjob?jk=1620eab879e32e02"
+  },
   "infor:351f29e5a624": {
    "company": "Infor",
    "employment_type": "Full-time",
@@ -49952,6 +51872,21 @@
    "tier": "mid",
    "title": "Software Engineer",
    "url": "https://www.linkedin.com/jobs/view/4477083786"
+  },
+  "infostride-technologies:34f0b535f421": {
+   "comp": "₹7L - ₹14L / yr",
+   "company": "Infostride Technologies",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "PB, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "senior",
+   "title": "Sr. Java Developer",
+   "url": "https://in.indeed.com/viewjob?jk=8f49c15483ba98f9"
   },
   "infostride-technologies:d530c13bc983": {
    "comp": "₹25,000 - ₹80,000 / month",
@@ -53181,6 +55116,7 @@
   },
   "infosys:c4f8a72c63c9": {
    "company": "Infosys",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4472560347",
    "first_seen": "2026-10-02",
    "location": "Bengaluru East, Karnataka, India",
    "posted_at": "2026-10-01",
@@ -54992,6 +56928,41 @@
    "title": "System and Software Optimization Engineer",
    "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/India-Bangalore/System-and-Software-Optimization-Engineer_JR0287295"
   },
+  "intel:51263b1efe24": {
+   "company": "Intel",
+   "detail_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/job/India-Bangalore/Low-Level-Software-Engineer_JR0288298",
+   "first_seen": "2026-10-23",
+   "location": "India, Bangalore",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [
+     "Embedded software/firmware development",
+     "PCI Express protocol",
+     "Simics simulation"
+    ],
+    "keywords": [
+     "C++",
+     "Python"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected and shipped no-fix vulnerability support for the Nexpose security console, directly enabling a $10M ARR renewal.",
+    "reasons": [
+     "C++ and Python listed in technical skills",
+     "6+ years of backend engineering experience",
+     "Experience with AI-assisted development tools"
+    ],
+    "score": 45,
+    "verdict": "poor"
+   },
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Low-Level Software Engineer",
+   "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/India-Bangalore/Low-Level-Software-Engineer_JR0288298"
+  },
   "intel:61009c756c81": {
    "company": "Intel",
    "detail_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/job/India-Bangalore/Software-Application-Development-Engineer_JR0286984",
@@ -55030,6 +57001,41 @@
    "tier": "mid",
    "title": "Cloud Software Development Engineer",
    "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/India-Bangalore/Cloud-Software-Development-Engineer_JR0287694"
+  },
+  "intel:c6364b4a2b21": {
+   "company": "Intel",
+   "detail_url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/job/India-Bangalore/Senior-Low-Level-Software-Engineer_JR0288297",
+   "first_seen": "2026-10-23",
+   "location": "India, Bangalore",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [
+     "Embedded software development",
+     "Firmware development",
+     "Hardware-software interaction"
+    ],
+    "keywords": [
+     "C++",
+     "Linux"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected and shipped no-fix vulnerability support for the Nexpose security console, directly enabling a $10M ARR renewal while leading cross-functional teams in complex system-level initiatives.",
+    "reasons": [
+     "Senior Software Engineer experience",
+     "C++ programming skills",
+     "System-level design experience"
+    ],
+    "score": 45,
+    "verdict": "poor"
+   },
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Low-Level Software Engineer",
+   "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/India-Bangalore/Senior-Low-Level-Software-Engineer_JR0288297"
   },
   "intel:defce03d3a70": {
    "company": "Intel",
@@ -55272,6 +57278,33 @@
    "tier": "mid",
    "title": "JAVA developer with GCP",
    "url": "https://www.linkedin.com/jobs/view/4480231269"
+  },
+  "intuit:1aba23951591": {
+   "company": "Intuit",
+   "first_seen": "2026-10-23",
+   "location": "KA, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior software engineer",
+   "url": "https://dsp.prng.co/WdxJ4Ib"
+  },
+  "intuit:5516dfc30039": {
+   "company": "Intuit",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4481664811",
+   "first_seen": "2026-10-23",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior software engineer",
+   "url": "https://www.linkedin.com/jobs/view/4481664811"
   },
   "intuit:f6a72e86f0e1": {
    "company": "Intuit",
@@ -55551,6 +57584,21 @@
    "title": "Java Developer",
    "url": "https://www.linkedin.com/jobs/view/4481370991"
   },
+  "iqvia:c691912dad19": {
+   "company": "IQVIA",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "DL, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Software Developer (Backend)",
+   "url": "https://jobs.iqvia.com/en/jobs/R1553747-16",
+   "workplace": "Remote"
+  },
   "iris-kpo-resourcing:f2596c38c867": {
    "company": "IRIS KPO Resourcing",
    "first_seen": "2026-10-16",
@@ -55595,7 +57643,8 @@
    "status": "new",
    "tier": "lead",
    "title": "Java - Lead",
-   "url": "https://www.linkedin.com/jobs/view/4480976312"
+   "url": "https://www.linkedin.com/jobs/view/4480976312",
+   "workplace": "Work From Office"
   },
   "iris-software:111612738a81": {
    "company": "Iris Software",
@@ -55703,6 +57752,20 @@
    "tier": "senior",
    "title": "Java Fullstack - Senior Engineer",
    "url": "https://careers.irissoftware.com/job/Noida-Java-Fullstack-Senior-Engineer-UP/59833144/"
+  },
+  "iris-software:7c40adfa2219": {
+   "company": "Iris Software",
+   "first_seen": "2026-10-23",
+   "location": "Noida, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Developer (Java+ Angular)",
+   "url": "https://www.naukri.com/job-listings-full-stack-developer-java-angular-iris-software-noida-6-to-8-years-231026029232",
+   "workplace": "Hybrid"
   },
   "iris-software:7ea93870b242": {
    "company": "Iris Software",
@@ -56438,6 +58501,20 @@
    "title": "Backend Developer Java (Microservices)",
    "url": "https://joshsoftware.app.param.ai/jobs/backend-developer-java-microservices-315"
   },
+  "jove:37c25c28191f": {
+   "company": "JoVE",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4481676608",
+   "first_seen": "2026-10-23",
+   "location": "India",
+   "posted_at": "2026-10-23",
+   "role": "backend",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Engineer, Backend",
+   "url": "https://www.linkedin.com/jobs/view/4481676608"
+  },
   "joveo:55182a9bf24f": {
    "company": "Joveo",
    "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4478234057",
@@ -56981,6 +59058,20 @@
    "title": "Software Engineer III - Java Backend, AWS, Kafka",
    "url": "https://JPMorganChase.contacthr.com/153976699"
   },
+  "jpmorganchase:8e9ba75318c9": {
+   "company": "JPMorganChase",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "KA, India",
+   "posted_at": "2026-10-22",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "lead",
+   "title": "Lead Software Engineer - Java 17+, Spring Boot, AWS",
+   "url": "https://JPMorganChase.contacthr.com/153991734"
+  },
   "jpmorganchase:944acfd1910e": {
    "company": "JPMorganChase",
    "employment_type": "Full-time",
@@ -57197,6 +59288,34 @@
    "tier": "senior",
    "title": "Software Engineer III - Python, Java",
    "url": "https://www.linkedin.com/jobs/view/4473952971"
+  },
+  "jpmorganchase:d279dd085eba": {
+   "company": "JPMorganChase",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "KA, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer II - Java",
+   "url": "https://JPMorganChase.contacthr.com/153999124"
+  },
+  "jpmorganchase:d28603b7c00b": {
+   "company": "JPMorganChase",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4482806688",
+   "first_seen": "2026-10-23",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "lead",
+   "title": "Lead Software Engineer - Java 17+, Spring Boot, AWS",
+   "url": "https://www.linkedin.com/jobs/view/4482806688"
   },
   "jpmorganchase:d2cf8036b6d4": {
    "company": "JPMorganChase",
@@ -57539,6 +59658,20 @@
    "url": "https://www.naukri.com/job-listings-java-developer-team-lead-kaizen-sra-technologies-mumbai-pune-chennai-11-to-15-years-221026010380",
    "workplace": "Work From Office"
   },
+  "kalki-communication-technologies:efb5613dc62d": {
+   "company": "Kalki Communication Technologies",
+   "first_seen": "2026-10-23",
+   "location": "Bengaluru, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Developer - Java / J2EE",
+   "url": "https://www.naukri.com/job-listings-software-developer-java-j2ee-kalki-communication-technologies-p-ltd-bengaluru-3-to-8-years-231026930559",
+   "workplace": "Work From Office"
+  },
   "kamakhya-analytics-private-limited:b979ccda3474": {
    "company": "Kamakhya Analytics Private Limited",
    "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4478108356",
@@ -57690,6 +59823,22 @@
    "tier": "mid",
    "title": "Java Developer -GCP (Expertise)",
    "url": "https://in.indeed.com/viewjob?jk=d83d36c1d185f9b1",
+   "workplace": "Remote"
+  },
+  "kasmoprav:326a6a79d14a": {
+   "comp": "₹160,000 - ₹180,000 / month",
+   "company": "Kasmoprav",
+   "employment_type": "Contract",
+   "first_seen": "2026-10-23",
+   "location": "Remote, India",
+   "posted_at": "2026-10-23",
+   "role": "backend",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "mid",
+   "title": "Sou Backend Engineer",
+   "url": "https://in.indeed.com/viewjob?jk=9e644f271befa822",
    "workplace": "Remote"
   },
   "kasmoprav:a1ab02fcd01d": {
@@ -57898,6 +60047,21 @@
    "url": "https://www.naukri.com/job-listings-java-backend-developer-must-spring-batch-kiya-ai-chennai-5-to-8-years-151026033962",
    "workplace": "Hybrid"
   },
+  "kiya-ai:d2b23b464146": {
+   "comp": "₹5L - ₹15L / yr",
+   "company": "Kiya.ai",
+   "first_seen": "2026-10-23",
+   "location": "Mumbai Suburban, Thane, Mumbai (All Areas), India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Back End Developer",
+   "url": "https://www.naukri.com/job-listings-java-back-end-developer-kiya-ai-mumbai-suburban-thane-mumbai-all-areas-5-to-8-years-231026028809",
+   "workplace": "Hybrid"
+  },
   "kk-software-associates:c7d2b1c2d4ab": {
    "company": "kk Software Associates",
    "first_seen": "2026-10-19",
@@ -58036,6 +60200,20 @@
    "tier": "mid",
    "title": "Software Engineer 2",
    "url": "https://www.linkedin.com/jobs/view/4478782065"
+  },
+  "konovo:151b612498ca": {
+   "company": "Konovo",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4482497729",
+   "first_seen": "2026-10-23",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-10-22",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4482497729"
   },
   "konstruct-and-live-technologies-pvt-ltd:27d26fe396a5": {
    "comp": "₹18,000 - ₹80,000 / month",
@@ -58350,6 +60528,44 @@
    "url": "https://www.naukri.com/job-listings-software-developer-product-bangalore-hyderabad-labcorp-endpoint-hyderabad-bengaluru-5-to-9-years-161026027266",
    "workplace": "Hybrid"
   },
+  "labcorp:19c369a019a3": {
+   "company": "Labcorp",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4482833858",
+   "first_seen": "2026-10-23",
+   "location": "Bengaluru, Karnataka, India",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [
+     "Master's degree",
+     "8+ years experience"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "REST API",
+     "AWS",
+     "RDS"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected an AI-driven remediation workflow that cut average security vulnerability fix time by 75% and delivered a $10M ARR renewal through critical backend enhancements.",
+    "reasons": [
+     "Senior Java and Spring Boot expertise",
+     "Extensive experience with AWS services",
+     "Proven track record in REST API development"
+    ],
+    "score": 75,
+    "verdict": "good"
+   },
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Sr Software Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4482833858"
+  },
   "lacento-technologies-private-limited:366d6209d775": {
    "company": "Lacento Technologies Private Limited",
    "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4478872160",
@@ -58473,6 +60689,21 @@
    "tier": "senior",
    "title": "Senior Software Engineer, Labor Planning & Forecasting",
    "url": "https://www.linkedin.com/jobs/view/4462218304"
+  },
+  "lego-consultancy:0eadc00c2544": {
+   "comp": "₹19L - ₹22.5L / yr",
+   "company": "Lego Consultancy",
+   "first_seen": "2026-10-23",
+   "location": "Chandigarh(Mohali), India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Backend Java Developer",
+   "url": "https://www.naukri.com/job-listings-backend-java-developer-lego-consultancy-chandigarh-5-to-9-years-231026017043",
+   "workplace": "Work From Office"
   },
   "leidos:3a3fd8e5c37b": {
    "company": "Leidos",
@@ -59783,6 +62014,20 @@
    "url": "https://www.naukri.com/job-listings-java-full-stack-developer-ltm-hyderabad-pune-6-to-10-years-100926024653",
    "workplace": "Hybrid"
   },
+  "ltm:1f6f08415d48": {
+   "company": "LTM",
+   "first_seen": "2026-10-23",
+   "location": "Pune, Bengaluru, Mumbai (All Areas), India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java, Spark, Hive Developers",
+   "url": "https://www.naukri.com/job-listings-java-spark-hive-developers-ltm-pune-bengaluru-mumbai-all-areas-4-to-9-years-231026024086",
+   "workplace": "Work From Office"
+  },
   "ltm:25cce111f5da": {
    "company": "LTM",
    "first_seen": "2026-10-15",
@@ -59795,6 +62040,20 @@
    "tier": "lead",
    "title": "Fullstack Lead",
    "url": "https://www.naukri.com/job-listings-fullstack-lead-ltm-chennai-8-to-12-years-151026012202",
+   "workplace": "Hybrid"
+  },
+  "ltm:2a3f05231c98": {
+   "company": "LTM",
+   "first_seen": "2026-10-23",
+   "location": "Pune, Chennai, Bengaluru, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Developer",
+   "url": "https://www.naukri.com/job-listings-software-developer-ltm-pune-chennai-bengaluru-4-to-9-years-231026020128",
    "workplace": "Hybrid"
   },
   "ltm:2c0d8551a564": {
@@ -59978,6 +62237,20 @@
    "tier": "mid",
    "title": "Specialist - Software Engineering",
    "url": "https://www.linkedin.com/jobs/view/4476422453"
+  },
+  "ltm:d6d9f74c8fe6": {
+   "company": "LTM",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4480644965",
+   "first_seen": "2026-10-23",
+   "location": "Hyderabad, Telangana, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Java Consultant",
+   "url": "https://www.linkedin.com/jobs/view/4480644965"
   },
   "ltm:d7183cb4a7ed": {
    "company": "LTM",
@@ -60677,6 +62950,35 @@
    "title": "Java J2EE / Microservices – Migration & Backend Development",
    "url": "http://in.indeed.com/job/java-j2ee-microservices-migration-backend-development-7a1b044e54675ae2"
   },
+  "marketengine-ai:d7b696197054": {
+   "company": "MarketEngine.ai",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4480636973",
+   "first_seen": "2026-10-23",
+   "location": "Pune City, Maharashtra, India",
+   "posted_at": "2026-10-23",
+   "role": "backend",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Back End Developer",
+   "url": "https://www.linkedin.com/jobs/view/4480636973"
+  },
+  "marketopper-securities:f45d37cbcf30": {
+   "comp": "₹10L - ₹15L / yr",
+   "company": "Marketopper Securities",
+   "first_seen": "2026-10-23",
+   "location": "Gurugram(Udyog Vihar Phase 5), India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Developer-SQL",
+   "url": "https://www.naukri.com/job-listings-software-developer-sql-marketopper-securities-gurugram-7-to-12-years-051026028202",
+   "workplace": "Work From Office"
+  },
   "marrina-decisions:c558ae1a700e": {
    "company": "Marrina Decisions",
    "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4480562080",
@@ -60868,6 +63170,21 @@
    "title": "Java Full Stack Developer (Java & Angular)",
    "url": "https://www.linkedin.com/jobs/view/4481564405"
   },
+  "mas-rural-housing-and-mortgage-finance-limited:03496317ad8b": {
+   "comp": "₹5L - ₹8L / yr",
+   "company": "MAS Rural Housing and Mortgage Finance Limited",
+   "first_seen": "2026-10-23",
+   "location": "Ahmedabad, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "senior",
+   "title": "Developer/ Sr. Developer",
+   "url": "https://www.naukri.com/job-listings-developer-sr-developer-mas-rural-housing-and-mortgage-finance-limited-ahmedabad-2-to-4-years-231026031239",
+   "workplace": "Work From Office"
+  },
   "mastercard:01be711226cc": {
    "company": "Mastercard",
    "detail_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/job/Pune-India/Software-Engineer_R-290463",
@@ -60893,6 +63210,44 @@
    "tier": "mid",
    "title": "Job Title Software Engineer II",
    "url": "https://www.linkedin.com/jobs/view/4472952320"
+  },
+  "mastercard:05588493e909": {
+   "company": "Mastercard",
+   "detail_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/job/Pune-India/Senior-Software-Engineer---Java-Full-Stack-React-Angular_R-294357",
+   "first_seen": "2026-10-23",
+   "location": "Pune, India",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [
+     "React/Angular",
+     "Kafka",
+     "Payments domain"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "Microservices",
+     "CI/CD",
+     "AWS"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected an AI-driven remediation workflow that cut average fix time by 75% and delivered a $10M ARR renewal through critical backend enhancements.",
+    "reasons": [
+     "Senior Software Engineer with 6+ years of experience",
+     "Expertise in Java and Spring Boot microservices",
+     "Cloud-based development experience with AWS"
+    ],
+    "score": 80,
+    "verdict": "good"
+   },
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "source": "workday",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer - Java Full Stack React/Angular",
+   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Senior-Software-Engineer---Java-Full-Stack-React-Angular_R-294357"
   },
   "mastercard:081348220bcd": {
    "company": "Mastercard",
@@ -61219,6 +63574,45 @@
    "tier": "senior",
    "title": "Senior Software Engineer",
    "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-288621-1"
+  },
+  "mastercard:3fb2d4b652d1": {
+   "company": "Mastercard",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4480654299",
+   "first_seen": "2026-10-23",
+   "location": "Pune Division, Maharashtra, India",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [
+     "React/Angular frontend",
+     "Event-driven architecture/Kafka",
+     "Payments domain"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "Microservices",
+     "AWS",
+     "CI/CD"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected and shipped a no-fix vulnerability support system for a security console that directly enabled a $10M ARR renewal, and I am ready to apply this experience to your payment network systems.",
+    "reasons": [
+     "6+ years of experience in Java and Spring Boot",
+     "Architected and shipped enterprise-scale microservices",
+     "Experience with cloud-based development and CI/CD pipelines"
+    ],
+    "score": 75,
+    "verdict": "good"
+   },
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer - Java Full Stack React/Angular",
+   "url": "https://www.linkedin.com/jobs/view/4480654299"
   },
   "mastercard:411b25331819": {
    "company": "Mastercard",
@@ -61795,6 +64189,44 @@
    "title": "Software Engineer II",
    "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Software-Engineer-II_R-289234"
   },
+  "mastercard:97c36a56c12d": {
+   "company": "Mastercard",
+   "detail_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/job/Pune-India/Senior-Software-Integration-Engineer_R-287851",
+   "first_seen": "2026-10-23",
+   "location": "Pune, India",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [
+     "Playwright",
+     "Cypress",
+     "Gatling"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "REST API",
+     "CI/CD",
+     "GitHub"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I have extensive experience building scalable Java microservices and recently architected an AI-driven remediation workflow that reduced average vulnerability fix time by approximately 75%.",
+    "reasons": [
+     "Extensive experience with Java, Spring Boot, and REST API development",
+     "Proven track record in system integration and backend performance optimization",
+     "Strong background in quality-focused engineering including TDD and code reviews"
+    ],
+    "score": 75,
+    "verdict": "good"
+   },
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Integration Engineer(Quality Engineer)",
+   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Senior-Software-Integration-Engineer_R-287851"
+  },
   "mastercard:994539741b47": {
    "company": "Mastercard",
    "detail_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/job/Pune-India/Lead-Software-Engineer_R-287047-1",
@@ -61846,6 +64278,44 @@
    "tier": "senior",
    "title": "Senior Software Engineer",
    "url": "https://www.linkedin.com/jobs/view/4443299767"
+  },
+  "mastercard:9d654fea585d": {
+   "company": "Mastercard",
+   "detail_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/job/Pune-India/Lead-Software-Integration-Engineer_R-287847-1",
+   "first_seen": "2026-10-23",
+   "location": "Pune, India",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [
+     "Playwright or Cypress",
+     "Gatling or BlazeMeter",
+     "Azure"
+    ],
+    "keywords": [
+     "Java",
+     "REST API",
+     "Microservices",
+     "Git",
+     "AWS"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected an AI-driven remediation workflow that cut average security fix time by 75% and led the migration of AWS SDK v1 to v2 across 5+ repositories to ensure long-term support compliance.",
+    "reasons": [
+     "Senior Software Engineer with 6+ years of experience",
+     "Java and Spring Boot backend development",
+     "REST API and microservices integration experience"
+    ],
+    "score": 65,
+    "verdict": "stretch"
+   },
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "lead",
+   "title": "Lead Software Integration Engineer(Quality Engineer)",
+   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Lead-Software-Integration-Engineer_R-287847-1"
   },
   "mastercard:9e5370269797": {
    "company": "Mastercard",
@@ -62653,6 +65123,44 @@
    "title": "Senior Software Engineer – Integrations & API Connectivity",
    "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Navi-Mumbai-India-Finicity/Senior-Software-Engineer---Integrations---API-Connectivity_R-289566"
   },
+  "mastercard:fc1ac1ccb5b8": {
+   "company": "Mastercard",
+   "detail_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/job/Pune-India/Software-Engineer-II_R-293529",
+   "first_seen": "2026-10-23",
+   "location": "Pune, India",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [
+     "Cassandra",
+     "Kafka",
+     "Payments domain"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "SQL",
+     "AWS",
+     "Microservices"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected a delegation microservice in Spring Boot that reduced manual handoffs by 40% and led a team to remediate 1,200+ security vulnerabilities, cutting average fix time by 75%.",
+    "reasons": [
+     "6+ years of experience with Java and Spring Boot",
+     "Microservices architecture for enterprise platforms",
+     "Experience with AWS, SQL, and REST APIs"
+    ],
+    "score": 85,
+    "verdict": "strong"
+   },
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer II",
+   "url": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Software-Engineer-II_R-293529"
+  },
   "mastercard:fcabc5260488": {
    "company": "Mastercard",
    "detail_url": "https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/job/Pune-India/Senior-Software-Engineer_R-289676",
@@ -62754,6 +65262,33 @@
    "tier": "senior",
    "title": "Senior Software Engineer - Full Stack",
    "url": "https://www.linkedin.com/jobs/view/4473255772"
+  },
+  "matrixcare:35f99768afeb": {
+   "company": "Matrixcare",
+   "first_seen": "2026-10-23",
+   "location": "KA, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer",
+   "url": "https://matrixcarejobs.agscandidateconnection.com/job/senior-software-engineer-in-bengaluru-ka-7278464"
+  },
+  "matrixcare:4a30d42655ab": {
+   "company": "MatrixCare",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4482859037",
+   "first_seen": "2026-10-23",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4482859037"
   },
   "mattel-inc:ad0cb2968105": {
    "company": "Mattel, Inc.",
@@ -63060,6 +65595,20 @@
    "title": "Senior Software Engineer, Backend",
    "url": "https://www.linkedin.com/jobs/view/4481641774"
   },
+  "mercari-india:e0cc8fdd6c50": {
+   "company": "Mercari India",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4481656334",
+   "first_seen": "2026-10-23",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-10-23",
+   "role": "backend",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer, Backend",
+   "url": "https://www.linkedin.com/jobs/view/4481656334"
+  },
   "mercedes-benz-group:db85d6225fe0": {
    "company": "Mercedes-Benz Group",
    "first_seen": "2026-10-14",
@@ -63288,6 +65837,20 @@
    "tier": "mid",
    "title": "Full Stack Developer",
    "url": "https://www.linkedin.com/jobs/view/4478144428"
+  },
+  "michelin:5b764f0cb8c5": {
+   "company": "Michelin",
+   "first_seen": "2026-10-23",
+   "location": "Pune, India",
+   "posted_at": "2026-10-23",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer - Full Stack Developer",
+   "url": "https://www.naukri.com/job-listings-software-engineer-full-stack-developer-michelin-pune-3-to-6-years-231026032390",
+   "workplace": "Work From Office"
   },
   "microchip-technology:3c0ea2bab01a": {
    "company": "Microchip Technology",
@@ -64483,6 +67046,20 @@
    "title": "Full stack Engineer(Java, Angular)",
    "url": "https://www.linkedin.com/jobs/view/4473258648"
   },
+  "mount-talent-consulting:dde0aed8f93b": {
+   "company": "Mount Talent Consulting",
+   "first_seen": "2026-10-23",
+   "location": "Noida, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer",
+   "url": "https://www.naukri.com/job-listings-software-engineer-mount-talent-consulting-noida-2-to-5-years-231026014844",
+   "workplace": "Work From Office"
+  },
   "mouser:0afd54c31534": {
    "company": "Mouser",
    "first_seen": "2026-10-19",
@@ -64532,6 +67109,20 @@
    "title": "Web Developer",
    "url": "https://www.linkedin.com/jobs/view/4383077658"
   },
+  "moxizo:7332bd7f5cf9": {
+   "company": "Moxizo",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "MH, India",
+   "posted_at": "2026-10-23",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Full Stack Engineer",
+   "url": "https://in.indeed.com/viewjob?jk=4d06ec492ebf9260"
+  },
   "mphasis:03ac1bb370cd": {
    "company": "Mphasis",
    "first_seen": "2026-10-02",
@@ -64547,6 +67138,7 @@
   },
   "mphasis:1147ba3c64c6": {
    "company": "Mphasis",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4474331434",
    "first_seen": "2026-10-02",
    "location": "Hyderabad, Telangana, India",
    "posted_at": "2026-10-01",
@@ -65458,6 +68050,21 @@
    "url": "https://www.naukri.com/job-listings-backend-java-developer-lead-naukri-e-hire-campaign-bengaluru-5-to-10-years-221026009900",
    "workplace": "Work From Office"
   },
+  "naukri-e-hire:13e2679dba8c": {
+   "comp": "₹8.5L - ₹26L / yr",
+   "company": "Naukri E-hire",
+   "first_seen": "2026-10-23",
+   "location": "Bengaluru, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Developer",
+   "url": "https://www.naukri.com/job-listings-java-developer-naukri-e-hire-bengaluru-5-to-7-years-231026017033",
+   "workplace": "Work From Office"
+  },
   "naukri-e-hire:70a4afda5c16": {
    "company": "Naukri E-hire",
    "first_seen": "2026-10-15",
@@ -65635,6 +68242,20 @@
    "tier": "mid",
    "title": "Software Engineer II - Edge",
    "url": "https://www.linkedin.com/jobs/view/4465659307"
+  },
+  "ncr-voyix:ac99f5f06474": {
+   "company": "NCR Voyix",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4474184361",
+   "first_seen": "2026-10-23",
+   "location": "Hyderabad, Telangana, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4474184361"
   },
   "ncr-voyix:faed673ec114": {
    "company": "NCR Voyix",
@@ -66353,6 +68974,21 @@
    "url": "https://www.naukri.com/job-listings-java-full-stack-developer-java-react-nexara-cloud-labs-bengaluru-4-to-9-years-151026030207",
    "workplace": "Work From Office"
   },
+  "nextgen-champions-academy:02d637e86a1d": {
+   "comp": "₹20,000 - ₹35,000 / month",
+   "company": "NextGen Champions Academy",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "MH, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Developer",
+   "url": "https://in.indeed.com/viewjob?jk=13e092914ea8adc6"
+  },
   "nextgen-identity-pty-ltd:c91cae57d4bc": {
    "company": "NextGen Identity Pty Ltd",
    "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4479109393",
@@ -66507,6 +69143,20 @@
    "title": "Senior Software Engineer",
    "url": "https://www.linkedin.com/jobs/view/4472546913"
   },
+  "nice:0e611e240d25": {
+   "company": "NiCE",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4480641155",
+   "first_seen": "2026-10-23",
+   "location": "Pune City, Maharashtra, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer, Actimize",
+   "url": "https://www.linkedin.com/jobs/view/4480641155"
+  },
   "nielseniq-india:9e89e6c5956e": {
    "comp": "₹25L - ₹32.5L / yr",
    "company": "Nielseniq India",
@@ -66593,6 +69243,58 @@
    "tier": "mid",
    "title": "Software Engineer",
    "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000155908929"
+  },
+  "nielseniq:531e5173bbf3": {
+   "company": "NielsenIQ",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "TN, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Java Backend Engineer",
+   "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000157434968-senior-java-backend-engineer"
+  },
+  "nielseniq:5c1e1a8f9245": {
+   "company": "NielsenIQ",
+   "detail_url": "https://api.smartrecruiters.com/v1/companies/NielsenIQ/postings/744000157434929",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "Chennai, TN",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [
+     "Kubernetes",
+     "Azure or GCP"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "Microservices",
+     "SQL",
+     "Docker"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected an AI-driven remediation workflow that cut average security fix time by 75% and delivered a microservice that reduced manual handoffs by 40% for a BPM platform.",
+    "reasons": [
+     "6+ years of experience in Java and Spring Boot",
+     "Architected and shipped microservices for enterprise platforms",
+     "Proven track record in cloud-native development and system design"
+    ],
+    "score": 95,
+    "verdict": "strong"
+   },
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "source": "smartrecruiters",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Java Backend Engineer",
+   "url": "https://jobs.smartrecruiters.com/NielsenIQ/744000157434929"
   },
   "nielseniq:74a7a15272e1": {
    "company": "NielsenIQ",
@@ -67784,6 +70486,20 @@
    "title": "Full Stack Developer",
    "url": "https://in.indeed.com/viewjob?jk=b8d19991d003df83"
   },
+  "northern-trust-corp:1085bc595cd3": {
+   "company": "Northern Trust Corp.",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "MH, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Integration & DevSecOps Engineer",
+   "url": "https://ntrs.wd1.myworkdayjobs.com/en-US/northerntrust/job/Pune-India/Java-Integration---DevSecOps-Engineer_R158438"
+  },
   "northern-trust-corp:de4171e76c04": {
    "company": "Northern Trust Corp.",
    "employment_type": "Full-time",
@@ -67861,6 +70577,20 @@
    "tier": "lead",
    "title": "Lead, SW Full Stack Eng",
    "url": "https://www.linkedin.com/jobs/view/4477736141"
+  },
+  "northern-trust:2ef3ac4fd3f9": {
+   "company": "Northern Trust",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4480627629",
+   "first_seen": "2026-10-23",
+   "location": "Pune Division, Maharashtra, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Integration & DevSecOps Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4480627629"
   },
   "northern-trust:f206ac0d2d54": {
    "company": "Northern Trust",
@@ -69361,6 +72091,34 @@
    "title": "Senior Backend (BE) Developer",
    "url": "https://www.linkedin.com/jobs/view/4481309458"
   },
+  "opeka-serve:1d94785b58a2": {
+   "company": "Opeka Serve",
+   "first_seen": "2026-10-23",
+   "location": "Mohali, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Programmer",
+   "url": "https://www.naukri.com/job-listings-java-programmer-opeka-serve-mohali-5-to-10-years-231026030216",
+   "workplace": "Work From Office"
+  },
+  "opeka-serve:5b5f94046c32": {
+   "company": "Opeka Serve",
+   "first_seen": "2026-10-23",
+   "location": "Pune, Chennai, Bengaluru, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "lead",
+   "title": "Java Team Lead",
+   "url": "https://www.naukri.com/job-listings-java-team-lead-opeka-serve-pune-chennai-bengaluru-9-to-14-years-231026031405",
+   "workplace": "Hybrid"
+  },
   "opengov:e635905047b0": {
    "company": "OpenGov",
    "employment_type": "Full-time",
@@ -69543,6 +72301,21 @@
    "url": "https://careers.opentext.com/us/en/job/53985",
    "workplace": "Work From Office"
   },
+  "opsbridges-technologies-and-consulting:8ece81b84d8a": {
+   "comp": "₹20.56L - ₹26.1L / yr",
+   "company": "Opsbridges technologies and consulting",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "PB, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Developer",
+   "url": "https://in.indeed.com/viewjob?jk=1ce3e5de822b76eb"
+  },
   "optimum-solutions:29cffb84c6f6": {
    "company": "Optimum Solutions",
    "first_seen": "2026-10-22",
@@ -69629,6 +72402,21 @@
    "url": "https://www.naukri.com/job-listings-java-full-stack-developer-optimum-solutions-chennai-7-to-10-years-151026011628",
    "workplace": "Hybrid"
   },
+  "optimum-solutions:df6f765655d7": {
+   "comp": "₹10L - ₹24L / yr",
+   "company": "Optimum Solutions",
+   "first_seen": "2026-10-23",
+   "location": "Chennai, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Backend & Full stack Developer",
+   "url": "https://www.naukri.com/job-listings-java-backend-full-stack-developer-optimum-solutions-chennai-5-to-10-years-231026022430",
+   "workplace": "Work From Office"
+  },
   "optum-india:0afdac993ed6": {
    "company": "Optum India",
    "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4479203669",
@@ -69691,6 +72479,20 @@
    "title": "Software Engineer - Java with Angular",
    "url": "https://www.linkedin.com/jobs/view/4482170648"
   },
+  "optum-india:2444bf29a6ae": {
+   "company": "Optum India",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4482759991",
+   "first_seen": "2026-10-23",
+   "location": "Pune Division, Maharashtra, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "lead",
+   "title": "Software Engineering Lead",
+   "url": "https://www.linkedin.com/jobs/view/4482759991"
+  },
   "optum-india:36572f048a8e": {
    "company": "Optum India",
    "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4480579017",
@@ -69719,6 +72521,20 @@
    "title": "Senior Software Engineer-Java",
    "url": "https://www.linkedin.com/jobs/view/4479814101",
    "workplace": "Work From Office"
+  },
+  "optum-india:5bd83d7e3329": {
+   "company": "Optum India",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4482820611",
+   "first_seen": "2026-10-23",
+   "location": "Hyderabad, Telangana, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "lead",
+   "title": "Software Engineering Lead - Java FSE",
+   "url": "https://www.linkedin.com/jobs/view/4482820611"
   },
   "optum-india:695e9cfb662c": {
    "company": "Optum India",
@@ -70747,6 +73563,20 @@
    "title": "Senior Java Developer / Lead Java Engineer – Spring Boot & Microservices",
    "url": "http://in.indeed.com/job/senior-java-developer-lead-java-engineer-spring-boot-microservices-ea791caef46634a7"
   },
+  "outsystems:c9eff9b01d83": {
+   "company": "OutSystems",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4465043222",
+   "first_seen": "2026-10-23",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer -Tenant Lifecycle",
+   "url": "https://www.linkedin.com/jobs/view/4465043222"
+  },
   "overt-ideas-solutions-private-limited:f4f9d087628e": {
    "comp": "₹250,000 - ₹350,000 / month",
    "company": "Overt ideas & solutions private limited",
@@ -71114,6 +73944,43 @@
    "url": "https://jobs.lever.co/paytm/fffdcfb1-fd6e-4401-b059-500838a6db0e",
    "workplace": "On-site",
    "yoe": 4
+  },
+  "paytm:4bc66724da76": {
+   "company": "Paytm",
+   "department": "Travel",
+   "employment_type": "On-roll",
+   "first_seen": "2026-10-23",
+   "location": "Bangalore, Karnataka",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "Microservices",
+     "RabbitMQ",
+     "AWS"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected a delegation microservice in Spring Boot that reduced manual handoffs by 40% and optimized REST API latency by 28% through request restructuring and Redis caching.",
+    "reasons": [
+     "6+ years of Java and Spring Boot experience",
+     "Microservices architecture and REST API development",
+     "Performance tuning and Redis caching experience"
+    ],
+    "score": 95,
+    "verdict": "strong"
+   },
+   "posted_at": "2026-10-12",
+   "role": "backend",
+   "source": "lever",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer – Backend (Travel)",
+   "url": "https://jobs.lever.co/paytm/105a0d9e-94e9-4026-9105-5bea558ab3d9",
+   "workplace": "On-site",
+   "yoe": 3
   },
   "paytm:7bfdf28c17e5": {
    "company": "Paytm",
@@ -72817,6 +75684,7 @@
   },
   "prime-video-amazon-mgm-studios:259a356bbef6": {
    "company": "Prime Video & Amazon MGM Studios",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4455799193",
    "first_seen": "2026-10-02",
    "location": "Bengaluru, Karnataka, India",
    "posted_at": "2026-10-01",
@@ -73056,6 +75924,20 @@
    "tier": "senior",
    "title": "Senior Full Stack Developer",
    "url": "https://www.linkedin.com/jobs/view/4482727852"
+  },
+  "prohuman-technology:cdbfe9428b9f": {
+   "company": "Prohuman Technology",
+   "first_seen": "2026-10-23",
+   "location": "Bengaluru, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Developer",
+   "url": "https://www.naukri.com/job-listings-software-developer-prohuman-technology-bengaluru-3-to-5-years-231026020645",
+   "workplace": "Work From Office"
   },
   "project44:65ce3d1edf2a": {
    "company": "project44",
@@ -73351,6 +76233,20 @@
    "tier": "mid",
    "title": "Back End Developer",
    "url": "https://www.linkedin.com/jobs/view/4480940172"
+  },
+  "publicis-sapient:eea41a25d011": {
+   "company": "Publicis Sapient",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4481653929",
+   "first_seen": "2026-10-23",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Java Software Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4481653929"
   },
   "pubmatic:051a76bf6dbd": {
    "company": "PubMatic",
@@ -74133,6 +77029,76 @@
    "title": "Software Engineer",
    "url": "https://www.linkedin.com/jobs/view/4471891450"
   },
+  "qualcomm:043698afb310": {
+   "company": "Qualcomm",
+   "first_seen": "2026-10-23",
+   "location": "Hyderabad, Bengaluru, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "lead",
+   "title": "Java Backend / Cloud Platform Lead",
+   "url": "https://careers.qualcomm.com/careers?pid=446720272196",
+   "workplace": "Work From Office"
+  },
+  "qualcomm:15ed33b09a24": {
+   "company": "Qualcomm",
+   "first_seen": "2026-10-23",
+   "location": "Hyderabad, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Engineer - Linker Developer",
+   "url": "https://careers.qualcomm.com/careers?pid=446717801058",
+   "workplace": "Work From Office"
+  },
+  "qualcomm:1a1414152e2a": {
+   "company": "Qualcomm",
+   "first_seen": "2026-10-23",
+   "location": "Bengaluru, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "XR Software Engineer (All Levels - Multiple Positions)",
+   "url": "https://careers.qualcomm.com/careers?pid=446721052756",
+   "workplace": "Work From Office"
+  },
+  "qualcomm:5234d42d413b": {
+   "company": "Qualcomm",
+   "first_seen": "2026-10-23",
+   "location": "Bengaluru, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "senior",
+   "title": "CPU Software Senior Engineer",
+   "url": "https://careers.qualcomm.com/careers?pid=446719582042",
+   "workplace": "Work From Office"
+  },
+  "qualcomm:64c1fea1e3b5": {
+   "company": "Qualcomm",
+   "first_seen": "2026-10-23",
+   "location": "Hyderabad, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Engineer- Display software (CE)",
+   "url": "https://careers.qualcomm.com/careers?pid=446718568446",
+   "workplace": "Work From Office"
+  },
   "qualcomm:6691005428a4": {
    "company": "Qualcomm",
    "first_seen": "2026-10-19",
@@ -74185,6 +77151,20 @@
    "title": "Linux Software Engineer",
    "url": "https://www.linkedin.com/jobs/view/4443159109"
   },
+  "qualcomm:75b20cc03684": {
+   "company": "Qualcomm",
+   "first_seen": "2026-10-23",
+   "location": "Bengaluru, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "lead",
+   "title": "CPU Software Senior Lead Engineer",
+   "url": "https://careers.qualcomm.com/careers?pid=446719582053",
+   "workplace": "Work From Office"
+  },
   "qualcomm:95b4f79e02e7": {
    "company": "Qualcomm",
    "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4480236260",
@@ -74236,6 +77216,34 @@
    "tier": "mid",
    "title": "QNX BSP Platform Engineer_Customer Engineering",
    "url": "https://app.eightfold.ai/careers/job/446721608879?domain=qualcomm.com"
+  },
+  "qualcomm:cf99ba3e3128": {
+   "company": "Qualcomm",
+   "first_seen": "2026-10-23",
+   "location": "Hyderabad, Bengaluru, India",
+   "posted_at": "2026-10-23",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "AWS Databricks Full Stack Application Developer",
+   "url": "https://careers.qualcomm.com/careers?pid=446720751091",
+   "workplace": "Work From Office"
+  },
+  "qualcomm:d42a630cf327": {
+   "company": "Qualcomm",
+   "first_seen": "2026-10-23",
+   "location": "Bengaluru, India",
+   "posted_at": "2026-10-23",
+   "role": "platform",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Graphics Software Infrastructure Engineer",
+   "url": "https://careers.qualcomm.com/careers?pid=446721050797",
+   "workplace": "Work From Office"
   },
   "qualys:00fa8e69d9f3": {
    "company": "Qualys",
@@ -75081,6 +78089,20 @@
    "title": "Senior Software Engineer",
    "url": "https://in.indeed.com/viewjob?jk=508e7a3d9182e8fa"
   },
+  "real-time-applications-center-rtac:42f86d8cfc38": {
+   "company": "Real Time Applications Center - RTAC",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4480645092",
+   "first_seen": "2026-10-23",
+   "location": "Kolhapur, Maharashtra, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Sr. Software Engineer – Enterprise Applications",
+   "url": "https://www.linkedin.com/jobs/view/4480645092"
+  },
   "realpage-india:d3b14f0b80ed": {
    "company": "Realpage India",
    "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4480367666",
@@ -75293,6 +78315,21 @@
    "tier": "mid",
    "title": "Software Developer",
    "url": "https://www.naukri.com/job-listings-software-developer-recruit-diary-chandigarh-0-to-3-years-131026010091",
+   "workplace": "Remote"
+  },
+  "recruit-diary:f5434bf8f0a6": {
+   "comp": "₹2.5L - ₹4.5L / yr",
+   "company": "Recruit Diary",
+   "first_seen": "2026-10-23",
+   "location": "India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Sql Developer",
+   "url": "https://www.naukri.com/job-listings-sql-developer-recruit-diary-chandigarh-0-to-3-years-131026010082",
    "workplace": "Remote"
   },
   "recruiterflow:84d4281700d3": {
@@ -76265,6 +79302,21 @@
    "tier": "mid",
    "title": "Full Stack Angular, Java Cloud Developer",
    "url": "https://www.linkedin.com/jobs/view/4478868465"
+  },
+  "rojgar-group:37897648a9bf": {
+   "comp": "₹18L - ₹26L / yr",
+   "company": "Rojgar group",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "PB, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Java Developer",
+   "url": "https://in.indeed.com/viewjob?jk=d4203827afab58f7"
   },
   "roku:c3af962d9e0d": {
    "company": "Roku",
@@ -77253,6 +80305,20 @@
    "title": "Software Engineering SMTS (Backend - Distributed Systems)",
    "url": "https://www.linkedin.com/jobs/view/4479291013"
   },
+  "salesforce:c2db7bbbe2dc": {
+   "company": "Salesforce",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4482840569",
+   "first_seen": "2026-10-23",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-10-23",
+   "role": "platform",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "lead",
+   "title": "Software Engineering LMTS - Backend Distributed Systems",
+   "url": "https://www.linkedin.com/jobs/view/4482840569"
+  },
   "salesforce:c830950a6ddd": {
    "company": "Salesforce",
    "detail_url": "https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/job/India---Bangalore/Software-Engineering---Quality-Engineering_JR339837-1",
@@ -77721,6 +80787,44 @@
    "workplace": "On-site",
    "yoe": 5
   },
+  "sarvam-ai:9f0b111e108c": {
+   "company": "Sarvam AI",
+   "department": "Engineering",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "Bengaluru",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [
+     "Go",
+     "Temporal",
+     "OpenSearch"
+    ],
+    "keywords": [
+     "PostgreSQL",
+     "SQL"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected an AI-driven remediation workflow that cut average security vulnerability fix time by 75% and enabled a $10M ARR renewal at my current company.",
+    "reasons": [
+     "Senior Software Engineer with 6+ years of experience",
+     "Spring Boot microservices for a BPM platform",
+     "PostgreSQL and Oracle SQL database experience"
+    ],
+    "score": 45,
+    "verdict": "poor"
+   },
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "source": "ashby",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Development Engineer - Tejas",
+   "url": "https://jobs.ashbyhq.com/sarvam/db89b576-2456-4cc4-ab0b-c45f8c6c27f0",
+   "workplace": "On-site",
+   "yoe": 3
+  },
   "sarvam-ai:bca835d7ba5c": {
    "company": "Sarvam AI",
    "department": "Engineering",
@@ -77900,6 +81004,20 @@
    "title": "Developer Experience Engineer - Hyderabad",
    "url": "https://grnh.se/phzmz6hs3us"
   },
+  "scientific-games:847e0866f29b": {
+   "company": "Scientific Games",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "KA, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "lead",
+   "title": "Lead Software Engineer",
+   "url": "https://sglottery.wd5.myworkdayjobs.com/en-US/ScientificGamesExternalCareers/job/Bangalore-India/Lead-Software-Engineer_R505390"
+  },
   "scorg-international:c9441e66a1ea": {
    "company": "Scorg International",
    "first_seen": "2026-10-02",
@@ -78002,6 +81120,20 @@
    "tier": "mid",
    "title": "Application Developer",
    "url": "https://www.linkedin.com/jobs/view/4479922411"
+  },
+  "scoutit:341bd6229962": {
+   "company": "Scoutit",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4481663892",
+   "first_seen": "2026-10-23",
+   "location": "Chennai, Tamil Nadu, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Developer",
+   "url": "https://www.linkedin.com/jobs/view/4481663892"
   },
   "scoutit:5ae6277f4929": {
    "company": "Scoutit",
@@ -78256,6 +81388,84 @@
    "title": "Software Engineer (Cybersecurity Integrations) - Armis ",
    "url": "https://jobs.smartrecruiters.com/ServiceNow/744000152831074"
   },
+  "servicenow:0e8e7c3ed0fe": {
+   "company": "ServiceNow",
+   "department": "Engineering, Infrastructure and Operations",
+   "detail_url": "https://api.smartrecruiters.com/v1/companies/ServiceNow/postings/744000157402489",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "Hyderabad",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [
+     "JavaScript",
+     "React or Vue"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "Microservices",
+     "REST API",
+     "AWS"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected an AI-driven remediation workflow that cut average security vulnerability fix time by 75% and led the delivery of a delegation microservice that reduced manual handoffs by 40%.",
+    "reasons": [
+     "6+ years of experience in backend systems",
+     "Strong background in Java and object-oriented design",
+     "Experience with AI-driven workflows and automation"
+    ],
+    "score": 75,
+    "verdict": "good"
+   },
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "source": "smartrecruiters",
+   "status": "new",
+   "tier": "senior",
+   "title": "Sr Software Engineer",
+   "url": "https://jobs.smartrecruiters.com/ServiceNow/744000157402489"
+  },
+  "servicenow:166035acbdeb": {
+   "company": "ServiceNow",
+   "department": "Engineering, Infrastructure and Operations",
+   "detail_url": "https://api.smartrecruiters.com/v1/companies/ServiceNow/postings/744000157408989",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "Hyderabad",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [
+     "Modern UI frameworks (React, Angular, or Vue)",
+     "Frontend development experience"
+    ],
+    "keywords": [
+     "Java",
+     "Python",
+     "JUnit",
+     "CI/CD",
+     "Microservices"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected an AI-driven remediation workflow that cut average fix time by 75% and led the delivery of enterprise-scale microservices that enabled a $10M ARR renewal.",
+    "reasons": [
+     "6+ years of experience in Java and Spring Boot",
+     "Architected AI-driven remediation workflow",
+     "Proven track record in backend system design"
+    ],
+    "score": 75,
+    "verdict": "good"
+   },
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "source": "smartrecruiters",
+   "status": "new",
+   "tier": "senior",
+   "title": "Sr Software Engineer",
+   "url": "https://jobs.smartrecruiters.com/ServiceNow/744000157408989"
+  },
   "servicenow:4811d8dbc978": {
    "company": "ServiceNow",
    "department": "Engineering, Infrastructure and Operations",
@@ -78312,6 +81522,20 @@
    "tier": "mid",
    "title": "Software Engineer",
    "url": "https://jobs.smartrecruiters.com/ServiceNow/744000155459130"
+  },
+  "servicenow:86b990648bc8": {
+   "company": "ServiceNow",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "TS, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "senior",
+   "title": "Sr Software Engineer",
+   "url": "https://jobs.smartrecruiters.com/ServiceNow/744000157409028-sr-software-engineer"
   },
   "servicenow:a1599f6286ca": {
    "company": "ServiceNow",
@@ -78599,6 +81823,20 @@
    "tier": "mid",
    "title": "Software Engineer - ENDUR",
    "url": "https://www.linkedin.com/jobs/view/4470336051"
+  },
+  "shiprocket:0ee2ff9343b3": {
+   "company": "Shiprocket",
+   "first_seen": "2026-10-23",
+   "location": "Gurugram, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "senior",
+   "title": "Sr Software Engineer - Backend Developer (Java) - Fastrr",
+   "url": "https://careers.shiprocket.in/jobs/senior-software-engineer-backend-developer-java-fastrr/",
+   "workplace": "Work From Office"
   },
   "shiprocket:372a922d0b73": {
    "company": "Shiprocket",
@@ -79076,6 +82314,20 @@
    "tier": "senior",
    "title": "Senior Software Engineer",
    "url": "https://www.linkedin.com/jobs/view/4437402516"
+  },
+  "sirionlabs:b205fc5c2e25": {
+   "company": "Sirionlabs",
+   "first_seen": "2026-10-23",
+   "location": "Gurugram, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer",
+   "url": "https://www.naukri.com/job-listings-senior-software-engineer-sirionlabs-gurugram-4-to-7-years-231026031164",
+   "workplace": "Hybrid"
   },
   "siro-clinpharm:c72551d48ad7": {
    "company": "Siro Clinpharm",
@@ -79901,6 +83153,7 @@
   },
   "solventum:b87febac1dde": {
    "company": "Solventum",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4405875019",
    "first_seen": "2026-10-02",
    "location": "Bengaluru, Karnataka, India",
    "posted_at": "2026-10-01",
@@ -80099,6 +83352,21 @@
    "title": "ORMB Developers (Technical consultant)",
    "url": "http://in.indeed.com/job/ormb-developers-technical-consultant-3802e3dea706f37f",
    "workplace": "Remote"
+  },
+  "sourcefuse-technologies:318f36854bf6": {
+   "comp": "₹26L - ₹26L / yr",
+   "company": "SourceFuse Technologies",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "PB, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Backend Developer",
+   "url": "https://in.indeed.com/viewjob?jk=6017282b09d74ad7"
   },
   "sourcefuse:70e33a00d053": {
    "company": "SourceFuse",
@@ -80386,6 +83654,19 @@
    "title": "AVP- Software Development",
    "url": "https://jobs.standardchartered.com/job/AVP-Software-Development/64447-en_GB"
   },
+  "standard-chartered-bank:93415f954fe9": {
+   "company": "Standard Chartered Bank",
+   "first_seen": "2026-10-23",
+   "location": "KA, India",
+   "posted_at": "2026-10-23",
+   "role": "backend",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "mid",
+   "title": "Assoc, BackEnd Eng, WRB Tech",
+   "url": "https://jobs.standardchartered.com/job/Assoc%2C-BackEnd-Eng%2C-WRB-Tech/64893-en_GB"
+  },
   "standard-chartered-bank:c92b845155b4": {
    "company": "Standard Chartered Bank",
    "first_seen": "2026-10-15",
@@ -80425,6 +83706,20 @@
    "tier": "mid",
    "title": "Assoc, BackEnd Eng, WRB Tech",
    "url": "https://www.linkedin.com/jobs/view/4478834731"
+  },
+  "standard-chartered-india:4e79ac3e07fa": {
+   "company": "Standard Chartered India",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4481676418",
+   "first_seen": "2026-10-23",
+   "location": "Bengaluru East, Karnataka, India",
+   "posted_at": "2026-10-23",
+   "role": "backend",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Assoc, BackEnd Eng, WRB Tech",
+   "url": "https://www.linkedin.com/jobs/view/4481676418"
   },
   "standard-chartered-india:5545000166e2": {
    "company": "Standard Chartered India",
@@ -80634,6 +83929,44 @@
    "tier": "senior",
    "title": "Senior Software Engineer - Java, Officer",
    "url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hyderabad-India/Senior-Software-Engineer---Java--Officer_R-798062"
+  },
+  "state-street:30ad6452e509": {
+   "company": "State Street",
+   "detail_url": "https://statestreet.wd1.myworkdayjobs.com/wday/cxs/statestreet/Global/job/Bangalore-India/Java-Full-Stack-Developer---Tech-Lead_R-797503",
+   "first_seen": "2026-10-23",
+   "location": "Bangalore, India",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [
+     "React JS",
+     "Angular",
+     "Financial Market domain"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "Oracle SQL",
+     "REST API",
+     "GitHub"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected and shipped a delegation microservice in Spring Boot that reduced manual handoffs by 40% and optimized REST API latency by 28% through request restructuring and Redis caching.",
+    "reasons": [
+     "6+ years of experience in Java and Spring Boot",
+     "Expertise in REST APIs and Oracle SQL",
+     "Proven track record in enterprise-scale backend systems"
+    ],
+    "score": 65,
+    "verdict": "stretch"
+   },
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "source": "workday",
+   "status": "new",
+   "tier": "lead",
+   "title": "Java Full Stack Developer - Tech Lead",
+   "url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Bangalore-India/Java-Full-Stack-Developer---Tech-Lead_R-797503"
   },
   "state-street:310e7737b5c2": {
    "company": "State Street",
@@ -80911,6 +84244,20 @@
    "tier": "senior",
    "title": "Senior Software Engineer, AVP",
    "url": "https://statestreet.wd1.myworkdayjobs.com/en-US/Global/job/Hyderabad-India/Senior-Software-Engineer--AVP_R-796502"
+  },
+  "state-street:fca61da0f13f": {
+   "company": "State Street",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4482871225",
+   "first_seen": "2026-10-23",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "lead",
+   "title": "Java Full Stack Developer - Tech Lead",
+   "url": "https://www.linkedin.com/jobs/view/4482871225"
   },
   "straive:07822072044b": {
    "company": "Straive",
@@ -81459,6 +84806,20 @@
    "tier": "mid",
    "title": "Software Engineer – Java",
    "url": "https://www.linkedin.com/jobs/view/4473934125"
+  },
+  "symphonyai:f000224f8be3": {
+   "company": "SymphonyAI",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4468689318",
+   "first_seen": "2026-10-23",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Developer",
+   "url": "https://www.linkedin.com/jobs/view/4468689318"
   },
   "symplr:036c2fa5d43a": {
    "company": "symplr",
@@ -82118,6 +85479,20 @@
    "url": "https://www.naukri.com/job-listings-java-developer-talent21-management-shared-services-pvt-ltd-pune-6-to-10-years-231026912019",
    "workplace": "Work From Office"
   },
+  "talent500:cca7737e9b78": {
+   "company": "Talent500",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4482863514",
+   "first_seen": "2026-10-23",
+   "location": "Pune City, Maharashtra, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer [T500-30369]",
+   "url": "https://www.linkedin.com/jobs/view/4482863514"
+  },
   "talentgigs:5fb8c36ceca9": {
    "company": "Talentgigs",
    "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4478440072",
@@ -82492,6 +85867,21 @@
    "title": "Java Developer - Full Stack and Backend",
    "url": "https://www.naukri.com/job-listings-java-developer-full-stack-and-backend-talworx-solutions-hyderabad-6-to-11-years-221026018377",
    "workplace": "Hybrid"
+  },
+  "tanisha-systems:677659b23cf9": {
+   "comp": "₹25L - ₹30L / yr",
+   "company": "Tanisha Systems",
+   "first_seen": "2026-10-23",
+   "location": "Hyderabad, Pune, Bengaluru, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Facets Engineer(Developer Required)(US healthcare mandatory)",
+   "url": "https://www.naukri.com/job-listings-facets-engineer-developer-required-us-healthcare-mandatory-tanisha-systems-hyderabad-pune-bengaluru-10-to-15-years-231026030586",
+   "workplace": "Work From Office"
   },
   "tanisha-systems:852b04e68910": {
    "company": "Tanisha Systems",
@@ -83512,6 +86902,20 @@
    "title": "Java Application Developer",
    "url": "https://www.linkedin.com/jobs/view/4478784845"
   },
+  "tata-consultancy-services:a3b269f4cdd7": {
+   "company": "Tata Consultancy Services",
+   "first_seen": "2026-10-23",
+   "location": "Bengaluru, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer - Java Full Stack Developer",
+   "url": "https://www.naukri.com/job-listings-senior-software-engineer-java-full-stack-developer-tata-consultancy-services-bengaluru-5-to-10-years-231026026860",
+   "workplace": "Work From Office"
+  },
   "tata-consultancy-services:a516c07b4b7e": {
    "company": "Tata Consultancy Services",
    "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4481365010",
@@ -84384,6 +87788,45 @@
    "title": "Senior Software Engineer (Full Stack) - Integrations & Partner Enablement",
    "url": "https://www.linkedin.com/jobs/view/4473914112"
   },
+  "teamviewer:1e649a2f5514": {
+   "company": "TeamViewer",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4459685129",
+   "first_seen": "2026-10-23",
+   "location": "Noida, Uttar Pradesh, India",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [
+     "Kotlin",
+     "Kubernetes",
+     "C#"
+    ],
+    "keywords": [
+     "Java",
+     "Spring",
+     "SQL",
+     "Docker",
+     "Redis"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected an AI-driven remediation workflow that cut average security fix time by 75% and led the development of a delegation microservice that reduced manual handoffs by 40%.",
+    "reasons": [
+     "Senior Java Spring Boot backend experience",
+     "Strong background in OAuth 2.0 and security remediation",
+     "Experience with distributed systems and cloud infrastructure"
+    ],
+    "score": 80,
+    "verdict": "good"
+   },
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer - Java",
+   "url": "https://www.linkedin.com/jobs/view/4459685129"
+  },
   "teamviewer:4b94d51eeda7": {
    "company": "TeamViewer",
    "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4473750266",
@@ -84604,6 +88047,20 @@
    "url": "https://www.naukri.com/job-listings-software-engineer-techila-global-services-bengaluru-5-to-8-years-161026010021",
    "workplace": "Work From Office"
   },
+  "technip-energies:7ec5373a2bdb": {
+   "company": "Technip Energies",
+   "first_seen": "2026-10-23",
+   "location": "Chennai, India",
+   "posted_at": "2026-10-23",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "lead",
+   "title": "Lead Full Stack Developer",
+   "url": "https://www.naukri.com/job-listings-lead-full-stack-developer-technip-energies-chennai-9-to-14-years-160426036440",
+   "workplace": "Work From Office"
+  },
   "technology-next:3d7e941354c7": {
    "comp": "₹80,000 - ₹110,000 / month",
    "company": "Technology Next",
@@ -84693,6 +88150,20 @@
    "tier": "senior",
    "title": "Senior Full Stack Engineer",
    "url": "https://in.indeed.com/viewjob?jk=3ea5a50764b0813e"
+  },
+  "techy-geeks:4316ebee27da": {
+   "company": "Techy Geeks",
+   "first_seen": "2026-10-23",
+   "location": "Hyderabad, Chennai, Bengaluru, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Developer",
+   "url": "https://www.naukri.com/job-listings-software-developer-techy-geeks-hyderabad-chennai-bengaluru-2-to-5-years-231026027427",
+   "workplace": "Work From Office"
   },
   "tecsys-inc:16942378c494": {
    "company": "TECSYS Inc.",
@@ -85383,6 +88854,34 @@
    "tier": "mid",
    "title": "Java Developer",
    "url": "https://www.naukri.com/job-listings-java-developer-teksystems-global-services-hyderabad-bengaluru-9-to-14-years-191026018842",
+   "workplace": "Work From Office"
+  },
+  "teksystems:57ddd4a8dc4f": {
+   "company": "Teksystems",
+   "first_seen": "2026-10-23",
+   "location": "Hyderabad, Bengaluru, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Developer with GCP",
+   "url": "https://www.naukri.com/job-listings-java-developer-with-gcp-teksystems-global-services-hyderabad-bengaluru-6-to-10-years-220926047307",
+   "workplace": "Work From Office"
+  },
+  "teksystems:bfe8a837f200": {
+   "company": "Teksystems",
+   "first_seen": "2026-10-23",
+   "location": "Hyderabad, Bengaluru, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Full Stack Developer with React,",
+   "url": "https://www.naukri.com/job-listings-java-full-stack-developer-with-react-teksystems-global-services-hyderabad-bengaluru-10-to-15-years-060726027430",
    "workplace": "Work From Office"
   },
   "tekwissen-india:8a35819f3ec2": {
@@ -86111,6 +89610,20 @@
    "title": "Software Engineering Associate",
    "url": "https://www.linkedin.com/jobs/view/4480387245"
   },
+  "the-depository-trust-clearing-corporation-dtcc:352744de413a": {
+   "company": "The Depository Trust & Clearing Corporation (DTCC)",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4482861321",
+   "first_seen": "2026-10-23",
+   "location": "Hyderabad, Telangana, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineering Associate (Java with AWS)",
+   "url": "https://www.linkedin.com/jobs/view/4482861321"
+  },
   "the-depository-trust-clearing-corporation-dtcc:3e6842aee008": {
    "company": "The Depository Trust & Clearing Corporation (DTCC)",
    "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4471673732",
@@ -86124,6 +89637,20 @@
    "tier": "mid",
    "title": "Software Engineer - Java Developer",
    "url": "https://www.linkedin.com/jobs/view/4471673732"
+  },
+  "the-depository-trust-clearing-corporation-dtcc:517f756e0dd0": {
+   "company": "The Depository Trust & Clearing Corporation (DTCC)",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4482859763",
+   "first_seen": "2026-10-23",
+   "location": "Hyderabad, Telangana, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Software Engineering Senior Associate",
+   "url": "https://www.linkedin.com/jobs/view/4482859763"
   },
   "the-depository-trust-clearing-corporation-dtcc:572b993c27bf": {
    "company": "The Depository Trust & Clearing Corporation (DTCC)",
@@ -86163,6 +89690,20 @@
    "tier": "senior",
    "title": "Software Engineering Senior Associate (Java full stack)",
    "url": "https://www.linkedin.com/jobs/view/4481595596"
+  },
+  "the-depository-trust-clearing-corporation-dtcc:88fb44070f81": {
+   "company": "The Depository Trust & Clearing Corporation (DTCC)",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4482875448",
+   "first_seen": "2026-10-23",
+   "location": "Chennai, Tamil Nadu, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer - Java Fullstack",
+   "url": "https://www.linkedin.com/jobs/view/4482875448"
   },
   "the-depository-trust-clearing-corporation-dtcc:f6d72f4e58c6": {
    "company": "The Depository Trust & Clearing Corporation (DTCC)",
@@ -86719,6 +90260,21 @@
    "url": "https://www.naukri.com/job-listings-fullstack-web-developer-tishansoft-consultancy-salem-3-to-5-years-171026012060",
    "workplace": "Work From Office"
   },
+  "tishansoft-consultancy:80c755c9e6ea": {
+   "comp": "₹6L - ₹10L / yr",
+   "company": "Tishansoft Consultancy",
+   "first_seen": "2026-10-23",
+   "location": "Salem(Gugai), India",
+   "posted_at": "2026-10-23",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full-stack Web Developer",
+   "url": "https://www.naukri.com/job-listings-full-stack-web-developer-tishansoft-consultancy-salem-5-to-8-years-231026031886",
+   "workplace": "Work From Office"
+  },
   "tmus-global-solutions:76887619b800": {
    "company": "TMUS Global Solutions",
    "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4481549659",
@@ -86757,6 +90313,20 @@
    "tier": "mid",
    "title": "Engineer, Software - Java FullStack [T500-30251]",
    "url": "https://www.linkedin.com/jobs/view/4481549659"
+  },
+  "toast:782001eb7058": {
+   "company": "Toast",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4482792453",
+   "first_seen": "2026-10-23",
+   "location": "Bangalore Urban, Karnataka, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4482792453"
   },
   "toast:8a2c02cde230": {
    "company": "Toast",
@@ -87273,6 +90843,21 @@
    "url": "https://www.naukri.com/job-listings-java-developer-tquanta-technologies-pune-chennai-bengaluru-6-to-11-years-151026028794",
    "workplace": "Hybrid"
   },
+  "tracecrate-private-limited:3160cd3b9925": {
+   "comp": "₹10,000 / month",
+   "company": "TRACECRATE PRIVATE LIMITED",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "WB, India",
+   "posted_at": "2026-10-23",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "mid",
+   "title": "Full Stack Web Developer",
+   "url": "https://in.indeed.com/viewjob?jk=0726dc5fa969783d"
+  },
   "tracelink:2f8ba8953b54": {
    "company": "TraceLink",
    "first_seen": "2026-10-02",
@@ -87299,6 +90884,20 @@
    "title": "Tracxn - Senior Backend Developer",
    "url": "https://www.naukri.com/job-listings-tracxn-senior-backend-developer-tracxn-bengaluru-4-to-9-years-221026014498",
    "workplace": "Work From Office"
+  },
+  "tracxn:45d7c9763155": {
+   "company": "Tracxn",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4482801230",
+   "first_seen": "2026-10-23",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-10-23",
+   "role": "backend",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Tracxn - Backend Developer",
+   "url": "https://www.linkedin.com/jobs/view/4482801230"
   },
   "training-basket:52f5e1804742": {
    "company": "Training Basket",
@@ -87956,6 +91555,20 @@
    "title": "Java + Angular Developer",
    "url": "https://in.indeed.com/viewjob?jk=c6fd15314cd8da6b"
   },
+  "tulip-consulting-services:86f011e7e68d": {
+   "company": "Tulip Consulting Services",
+   "first_seen": "2026-10-23",
+   "location": "Mumbai(Andheri West), India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "ERP Software Developer- Andheri",
+   "url": "https://www.naukri.com/job-listings-erp-software-developer-andheri-tulip-consulting-services-mumbai-8-to-10-years-231026030204",
+   "workplace": "Work From Office"
+  },
   "turing:3246ce985243": {
    "company": "turing",
    "first_seen": "2026-10-02",
@@ -88524,6 +92137,34 @@
    "url": "https://www.naukri.com/job-listings-software-developement-engineer-iii-java-rust-upstox-bengaluru-0-to-5-years-011026504418",
    "workplace": "Work From Office"
   },
+  "upwardiq-software-solutions:97bd4dd7845f": {
+   "company": "Upwardiq Software Solutions",
+   "first_seen": "2026-10-23",
+   "location": "Hyderabad(Gachibowli), India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Walk-in || Java Developer",
+   "url": "https://www.naukri.com/job-listings-java-developer-upwardiq-software-solutions-hyderabad-3-to-5-years-231026020266",
+   "workplace": "Work From Office"
+  },
+  "upwardiq-software-solutions:b8bc9475cb9c": {
+   "company": "Upwardiq Software Solutions",
+   "first_seen": "2026-10-23",
+   "location": "Hyderabad(Gachibowli), India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "senior",
+   "title": "Walk-in || Senior Java Developer",
+   "url": "https://www.naukri.com/job-listings-senior-java-developer-upwardiq-software-solutions-hyderabad-6-to-8-years-231026019075",
+   "workplace": "Work From Office"
+  },
   "urban-company:fd0d7f2b91e6": {
    "company": "Urban Company",
    "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4479496287",
@@ -88681,6 +92322,7 @@
   },
   "ust:3432bb7c09d8": {
    "company": "UST",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4472933610",
    "first_seen": "2026-10-02",
    "location": "Trivandrum, Kerala, India",
    "posted_at": "2026-10-01",
@@ -89046,6 +92688,21 @@
    "tier": "lead",
    "title": "Lead I - Software Engineering",
    "url": "https://usource.ripplehire.com/candidate/?token=Tkqw2tR4b6XpWNl2stmw&lang=en&source=INDEED&ref=INDEED#detail/job/65811"
+  },
+  "v-green-media-pvt-ltd:9660fa9f4b16": {
+   "comp": "₹25,000 - ₹45,000 / month",
+   "company": "V Green Media Pvt Ltd",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "TS, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "mid",
+   "title": "App and Web Developer",
+   "url": "https://in.indeed.com/viewjob?jk=63bc9f27ab753ebe"
   },
   "v-square-digital-solutions:ad06b4f1d356": {
    "company": "V Square Digital Solutions",
@@ -89462,6 +93119,20 @@
    "title": "Java Software Engineer",
    "url": "https://www.linkedin.com/jobs/view/4479311588"
   },
+  "vastika-inc:e83e93ada92b": {
+   "company": "Vastika Inc",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4481653447",
+   "first_seen": "2026-10-23",
+   "location": "Pune District, Maharashtra, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Software Engineer",
+   "url": "https://www.linkedin.com/jobs/view/4481653447"
+  },
   "veeam-software:04095544f22b": {
    "company": "Veeam Software",
    "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4479309382",
@@ -89739,6 +93410,21 @@
    "tier": "senior",
    "title": "Senior Software Engineer - Data & Backend",
    "url": "https://www.linkedin.com/jobs/view/4461050684"
+  },
+  "vested-technology:80438f516841": {
+   "comp": "₹20,000 - ₹40,000 / month",
+   "company": "Vested Technology",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "MP, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "mid",
+   "title": "GenAI Application Developer",
+   "url": "https://in.indeed.com/viewjob?jk=bab5c9dd3b28e6c6"
   },
   "vialto:42e5469102a8": {
    "company": "Vialto",
@@ -90444,6 +94130,21 @@
    "title": "Senior Software Engineer",
    "url": "https://www.linkedin.com/jobs/view/4477382149"
   },
+  "virtusa:af0e9a11fbfd": {
+   "comp": "₹12L - ₹22L / yr",
+   "company": "Virtusa",
+   "first_seen": "2026-10-23",
+   "location": "Chennai, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Walk-in || Java Full Stack Developer",
+   "url": "https://www.naukri.com/job-listings-java-full-stack-developer-virtusa-chennai-6-to-11-years-231026029866",
+   "workplace": "Hybrid"
+  },
   "virtusa:b084ad951ff8": {
    "comp": "₹10L - ₹25L / yr",
    "company": "Virtusa",
@@ -90486,6 +94187,20 @@
    "tier": "mid",
    "title": "Software Engineer",
    "url": "https://www.linkedin.com/jobs/view/4477370497"
+  },
+  "virtusa:effee226f393": {
+   "company": "Virtusa",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4480626107",
+   "first_seen": "2026-10-23",
+   "location": "Chennai, Tamil Nadu, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Java Consultant",
+   "url": "https://www.linkedin.com/jobs/view/4480626107"
   },
   "virtusa:f0417659a0de": {
    "company": "Virtusa",
@@ -90881,6 +94596,20 @@
    "tier": "mid",
    "title": "Full Stack Developer",
    "url": "https://vltronics.com/jobs/full-stack-developer/"
+  },
+  "vmc-soft-technologies-inc:15c6dc35ead8": {
+   "company": "VMC Soft Technologies, Inc",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4482843762",
+   "first_seen": "2026-10-23",
+   "location": "Bengaluru, Karnataka, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java FullStack Developer",
+   "url": "https://www.linkedin.com/jobs/view/4482843762"
   },
   "vmultiply-solutions:57d6b14d165b": {
    "company": "VMultiply Solutions",
@@ -91546,6 +95275,44 @@
    "title": "Lead Software Engineer",
    "url": "https://wf.wd1.myworkdayjobs.com/en-US/WellsFargoJobs/job/Hyderabad-India/Lead-Software-Engineer_R-581178"
   },
+  "wells-fargo:344d116bdcca": {
+   "company": "Wells Fargo",
+   "detail_url": "https://wf.wd1.myworkdayjobs.com/wday/cxs/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer_R-580930",
+   "first_seen": "2026-10-23",
+   "location": "Hyderabad, India",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [
+     "React.js",
+     "Apache Kafka",
+     "NoSQL database"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "REST APIs",
+     "Microservices",
+     "Jenkins"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected an AI-driven remediation workflow that cut average fix time by 75% and led the delivery of a Spring Boot microservice that reduced manual handoffs by 40% in a BPM platform.",
+    "reasons": [
+     "6+ years of experience in Java and Spring Boot",
+     "Extensive background in Microservices and REST APIs",
+     "Proven leadership in security remediation and cross-functional team guidance"
+    ],
+    "score": 85,
+    "verdict": "strong"
+   },
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer",
+   "url": "https://wf.wd1.myworkdayjobs.com/en-US/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer_R-580930"
+  },
   "wells-fargo:3629ed784e05": {
    "company": "Wells Fargo",
    "detail_url": "https://wf.wd1.myworkdayjobs.com/wday/cxs/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer_R-565796-1",
@@ -91558,6 +95325,20 @@
    "tier": "senior",
    "title": "Senior Software Engineer",
    "url": "https://wf.wd1.myworkdayjobs.com/en-US/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer_R-565796-1"
+  },
+  "wells-fargo:399f2e8c57ab": {
+   "company": "Wells Fargo",
+   "employment_type": "Full-time",
+   "first_seen": "2026-10-23",
+   "location": "TS, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer",
+   "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer_R-578492"
   },
   "wells-fargo:3e225f41632c": {
    "company": "Wells Fargo",
@@ -91970,6 +95751,44 @@
    "tier": "senior",
    "title": "Senior Software Engineer -  F5 BIG-IP (LTM/GTM/DNS/WAF) and AVI Load Balancers",
    "url": "https://wf.wd1.myworkdayjobs.com/en-US/WellsFargoJobs/job/Bengaluru-India/Senior-Software-Engineer_R-578484"
+  },
+  "wells-fargo:b4020047166e": {
+   "company": "Wells Fargo",
+   "detail_url": "https://wf.wd1.myworkdayjobs.com/wday/cxs/wf/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer_R-580929",
+   "first_seen": "2026-10-23",
+   "location": "Hyderabad, India",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [
+     "React.js",
+     "Apache Kafka",
+     "NoSQL database"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "REST APIs",
+     "Microservices",
+     "Jenkins"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected an AI-driven remediation workflow that cut average security fix time by 75% and led the delivery of a delegation microservice that reduced manual handoffs by 40%.",
+    "reasons": [
+     "6+ years of experience in Java and Spring Boot",
+     "Expertise in Microservices and REST API development",
+     "Background in Cybersecurity and IAM integrations"
+    ],
+    "score": 85,
+    "verdict": "strong"
+   },
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer",
+   "url": "https://wf.wd1.myworkdayjobs.com/en-US/WellsFargoJobs/job/Hyderabad-India/Senior-Software-Engineer_R-580929"
   },
   "wells-fargo:b41bd94a7495": {
    "company": "Wells Fargo",
@@ -92488,6 +96307,20 @@
    "title": "WhatsApp - Software Engineer - Product Generalist",
    "url": "https://www.linkedin.com/jobs/view/4477766355"
   },
+  "where-u-elevate:a1865fc47093": {
+   "company": "Where U Elevate®",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4481686764",
+   "first_seen": "2026-10-23",
+   "location": "Mohali district, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "mid",
+   "title": "Backend (Java) Developer",
+   "url": "https://www.linkedin.com/jobs/view/4481686764"
+  },
   "white-gold:c66dce878c43": {
    "comp": "₹12L - ₹18L / yr",
    "company": "White Gold",
@@ -92516,6 +96349,20 @@
    "tier": "lead",
    "title": "Lead Backend Engineer - Data Platform",
    "url": "https://www.linkedin.com/jobs/view/4463858366"
+  },
+  "wintech-services:642552c46ffa": {
+   "company": "Wintech Services",
+   "first_seen": "2026-10-23",
+   "location": "Hyderabad, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Java Developer",
+   "url": "https://www.naukri.com/job-listings-senior-java-developer-wintech-services-hyderabad-6-to-10-years-231026021819",
+   "workplace": "Work From Office"
   },
   "wipro:0a2827f482b1": {
    "company": "Wipro",
@@ -93571,6 +97418,59 @@
    "title": "Sr. Software Engineer - Java Job",
    "url": "https://www.linkedin.com/jobs/view/4477747181"
   },
+  "yash-technologies-middle-east:f38804531ea4": {
+   "company": "YASH Technologies Middle East",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4480666396",
+   "first_seen": "2026-10-23",
+   "location": "Pune Division, Maharashtra, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "lead",
+   "title": "Module Lead -Java + Angular+AWS Job",
+   "url": "https://www.linkedin.com/jobs/view/4480666396"
+  },
+  "yash-technologies-middle-east:fa0a12c2edcf": {
+   "company": "YASH Technologies Middle East",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4480662570",
+   "first_seen": "2026-10-23",
+   "location": "Pune Division, Maharashtra, India",
+   "match": {
+    "at": "2026-10-23",
+    "basis": "description",
+    "gaps": [
+     "React",
+     "Node.js",
+     "Kubernetes"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "Microservices",
+     "AWS",
+     "REST API"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected an AI-driven remediation workflow that cut average security fix time by 75% and delivered a microservice that reduced manual handoffs by 40% using Java and Spring Boot.",
+    "reasons": [
+     "Senior Software Engineer with 6+ years of experience",
+     "Spring Boot microservices for a BPM platform",
+     "Java 17 and REST API development"
+    ],
+    "score": 75,
+    "verdict": "good"
+   },
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Sr. Software Engineer - Full Stack development-Java Job",
+   "url": "https://www.linkedin.com/jobs/view/4480662570"
+  },
   "yash-technologies:26ccbd34f673": {
    "company": "Yash Technologies",
    "first_seen": "2026-10-02",
@@ -93584,6 +97484,58 @@
    "title": "Full Stack Developer (Java React)",
    "url": "https://www.naukri.com/job-listings-full-stack-developer-java-react-yash-technologies-bengaluru-5-to-10-years-011026501472",
    "workplace": "Work From Office"
+  },
+  "yash-technologies:3b6f9083ea26": {
+   "company": "YASH Technologies",
+   "first_seen": "2026-10-23",
+   "location": "India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "senior",
+   "title": "Sr. Software Engineer - Java",
+   "url": "https://careers.yash.com/job/Sr_-Software-Engineer-Java-Job/1369359466/"
+  },
+  "yash-technologies:6a987e53d0cf": {
+   "company": "YASH Technologies",
+   "first_seen": "2026-10-23",
+   "location": "KA, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "senior",
+   "title": "Sr. Software Engineer - Java",
+   "url": "https://careers.yash.com/job/Sr_-Software-Engineer-Java-Job/1369359666/"
+  },
+  "yash-technologies:871f33ffc68b": {
+   "company": "YASH Technologies",
+   "first_seen": "2026-10-23",
+   "location": "KA, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "lead",
+   "title": "Module Lead - Java",
+   "url": "https://careers.yash.com/job/Module-Lead-Java-Job/1369359866/"
+  },
+  "yash-technologies:f946a2ab146d": {
+   "company": "YASH Technologies",
+   "first_seen": "2026-10-23",
+   "location": "MH, India",
+   "posted_at": "2026-10-23",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "senior",
+   "title": "Sr. Software Engineer - Java",
+   "url": "https://careers.yash.com/job/Pune-Sr_-Software-Engineer-Java-Job/1369351666/"
   },
   "yellow-rides:65a7857b6097": {
    "company": "Yellow Rides",
@@ -93644,6 +97596,7 @@
   },
   "yipitdata:1c479388319e": {
    "company": "YipitData",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4342177243",
    "first_seen": "2026-10-02",
    "location": "India",
    "posted_at": "2026-10-02",
@@ -94027,6 +97980,20 @@
    "tier": "mid",
    "title": "Software Engineer (India) | RQ-0023",
    "url": "https://www.linkedin.com/jobs/view/4479492523"
+  },
+  "zema-global-data-corporation:e6f5e50392fa": {
+   "company": "Zema Global Data Corporation",
+   "first_seen": "2026-10-23",
+   "location": "Navi Mumbai, India",
+   "posted_at": "2026-10-23",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer",
+   "url": "https://www.naukri.com/job-listings-software-engineer-zema-global-data-corporation-navi-mumbai-4-to-8-years-231026022507",
+   "workplace": "Hybrid"
   },
   "zenith-consultants-software:22cae34dc042": {
    "company": "Zenith Consultants Software",
@@ -94723,7 +98690,7 @@
  "sources": {
   "Accenture": {
    "best": 384,
-   "last": 200,
+   "last": 100,
    "last_ok": "2026-10-23"
   },
   "Adobe": {
@@ -94738,17 +98705,17 @@
   },
   "Airbnb": {
    "best": 194,
-   "last": 192,
+   "last": 193,
    "last_ok": "2026-10-23"
   },
   "Amazon": {
    "best": 247,
-   "last": 219,
+   "last": 221,
    "last_ok": "2026-10-23"
   },
   "Applied Materials": {
    "best": 134,
-   "last": 131,
+   "last": 130,
    "last_ok": "2026-10-23"
   },
   "Athenahealth": {
@@ -94783,7 +98750,7 @@
   },
   "Broadridge": {
    "best": 40,
-   "last": 22,
+   "last": 27,
    "last_ok": "2026-10-23"
   },
   "CRED": {
@@ -94792,28 +98759,28 @@
    "last_ok": "2026-10-23"
   },
   "Capital One": {
-   "best": 256,
-   "last": 255,
+   "best": 261,
+   "last": 261,
    "last_ok": "2026-10-23"
   },
   "Ciena": {
-   "best": 10,
-   "last": 10,
+   "best": 11,
+   "last": 11,
    "last_ok": "2026-10-23"
   },
   "Cisco": {
    "best": 268,
-   "last": 264,
+   "last": 267,
    "last_ok": "2026-10-23"
   },
   "Citi": {
    "best": 292,
-   "last": 278,
+   "last": 267,
    "last_ok": "2026-10-23"
   },
   "Cloudflare": {
    "best": 448,
-   "last": 446,
+   "last": 447,
    "last_ok": "2026-10-23"
   },
   "Coinbase": {
@@ -94823,12 +98790,12 @@
   },
   "Databricks": {
    "best": 902,
-   "last": 900,
+   "last": 896,
    "last_ok": "2026-10-23"
   },
   "Datadog": {
    "best": 445,
-   "last": 439,
+   "last": 437,
    "last_ok": "2026-10-23"
   },
   "Deutsche Bank": {
@@ -94838,17 +98805,17 @@
   },
   "Druva": {
    "best": 35,
-   "last": 32,
+   "last": 31,
    "last_ok": "2026-10-23"
   },
   "Elastic": {
    "best": 395,
-   "last": 392,
+   "last": 395,
    "last_ok": "2026-10-23"
   },
   "Expedia": {
    "best": 134,
-   "last": 131,
+   "last": 128,
    "last_ok": "2026-10-23"
   },
   "Experian": {
@@ -94863,12 +98830,12 @@
   },
   "Fivetran": {
    "best": 188,
-   "last": 170,
+   "last": 169,
    "last_ok": "2026-10-23"
   },
   "Flexport": {
    "best": 212,
-   "last": 194,
+   "last": 193,
    "last_ok": "2026-10-23"
   },
   "Freshworks": {
@@ -94893,7 +98860,7 @@
   },
   "HP": {
    "best": 94,
-   "last": 70,
+   "last": 71,
    "last_ok": "2026-10-23"
   },
   "HackerRank": {
@@ -94903,7 +98870,7 @@
   },
   "Harvey": {
    "best": 350,
-   "last": 347,
+   "last": 349,
    "last_ok": "2026-10-23"
   },
   "Hevo Data": {
@@ -94918,17 +98885,17 @@
   },
   "InMobi": {
    "best": 82,
-   "last": 80,
+   "last": 82,
    "last_ok": "2026-10-23"
   },
   "Indeed India (JobSpy)": {
    "best": 255,
-   "last": 226,
+   "last": 229,
    "last_ok": "2026-10-23"
   },
   "Intel": {
-   "best": 192,
-   "last": 192,
+   "best": 194,
+   "last": 194,
    "last_ok": "2026-10-23"
   },
   "Komodo Health": {
@@ -94938,7 +98905,7 @@
   },
   "LinkedIn (JobSpy)": {
    "best": 477,
-   "last": 318,
+   "last": 347,
    "last_ok": "2026-10-23"
   },
   "Lowe's": {
@@ -94948,17 +98915,17 @@
   },
   "Mastercard": {
    "best": 275,
-   "last": 264,
+   "last": 267,
    "last_ok": "2026-10-23"
   },
   "Meesho": {
    "best": 59,
-   "last": 59,
+   "last": 58,
    "last_ok": "2026-10-23"
   },
   "Mindtickle": {
    "best": 21,
-   "last": 20,
+   "last": 21,
    "last_ok": "2026-10-23"
   },
   "Mixpanel": {
@@ -94968,12 +98935,12 @@
   },
   "MongoDB": {
    "best": 404,
-   "last": 388,
+   "last": 387,
    "last_ok": "2026-10-23"
   },
   "Morgan Stanley": {
    "best": 102,
-   "last": 95,
+   "last": 94,
    "last_ok": "2026-10-23"
   },
   "Motorola Solutions": {
@@ -94983,17 +98950,17 @@
   },
   "Naukri (JobSpy)": {
    "best": 399,
-   "last": 363,
+   "last": 350,
    "last_ok": "2026-10-23"
   },
   "Netskope": {
    "best": 151,
-   "last": 126,
+   "last": 130,
    "last_ok": "2026-10-23"
   },
   "New Relic": {
    "best": 58,
-   "last": 56,
+   "last": 57,
    "last_ok": "2026-10-23"
   },
   "NielsenIQ": {
@@ -95003,7 +98970,7 @@
   },
   "Nike": {
    "best": 175,
-   "last": 164,
+   "last": 163,
    "last_ok": "2026-10-23"
   },
   "Notion": {
@@ -95013,27 +98980,27 @@
   },
   "Nvidia": {
    "best": 156,
-   "last": 152,
+   "last": 151,
    "last_ok": "2026-10-23"
   },
   "Okta": {
    "best": 399,
-   "last": 396,
+   "last": 390,
    "last_ok": "2026-10-23"
   },
   "PayPal": {
    "best": 170,
-   "last": 164,
+   "last": 166,
    "last_ok": "2026-10-23"
   },
   "Paytm": {
-   "best": 196,
-   "last": 196,
+   "best": 197,
+   "last": 197,
    "last_ok": "2026-10-23"
   },
   "PubMatic": {
    "best": 86,
-   "last": 84,
+   "last": 85,
    "last_ok": "2026-10-23"
   },
   "Red Hat": {
@@ -95043,12 +99010,12 @@
   },
   "Roblox": {
    "best": 268,
-   "last": 265,
+   "last": 263,
    "last_ok": "2026-10-23"
   },
   "Rubrik": {
    "best": 148,
-   "last": 147,
+   "last": 148,
    "last_ok": "2026-10-23"
   },
   "Sabre": {
@@ -95058,17 +99025,17 @@
   },
   "Salesforce": {
    "best": 113,
-   "last": 108,
+   "last": 109,
    "last_ok": "2026-10-23"
   },
   "Samsara": {
    "best": 287,
-   "last": 279,
+   "last": 278,
    "last_ok": "2026-10-23"
   },
   "Sarvam AI": {
    "best": 59,
-   "last": 42,
+   "last": 44,
    "last_ok": "2026-10-23"
   },
   "ServiceNow": {
@@ -95077,28 +99044,28 @@
    "last_ok": "2026-10-23"
   },
   "Sigmoid": {
-   "best": 38,
-   "last": 38,
+   "best": 39,
+   "last": 39,
    "last_ok": "2026-10-23"
   },
   "Snowflake": {
    "best": 362,
-   "last": 351,
+   "last": 353,
    "last_ok": "2026-10-23"
   },
   "State Street": {
    "best": 161,
-   "last": 147,
+   "last": 148,
    "last_ok": "2026-10-23"
   },
   "Stripe": {
    "best": 732,
-   "last": 728,
+   "last": 724,
    "last_ok": "2026-10-23"
   },
   "Target": {
    "best": 66,
-   "last": 58,
+   "last": 62,
    "last_ok": "2026-10-23"
   },
   "Thomson Reuters": {
@@ -95113,12 +99080,12 @@
   },
   "Twilio": {
    "best": 145,
-   "last": 131,
+   "last": 132,
    "last_ok": "2026-10-23"
   },
   "Verizon": {
    "best": 149,
-   "last": 148,
+   "last": 147,
    "last_ok": "2026-10-23"
   },
   "Waymo": {
@@ -95128,12 +99095,12 @@
   },
   "Wells Fargo": {
    "best": 105,
-   "last": 89,
+   "last": 102,
    "last_ok": "2026-10-23"
   },
   "Workday": {
    "best": 29,
-   "last": 27,
+   "last": 25,
    "last_ok": "2026-10-23"
   },
   "Yugabyte": {
@@ -95148,15 +99115,15 @@
   },
   "Zscaler": {
    "best": 370,
-   "last": 353,
+   "last": 352,
    "last_ok": "2026-10-23"
   },
   "eBay": {
    "best": 88,
-   "last": 84,
+   "last": 85,
    "last_ok": "2026-10-23"
   }
  },
- "updated": "2026-10-23T05:52:55Z",
+ "updated": "2026-10-23T14:16:58Z",
  "version": 1
 }
