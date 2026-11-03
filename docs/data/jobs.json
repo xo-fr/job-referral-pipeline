@@ -4,6 +4,31 @@
    "company": "01 Systems",
    "first_seen": "2026-11-02",
    "location": "India",
+   "match": {
+    "at": "2026-11-03",
+    "basis": "title",
+    "gaps": [
+     "Full description",
+     "Frontend framework",
+     "Fullstack experience"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "REST API",
+     "Microservices",
+     "SQL"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected a delegation microservice in Spring Boot that reduced manual handoffs by 40% and optimized REST API latency by 300ms through Redis caching and JVM tuning.",
+    "reasons": [
+     "Senior Software Engineer with 6+ years of experience",
+     "Java and Spring Boot backend expertise",
+     "REST API and microservices architecture"
+    ],
+    "score": 60,
+    "verdict": "stretch"
+   },
    "posted_at": "2026-11-02",
    "role": "fullstack",
    "soft_dedupe": true,
@@ -997,6 +1022,28 @@
    "company": "Aaram Developers",
    "first_seen": "2026-11-02",
    "location": "Coimbatore, India",
+   "match": {
+    "at": "2026-11-03",
+    "basis": "title",
+    "gaps": [
+     "Full description",
+     "Dotnet",
+     "Python"
+    ],
+    "keywords": [
+     "Java",
+     "Python"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected and shipped a delegation microservice in Spring Boot that reduced manual handoffs by 40% and optimized REST API latency by 28% through request restructuring and Redis caching.",
+    "reasons": [
+     "6+ years of Java backend experience",
+     "Experience with Spring Boot microservices",
+     "Proven track record in enterprise system design"
+    ],
+    "score": 60,
+    "verdict": "stretch"
+   },
    "posted_at": "2026-11-02",
    "role": "java",
    "soft_dedupe": true,
@@ -1559,6 +1606,31 @@
    "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4296478383",
    "first_seen": "2026-11-02",
    "location": "Bengaluru, Karnataka, India",
+   "match": {
+    "at": "2026-11-03",
+    "basis": "description",
+    "gaps": [
+     "Apache ecosystem contributions",
+     "Distributed computing",
+     "Hadoop"
+    ],
+    "keywords": [
+     "Java",
+     "Python",
+     "AWS",
+     "Kubernetes",
+     "SQL"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected an AI-driven remediation workflow that cut average security fix time by 75% and delivered a delegation microservice that reduced manual handoffs by 40%.",
+    "reasons": [
+     "6+ years of Java backend experience",
+     "Spring Boot microservices architecture",
+     "AWS cloud and distributed systems expertise"
+    ],
+    "score": 75,
+    "verdict": "good"
+   },
    "posted_at": "2026-11-02",
    "role": "platform",
    "soft_dedupe": true,
@@ -1610,6 +1682,28 @@
    "company": "Accelerated Intelligence Operating Models",
    "first_seen": "2026-11-02",
    "location": "India",
+   "match": {
+    "at": "2026-11-03",
+    "basis": "title",
+    "gaps": [
+     "Full description"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "Microservices",
+     "AWS"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected and delivered a delegation microservice in Spring Boot that reduced manual handoffs by 40% and led the remediation of 1,200+ security vulnerabilities to secure a $10M ARR renewal.",
+    "reasons": [
+     "Senior Software Engineer title",
+     "Java backend experience",
+     "Spring Boot and Microservices expertise"
+    ],
+    "score": 60,
+    "verdict": "stretch"
+   },
    "posted_at": "2026-11-02",
    "role": "java",
    "soft_dedupe": true,
@@ -2115,6 +2209,31 @@
    "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4486402430",
    "first_seen": "2026-11-02",
    "location": "Pune Division, Maharashtra, India",
+   "match": {
+    "at": "2026-11-03",
+    "basis": "description",
+    "gaps": [
+     "12+ years experience",
+     "React.js",
+     "Frontend integration"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "RESTful API",
+     "SQL",
+     "AWS"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected an AI-driven remediation workflow that cut average security fix time by 75% and delivered a delegation microservice in Spring Boot that reduced manual handoffs by 40%.",
+    "reasons": [
+     "Senior Software Engineer with 6+ years of experience",
+     "Java and Spring Boot backend expertise",
+     "Architected enterprise-scale microservices"
+    ],
+    "score": 45,
+    "verdict": "poor"
+   },
    "posted_at": "2026-11-02",
    "role": "software",
    "soft_dedupe": true,
@@ -3895,6 +4014,23 @@
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5483246-S2003028-1"
   },
+  "accenture:162d98639edd": {
+   "company": "Accenture",
+   "detail_url": "https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/job/Chennai/Software-Development-Engineer_ATCI-5098125-S1886281-1",
+   "first_seen": "2026-11-03",
+   "location": "Chennai",
+   "match_error": {
+    "attempts": 1,
+    "last": "503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite:generateContent"
+   },
+   "posted_at": "2026-10-04",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Custom Software Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Chennai/Software-Development-Engineer_ATCI-5098125-S1886281-1"
+  },
   "accenture:163ee2092def": {
    "company": "Accenture",
    "detail_url": "https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/job/Bengaluru/Application-Developer_ATCI-5806024-S2072037-1",
@@ -4845,6 +4981,23 @@
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5396778-S1961592-1"
   },
+  "accenture:226dfe70fd0b": {
+   "company": "Accenture",
+   "detail_url": "https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/job/Nagpur/Application-Lead_ATCI-5146684-S1895449-1",
+   "first_seen": "2026-11-03",
+   "location": "Nagpur",
+   "match_error": {
+    "attempts": 1,
+    "last": "503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite:generateContent"
+   },
+   "posted_at": "2026-10-04",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Custom Software Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Nagpur/Application-Lead_ATCI-5146684-S1895449-1"
+  },
   "accenture:2271e81b29cd": {
    "company": "Accenture",
    "detail_url": "https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/job/Pune/Custom-Software-Engineer_ATCI-5594607-S2026403-1",
@@ -5770,6 +5923,38 @@
    "tier": "lead",
    "title": "Lead Backend - Java 3",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Kochi/Lead-Backend---Java-3_R00357543"
+  },
+  "accenture:2d41e1a33028": {
+   "company": "Accenture",
+   "detail_url": "https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/job/Kolkata/Application-Lead_ATCI-5223673-S1917638-1",
+   "first_seen": "2026-11-03",
+   "location": "Kolkata",
+   "match": {
+    "at": "2026-11-03",
+    "basis": "description",
+    "gaps": [
+     "ServiceNow App Engine",
+     "ServiceNow Customer Service Management (CSM)",
+     "Configuration management"
+    ],
+    "keywords": [],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I have 6+ years of experience architecting enterprise-scale backend systems, including leading a team to remediate 1,200+ security vulnerabilities and enabling a $10M ARR renewal.",
+    "reasons": [
+     "Senior Software Engineer with 6+ years of experience",
+     "Architected enterprise-scale backend systems",
+     "Led cross-functional teams"
+    ],
+    "score": 40,
+    "verdict": "poor"
+   },
+   "posted_at": "2026-10-04",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Custom Software Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Kolkata/Application-Lead_ATCI-5223673-S1917638-1"
   },
   "accenture:2d63822bd16f": {
    "company": "Accenture",
@@ -10710,6 +10895,23 @@
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Custom-Software-Engineer_ATCI-5701803-S2064451-1"
   },
+  "accenture:6822de9fbf5b": {
+   "company": "Accenture",
+   "detail_url": "https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/job/Hyderabad/Software-Development-Engineer_ATCI-5090713-S1882500-1",
+   "first_seen": "2026-11-03",
+   "location": "Hyderabad",
+   "match_error": {
+    "attempts": 1,
+    "last": "503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite:generateContent"
+   },
+   "posted_at": "2026-10-04",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Custom Software Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Software-Development-Engineer_ATCI-5090713-S1882500-1"
+  },
   "accenture:687ba089b7eb": {
    "company": "Accenture",
    "detail_url": "https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/job/Hyderabad/Custom-Software-Engineering-Lead_ATCI-5777790-S2069571-1",
@@ -13401,6 +13603,23 @@
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5669763-S2056646-1"
   },
+  "accenture:8b4dc9cab1cb": {
+   "company": "Accenture",
+   "detail_url": "https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/job/Chennai/Application-Lead_ATCI-5046172-S1870767",
+   "first_seen": "2026-11-03",
+   "location": "Chennai",
+   "match_error": {
+    "attempts": 1,
+    "last": "503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite:generateContent"
+   },
+   "posted_at": "2026-10-16",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Custom Software Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Chennai/Application-Lead_ATCI-5046172-S1870767"
+  },
   "accenture:8b74c03cfeb2": {
    "company": "Accenture",
    "detail_url": "https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/job/Gurugram/Custom-Software-Engineering-Lead_ATCI-5743538-S2068611-1",
@@ -16030,6 +16249,23 @@
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Chennai/Custom-Software-Engineer_ATCI-5668139-S2059627-1"
   },
+  "accenture:aa284d2db949": {
+   "company": "Accenture",
+   "detail_url": "https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/job/Coimbatore/Application-Designer_ATCI-4566126-S1794566-1",
+   "first_seen": "2026-11-03",
+   "location": "Coimbatore",
+   "match_error": {
+    "attempts": 1,
+    "last": "503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite:generateContent"
+   },
+   "posted_at": "2026-10-04",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Custom Software Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Coimbatore/Application-Designer_ATCI-4566126-S1794566-1"
+  },
   "accenture:aa5e9355fb2f": {
    "company": "Accenture",
    "detail_url": "https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/job/Hyderabad/Custom-Software-Engineering-Lead_ATCI-5777783-S2069572-1",
@@ -17325,6 +17561,7 @@
   },
   "accenture:b822f1b10bca": {
    "company": "Accenture",
+   "detail_url": "https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5094429-S1928022-1",
    "first_seen": "2026-10-02",
    "location": "",
    "posted_at": "2026-10-01",
@@ -19253,6 +19490,23 @@
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5436807-S1978299-1"
   },
+  "accenture:cdf48b37c54f": {
+   "company": "Accenture",
+   "detail_url": "https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/job/Hyderabad/Software-Development-Engineer_ATCI-5098115-S1886282-1",
+   "first_seen": "2026-11-03",
+   "location": "Hyderabad",
+   "match_error": {
+    "attempts": 1,
+    "last": "503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite:generateContent"
+   },
+   "posted_at": "2026-10-04",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Custom Software Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Software-Development-Engineer_ATCI-5098115-S1886282-1"
+  },
   "accenture:ce4ed3bde4d1": {
    "company": "Accenture",
    "detail_url": "https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/job/Hyderabad/Full-Stack-Engineer_ATCI-5803540-S2071478-1",
@@ -19747,6 +20001,36 @@
    "tier": "mid",
    "title": "Custom Software Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Bengaluru/Custom-Software-Engineer_ATCI-5822242-S2072018-1"
+  },
+  "accenture:d42c5188c755": {
+   "company": "Accenture",
+   "detail_url": "https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/job/Hyderabad/Application-Lead_ATCI-5146672-S1895499-1",
+   "first_seen": "2026-11-03",
+   "location": "Hyderabad",
+   "match": {
+    "at": "2026-11-03",
+    "basis": "description",
+    "gaps": [
+     "ServiceNow App Engine"
+    ],
+    "keywords": [],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I have 6+ years of experience architecting enterprise-scale backend systems, including a delegation microservice in Spring Boot that reduced manual handoffs by 40%.",
+    "reasons": [
+     "Senior Software Engineer with 6+ years of experience",
+     "Backend systems using Java and Spring Boot",
+     "Architected AI-driven remediation workflows"
+    ],
+    "score": 40,
+    "verdict": "poor"
+   },
+   "posted_at": "2026-10-04",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Custom Software Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Application-Lead_ATCI-5146672-S1895499-1"
   },
   "accenture:d44bd25a6db5": {
    "company": "Accenture",
@@ -21263,6 +21547,36 @@
    "tier": "mid",
    "title": "Full Stack Engineer",
    "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Hyderabad/Full-Stack-Engineer_ATCI-5803537-S2071480-1"
+  },
+  "accenture:eb78a78096e8": {
+   "company": "Accenture",
+   "detail_url": "https://accenture.wd103.myworkdayjobs.com/wday/cxs/accenture/AccentureCareers/job/Mumbai/Quality-Engineer--Tester-_ATCI-5090718-S1882495-1",
+   "first_seen": "2026-11-03",
+   "location": "Mumbai",
+   "match": {
+    "at": "2026-11-03",
+    "basis": "description",
+    "gaps": [
+     "Manufacturing Engineering MES"
+    ],
+    "keywords": [],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected an AI-driven remediation workflow that cut average security vulnerability fix time by 75% and enabled a $10M ARR renewal.",
+    "reasons": [
+     "Senior Software Engineer with 6+ years of experience",
+     "Backend systems using Java and Spring Boot",
+     "Architected enterprise-scale microservices"
+    ],
+    "score": 40,
+    "verdict": "poor"
+   },
+   "posted_at": "2026-10-04",
+   "role": "software",
+   "source": "workday",
+   "status": "new",
+   "tier": "mid",
+   "title": "Custom Software Engineer",
+   "url": "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers/job/Mumbai/Quality-Engineer--Tester-_ATCI-5090718-S1882495-1"
   },
   "accenture:eb9846603831": {
    "company": "Accenture",
@@ -23239,6 +23553,31 @@
    "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4485462420",
    "first_seen": "2026-11-02",
    "location": "Bengaluru, Karnataka, India",
+   "match": {
+    "at": "2026-11-03",
+    "basis": "description",
+    "gaps": [
+     "Apache Kafka",
+     "Kubernetes",
+     "MongoDB"
+    ],
+    "keywords": [
+     "Java",
+     "Microservices",
+     "AWS",
+     "PostgreSQL",
+     "Docker"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected an AI-driven remediation workflow that cut average security vulnerability fix time by 75% and led the development of a delegation microservice that reduced manual handoffs by 40%.",
+    "reasons": [
+     "6+ years of Java backend experience",
+     "Spring Boot microservices architecture",
+     "AWS cloud services and SQL/NoSQL databases"
+    ],
+    "score": 80,
+    "verdict": "good"
+   },
    "posted_at": "2026-11-02",
    "role": "java",
    "soft_dedupe": true,
@@ -23742,6 +24081,23 @@
    "company": "Adecco India",
    "first_seen": "2026-11-02",
    "location": "Bengaluru, India",
+   "match": {
+    "at": "2026-11-03",
+    "basis": "title",
+    "gaps": [
+     "Full description"
+    ],
+    "keywords": [],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected a delegation microservice in Spring Boot that reduced manual handoffs by 40% and led the remediation of 1,200+ security vulnerabilities to secure a $10M ARR renewal.",
+    "reasons": [
+     "6+ years of experience in backend development",
+     "Expertise in Java and Spring Boot",
+     "Proven track record in enterprise-scale systems"
+    ],
+    "score": 60,
+    "verdict": "stretch"
+   },
    "posted_at": "2026-11-02",
    "role": "software",
    "soft_dedupe": true,
@@ -24285,6 +24641,29 @@
    "company": "Advance Career Solutions",
    "first_seen": "2026-11-02",
    "location": "Hyderabad, Chennai, Bengaluru, India",
+   "match": {
+    "at": "2026-11-03",
+    "basis": "title",
+    "gaps": [
+     "Full description",
+     "Frontend framework",
+     "Full stack experience"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "SQL"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected a delegation microservice in Spring Boot that reduced manual handoffs by 40% and led the remediation of 1,200+ security vulnerabilities to secure a $10M ARR renewal.",
+    "reasons": [
+     "Senior Software Engineer title",
+     "6+ years of Java backend experience",
+     "Spring Boot microservices development"
+    ],
+    "score": 60,
+    "verdict": "stretch"
+   },
    "posted_at": "2026-11-02",
    "role": "java",
    "soft_dedupe": true,
@@ -25724,6 +26103,31 @@
    "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4414653471",
    "first_seen": "2026-11-02",
    "location": "Bengaluru East, Karnataka, India",
+   "match": {
+    "at": "2026-11-03",
+    "basis": "description",
+    "gaps": [
+     "C#/.NET",
+     "Azure",
+     "7+ years experience"
+    ],
+    "keywords": [
+     "SQL",
+     "REST API",
+     "Microservices",
+     "Cloud",
+     "DevOps"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected and shipped no-fix vulnerability support for the Nexpose security console, directly enabling a $10M ARR renewal.",
+    "reasons": [
+     "Primary language Java instead of C#/.NET",
+     "Experience with microservices and REST APIs",
+     "Experience with cloud-native development"
+    ],
+    "score": 45,
+    "verdict": "poor"
+   },
    "posted_at": "2026-11-02",
    "role": "platform",
    "soft_dedupe": true,
@@ -26387,6 +26791,29 @@
    "employment_type": "Contract",
    "first_seen": "2026-11-02",
    "location": "UP, India",
+   "match": {
+    "at": "2026-11-03",
+    "basis": "title",
+    "gaps": [
+     "Full description",
+     "Frontend framework",
+     "Full stack experience"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "REST API"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected and shipped a delegation microservice in Spring Boot that reduced manual handoffs by 40% and optimized REST API latency by 300ms across 12 endpoints.",
+    "reasons": [
+     "Senior Software Engineer with 6+ years of experience",
+     "Java and Spring Boot backend expertise",
+     "REST API and microservices architecture"
+    ],
+    "score": 60,
+    "verdict": "stretch"
+   },
    "posted_at": "2026-11-02",
    "role": "java",
    "soft_dedupe": true,
@@ -26601,6 +27028,24 @@
    "company": "Allegis Group",
    "first_seen": "2026-11-02",
    "location": "Hyderabad, Pune, India",
+   "match": {
+    "at": "2026-11-03",
+    "basis": "title",
+    "gaps": [
+     "As400",
+     "Full description"
+    ],
+    "keywords": [],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected and shipped a delegation microservice in Spring Boot that reduced manual handoffs by 40% and optimized REST API latency by 28% through Redis caching and JVM tuning.",
+    "reasons": [
+     "Senior Software Engineer title",
+     "6+ years of experience",
+     "Java and Spring Boot expertise"
+    ],
+    "score": 45,
+    "verdict": "poor"
+   },
    "posted_at": "2026-11-02",
    "role": "software",
    "soft_dedupe": true,
@@ -55099,6 +55544,43 @@
    "title": "Java Application Development",
    "url": "https://www.linkedin.com/jobs/view/4484856946"
   },
+  "citi:3f8ec6ea1eb2": {
+   "company": "Citi",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-03",
+   "location": "TN, India",
+   "match": {
+    "at": "2026-11-03",
+    "basis": "description",
+    "gaps": [
+     "React JS"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "Microservices",
+     "REST",
+     "CI/CD"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected and delivered a delegation microservice in Spring Boot that reduced manual handoffs by 40% and have extensive experience building enterprise-scale backend systems.",
+    "reasons": [
+     "6+ years of experience with Java and Spring Boot",
+     "Architected and shipped microservices for BPM platform",
+     "Strong background in REST APIs and backend system design"
+    ],
+    "score": 75,
+    "verdict": "good"
+   },
+   "posted_at": "2026-11-02",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java React Full stack Developer",
+   "url": "https://jobs.citi.com/job/chennai/java-react-full-stack-developer/287/102756311088"
+  },
   "citi:42f4f32af35c": {
    "company": "Citi",
    "detail_url": "https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/job/DLF-CYBERCITY-12B/Java-Fullstack-Developer_26998680",
@@ -57534,6 +58016,45 @@
    "title": "Senior Java Fullstack Developer",
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/1124-SHIVAJI-GARDENS-MOONLI/Java-Application-DBA_261002304"
   },
+  "citi:ca527ec26431": {
+   "company": "Citi",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-03",
+   "location": "MH, India",
+   "match": {
+    "at": "2026-11-03",
+    "basis": "description",
+    "gaps": [
+     "Frontend frameworks (Angular/React)",
+     "Kubernetes",
+     "GraphQL"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "Microservices",
+     "REST API",
+     "AWS"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected and shipped a no-fix vulnerability support system for the Nexpose console, which directly enabled a $10M ARR renewal for the business.",
+    "reasons": [
+     "6+ years of experience with Java and Spring Boot",
+     "Extensive background in microservices and REST API development",
+     "Proven track record in cloud-native development and AWS"
+    ],
+    "score": 75,
+    "verdict": "good"
+   },
+   "posted_at": "2026-11-02",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Full Stack Developer",
+   "url": "https://jobs.citi.com/job/pune/java-full-stack-developer/287/102756323792"
+  },
   "citi:ca850b80fc90": {
    "company": "Citi",
    "detail_url": "https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/job/Pune-Maharashtra-India/Applications-Developer_261001434",
@@ -58104,6 +58625,45 @@
    "tier": "mid",
    "title": "Full Stack Developer",
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/1124-SHIVAJI-GARDENS-MOONLI/Full-Stack-Developer_26996736"
+  },
+  "citi:f64485f0bebf": {
+   "company": "Citi",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-03",
+   "location": "MH, India",
+   "match": {
+    "at": "2026-11-03",
+    "basis": "description",
+    "gaps": [
+     "Angular",
+     "Openshift",
+     "APIGEE"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "Hibernate",
+     "PostgreSQL",
+     "Redis"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected a delegation microservice in Spring Boot that reduced manual handoffs by 40% and optimized REST API latency by 28% through Redis caching and JVM tuning.",
+    "reasons": [
+     "Senior Java backend experience with Spring Boot and Microservices",
+     "Proven performance optimization with Redis and JVM tuning",
+     "Experience with REST API design and security implementations"
+    ],
+    "score": 65,
+    "verdict": "stretch"
+   },
+   "posted_at": "2026-11-02",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Full Stack Developer with Angular",
+   "url": "https://jobs.citi.com/job/pune/java-full-stack-developer-with-angular/287/102756314960"
   },
   "citi:f69ac3092241": {
    "company": "Citi",
@@ -60792,6 +61352,41 @@
    "tier": "mid",
    "title": "Amazon Connect developer",
    "url": "https://www.linkedin.com/jobs/view/4479385281"
+  },
+  "cognizant:0c26a4feb761": {
+   "company": "Cognizant",
+   "first_seen": "2026-11-03",
+   "location": "Bangalore Rural, Bengaluru, India",
+   "match": {
+    "at": "2026-11-03",
+    "basis": "title",
+    "gaps": [
+     "Kafka",
+     "Full description"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected a delegation microservice in Spring Boot that reduced manual handoffs by 40% and optimized REST API latency by 28% through request restructuring and Redis caching.",
+    "reasons": [
+     "Senior Software Engineer with 6+ years of experience",
+     "Enterprise-scale backend systems using Java and Spring Boot",
+     "Microservices architecture experience"
+    ],
+    "score": 60,
+    "verdict": "stretch"
+   },
+   "posted_at": "2026-11-02",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Java Developer with Kafka",
+   "url": "https://www.naukri.com/job-listings-senior-java-developer-with-kafka-cognizant-bangalore-rural-bengaluru-6-to-11-years-061026009909",
+   "workplace": "Hybrid"
   },
   "cognizant:0ec9b9ff69f6": {
    "company": "Cognizant",
@@ -92696,6 +93291,44 @@
    "title": "Senior Engineer Product Engineering",
    "url": "https://jobs.infineon.com/careers/job/563808971723522?utm_source=indeed&domain=infineon.com"
   },
+  "infinite-computer-solution:190bf56ad0fc": {
+   "company": "infinite Computer Solution",
+   "first_seen": "2026-11-03",
+   "location": "KA, India",
+   "match": {
+    "at": "2026-11-03",
+    "basis": "description",
+    "gaps": [
+     "Angular",
+     "TypeScript",
+     "MongoDB"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "Spring Data JPA",
+     "Microservices",
+     "AWS"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected an AI-driven remediation workflow that cut average security fix time by 75% and delivered a delegation microservice in Spring Boot that reduced manual handoffs by 40%.",
+    "reasons": [
+     "6+ years of experience with Java and Spring Boot",
+     "Architected AI-driven remediation workflows using LLMs",
+     "Extensive experience with microservices and REST APIs"
+    ],
+    "score": 75,
+    "verdict": "good"
+   },
+   "posted_at": "2026-11-02",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer",
+   "url": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=26656&siteid=5008&PageType=JobDetails&jobid=59272"
+  },
   "infinite-computer-solution:e7626a56fadd": {
    "company": "infinite Computer Solution",
    "first_seen": "2026-10-26",
@@ -111114,6 +111747,45 @@
    "url": "https://in.indeed.com/viewjob?jk=fa3979370fbbb2bc",
    "workplace": "Remote"
   },
+  "mactores:cb2fbbae5a19": {
+   "company": "Mactores",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4486476852",
+   "first_seen": "2026-11-03",
+   "location": "Itanagar, Arunachal Pradesh, India",
+   "match": {
+    "at": "2026-11-03",
+    "basis": "description",
+    "gaps": [
+     "Amazon EKS production experience",
+     "Saga pattern implementation",
+     "US Mountain Time zone availability"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "Microservices",
+     "AWS",
+     "SQL"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I have extensive experience architecting Java microservices and optimizing complex Oracle SQL, including a project where I reduced REST API latency by 28% through JVM tuning and query optimization.",
+    "reasons": [
+     "6+ years of Java and Spring Boot experience",
+     "Proven background in Oracle SQL optimization and migration",
+     "Extensive AWS cloud and microservices architecture experience"
+    ],
+    "score": 90,
+    "verdict": "strong"
+   },
+   "posted_at": "2026-11-03",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Mactores - Senior Java Engineer - Application &amp; Database Modernization",
+   "url": "https://www.linkedin.com/jobs/view/4486476852"
+  },
   "made-by-fire:3af9821790fa": {
    "company": "Made by Fire",
    "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4485152232",
@@ -120476,6 +121148,43 @@
    "title": "Application Support Senior Software Engineer",
    "url": "https://app.jobvite.com/CompanyJobs/Job.aspx?j=oaOXAfwf&s=Indeed"
   },
+  "nest-digital:07ffc7530684": {
+   "company": "NeST Digital",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-03",
+   "location": "TN, India",
+   "match": {
+    "at": "2026-11-03",
+    "basis": "description",
+    "gaps": [
+     "Node.js"
+    ],
+    "keywords": [
+     "Java",
+     "Python",
+     "AWS",
+     "REST API",
+     "Docker"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected an AI-driven remediation workflow that cut average fix time by 75% and led the migration of AWS SDK v1 to v2 across 5+ repositories to ensure long-term support compliance.",
+    "reasons": [
+     "6+ years of experience with Java and Spring Boot",
+     "Extensive AWS experience including Lambda and EC2",
+     "Proven track record with REST APIs and microservices"
+    ],
+    "score": 85,
+    "verdict": "strong"
+   },
+   "posted_at": "2026-11-02",
+   "role": "platform",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer - Cloud Services",
+   "url": "https://careers.nestdigital.com/apply?job=2757"
+  },
   "nest-digital:6a52431fddae": {
    "comp": "₹5L - ₹15L / yr",
    "company": "Nest Digital",
@@ -120491,6 +121200,42 @@
    "url": "https://www.naukri.com/job-listings-software-engineer-cuda-developer-nest-digital-bangalore-rural-3-to-5-years-161026009130",
    "workplace": "Work From Office"
   },
+  "nest-digital:a8f59a770eb9": {
+   "company": "NeST Digital",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-03",
+   "location": "TN, India",
+   "match": {
+    "at": "2026-11-03",
+    "basis": "description",
+    "gaps": [
+     "Node.js",
+     "React or Angular with TypeScript",
+     "7+ years experience"
+    ],
+    "keywords": [
+     "Java APIs",
+     "OAuth 2.0"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected a custom OAuth 2.0 middleware API for Tibco AMX BPM, securing access to 10+ services and reducing access-related support tickets.",
+    "reasons": [
+     "Java APIs and OAuth 2.0 experience",
+     "6+ years of backend engineering",
+     "API security and microservices architecture"
+    ],
+    "score": 45,
+    "verdict": "poor"
+   },
+   "posted_at": "2026-11-02",
+   "role": "platform",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "mid",
+   "title": "Software Engineer - Cloud Services",
+   "url": "https://careers.nestdigital.com/apply?job=2754"
+  },
   "nest-digital:cdc46fcb5016": {
    "company": "NeST Digital",
    "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4479527926",
@@ -120504,6 +121249,45 @@
    "tier": "mid",
    "title": "Software Engineer - Java Developer (Struts & EJB)",
    "url": "https://www.linkedin.com/jobs/view/4479527926"
+  },
+  "nest-digital:d703193781a5": {
+   "company": "NeST Digital",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-03",
+   "location": "TN, India",
+   "match": {
+    "at": "2026-11-03",
+    "basis": "description",
+    "gaps": [
+     "Node.js",
+     "MongoDB",
+     "7+ years experience"
+    ],
+    "keywords": [
+     "MySQL",
+     "Java",
+     "Python",
+     "Docker",
+     "Aws Lambda"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected an AI-driven remediation workflow that cut average security fix time by 75% and led cross-functional teams to deliver enterprise-scale Java microservices.",
+    "reasons": [
+     "6+ years of Java backend experience",
+     "Spring Boot microservices for a BPM platform",
+     "AWS Lambda and Docker expertise"
+    ],
+    "score": 65,
+    "verdict": "stretch"
+   },
+   "posted_at": "2026-11-02",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer – Vehicle Connectivity",
+   "url": "https://careers.nestdigital.com/apply?job=2768"
   },
   "net-connect:4099b81f0750": {
    "company": "Net Connect",
@@ -120670,6 +121454,7 @@
   },
   "netapp:5178408e324f": {
    "company": "NetApp",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4484615356",
    "first_seen": "2026-11-02",
    "location": "Bengaluru, India",
    "posted_at": "2026-11-02",
@@ -126305,6 +127090,43 @@
    "title": "Hiring For Lead Software Engineer / Tech Lead @ New Delhi",
    "url": "https://www.linkedin.com/jobs/view/4482360154"
   },
+  "omvrti-ai:a221ac2e4c85": {
+   "company": "OmVrti.ai",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4485798946",
+   "first_seen": "2026-11-03",
+   "location": "New Delhi, Delhi, India",
+   "match": {
+    "at": "2026-11-03",
+    "basis": "description",
+    "gaps": [
+     "8+ years experience"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "Microservices",
+     "REST APIs",
+     "AWS"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected an AI-driven remediation workflow that cut average security vulnerability fix time by 75% and led the migration of AWS SDK v1 to v2 across 5+ repositories.",
+    "reasons": [
+     "Senior Software Engineer with 6+ years of experience",
+     "Spring Boot microservices for a BPM platform",
+     "Java 17 and REST API development"
+    ],
+    "score": 80,
+    "verdict": "good"
+   },
+   "posted_at": "2026-11-03",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "lead",
+   "title": "Hiring For Sr Software Engineer --- Tech Lead",
+   "url": "https://www.linkedin.com/jobs/view/4485798946"
+  },
   "one2nc:5c517bdff627": {
    "company": "One2nc",
    "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4478855866",
@@ -127932,6 +128754,45 @@
    "title": "Software Engineering Lead - Java or Python, React JS",
    "url": "https://www.linkedin.com/jobs/view/4479211497"
   },
+  "optum:020d147c923a": {
+   "company": "Optum",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-03",
+   "location": "TS, India",
+   "match": {
+    "at": "2026-11-03",
+    "basis": "description",
+    "gaps": [
+     "React JS",
+     "Azure",
+     "Snowflake and DBT"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "REST API",
+     "Microservices",
+     "CI/CD"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected an AI-driven remediation workflow that cut average security fix time by 75% and delivered a delegation microservice in Spring Boot that reduced manual handoffs by 40%.",
+    "reasons": [
+     "Senior Software Engineer with 6+ years of experience",
+     "Java and Spring Boot microservices expertise",
+     "Vulnerability remediation and security focus"
+    ],
+    "score": 65,
+    "verdict": "stretch"
+   },
+   "posted_at": "2026-11-03",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "lead",
+   "title": "Software Engineering Lead - Java Fullstack, React, SpringBoot Azure",
+   "url": "https://uhg.taleo.net/careersection/10780/jobdetail.ftl?job=2397824&lang=en"
+  },
   "optum:03b0f3c94cc5": {
    "company": "Optum",
    "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4479718111",
@@ -128316,6 +129177,43 @@
    "tier": "senior",
    "title": "Senior Software Engineer - Java & React",
    "url": "https://uhg.taleo.net/careersection/10780/jobdetail.ftl?job=2390901&lang=en"
+  },
+  "optum:b62ba411dfbe": {
+   "company": "Optum",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-03",
+   "location": "HR, India",
+   "match": {
+    "at": "2026-11-03",
+    "basis": "description",
+    "gaps": [
+     "Healthcare domain"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "Microservices",
+     "AWS",
+     "CI/CD"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected an AI-driven remediation workflow that cut average security fix time by 75% and led the development of a delegation microservice that reduced manual handoffs by 40%.",
+    "reasons": [
+     "6+ years of experience in Java and Spring Boot microservices",
+     "Proven leadership in vulnerability remediation and system architecture",
+     "Extensive experience with AWS, CI/CD, and REST API development"
+    ],
+    "score": 90,
+    "verdict": "strong"
+   },
+   "posted_at": "2026-11-03",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "lead",
+   "title": "Senior Software Engineer Lead",
+   "url": "https://uhg.taleo.net/careersection/10780/jobdetail.ftl?job=2394956&lang=en"
   },
   "optum:cb0842fbf2fb": {
    "company": "Optum",
@@ -128709,6 +129607,41 @@
    "tier": "senior",
    "title": "Senior Platform Software Engineer",
    "url": "https://www.linkedin.com/jobs/view/4483087947"
+  },
+  "oracle:47fcb5fe4cfc": {
+   "company": "Oracle",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-03",
+   "location": "KA, India",
+   "match": {
+    "at": "2026-11-03",
+    "basis": "description",
+    "gaps": [],
+    "keywords": [
+     "Java",
+     "Python",
+     "Spring Boot",
+     "Microservices",
+     "SQL"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected an AI-driven remediation workflow that cut average security fix time by 75% and delivered a $10M ARR renewal by shipping critical features for the Nexpose security console.",
+    "reasons": [
+     "6+ years of Java and Spring Boot experience",
+     "Expertise in microservices and REST API development",
+     "Proven experience with AI/ML tools and RAG integration"
+    ],
+    "score": 95,
+    "verdict": "strong"
+   },
+   "posted_at": "2026-11-03",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Application Solution Developer",
+   "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/349346"
   },
   "oracle:589d7c24d05b": {
    "company": "Oracle",
@@ -129217,6 +130150,41 @@
    "tier": "senior",
    "title": "Senior Application Software Engineer",
    "url": "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/347789"
+  },
+  "oracle:f38a475ab476": {
+   "company": "Oracle",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4484628039",
+   "first_seen": "2026-11-03",
+   "location": "Bengaluru, Karnataka, India",
+   "match": {
+    "at": "2026-11-03",
+    "basis": "description",
+    "gaps": [],
+    "keywords": [
+     "Java",
+     "Python",
+     "REST APIs",
+     "Microservices",
+     "SQL"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected an AI-driven remediation workflow that reduced average fix time by 75% and led the development of a Spring Boot microservice that reduced manual task handoffs by 40%.",
+    "reasons": [
+     "6+ years of experience in Java and Spring Boot",
+     "Extensive background in microservices and REST API development",
+     "Proven experience with AI/LLM tools and RAG implementation"
+    ],
+    "score": 95,
+    "verdict": "strong"
+   },
+   "posted_at": "2026-11-03",
+   "role": "software",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Application Solution Developer",
+   "url": "https://www.linkedin.com/jobs/view/4484628039"
   },
   "oracle:fc7626bb84de": {
    "company": "Oracle",
@@ -135239,6 +136207,43 @@
    "title": "Full Stack Java Engineer",
    "url": "https://careers.prodapt.com/jobs/20246/job?utm_source=indeed_integration&iis=Job%20Board&iisn=Indeed&indeed-apply-token=73a2d2b2a8d6d5c0a62696875eaebd669103652d3f0c2cd5445d3e66b1592b0f"
   },
+  "prodapt-solutions:580dd106a677": {
+   "company": "Prodapt Solutions",
+   "first_seen": "2026-11-03",
+   "location": "Bengaluru, India",
+   "match": {
+    "at": "2026-11-03",
+    "basis": "title",
+    "gaps": [
+     "Full description"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "REST API",
+     "Microservices",
+     "SQL"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected a delegation microservice in Spring Boot that reduced manual handoffs by 40% and led the remediation of 1,200+ security vulnerabilities to secure a $10M ARR renewal.",
+    "reasons": [
+     "6+ years of experience in Java and Spring Boot",
+     "Backend development for enterprise-scale systems",
+     "Microservices architecture and REST API design"
+    ],
+    "score": 60,
+    "verdict": "stretch"
+   },
+   "posted_at": "2026-11-02",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "mid",
+   "title": "Java Developer",
+   "url": "https://www.naukri.com/job-listings-java-developer-prodapt-solutions-private-limited-bengaluru-6-to-11-years-071026914114",
+   "workplace": "Work From Office"
+  },
   "prodapt-solutions:7e80ad93761c": {
    "company": "Prodapt Solutions",
    "first_seen": "2026-11-02",
@@ -139179,6 +140184,44 @@
    "tier": "mid",
    "title": "Back End Developer",
    "url": "https://www.linkedin.com/jobs/view/4480758970"
+  },
+  "recro:35f9879b2ec2": {
+   "company": "Recro",
+   "detail_url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4485763651",
+   "first_seen": "2026-11-03",
+   "location": "Hyderabad, Telangana, India",
+   "match": {
+    "at": "2026-11-03",
+    "basis": "description",
+    "gaps": [
+     "7+ years experience",
+     "Hyderabad location"
+    ],
+    "keywords": [
+     "Java",
+     "Spring Boot",
+     "Microservices",
+     "REST APIs",
+     "Hibernate"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected a delegation microservice in Spring Boot that enabled automated task reassignment and reduced manual handoffs by 40%.",
+    "reasons": [
+     "6+ years of Java backend experience",
+     "Spring Boot microservices for a BPM platform",
+     "REST API development and Oracle SQL optimization"
+    ],
+    "score": 85,
+    "verdict": "strong"
+   },
+   "posted_at": "2026-11-02",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-linkedin",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Java Developer",
+   "url": "https://www.linkedin.com/jobs/view/4485763651"
   },
   "recro:4b697ac38921": {
    "company": "Recro",
@@ -168092,6 +169135,108 @@
    "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Sr-SW-Engineer--3-5-years--GenAI--Java-Python-full-stack-_REF087773W",
    "workplace": "Work From Office"
   },
+  "visa-consolidated-support-services-india:a8c30a65ef62": {
+   "company": "Visa Consolidated Support Services India",
+   "first_seen": "2026-11-03",
+   "location": "Bengaluru, India",
+   "match": {
+    "at": "2026-11-03",
+    "basis": "title",
+    "gaps": [
+     "Full description"
+    ],
+    "keywords": [
+     "Java",
+     "Python"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected an AI-driven remediation workflow that cut average security vulnerability fix time from 1 day to 2–3 hours.",
+    "reasons": [
+     "Senior Software Engineer title",
+     "Java and Python proficiency",
+     "Experience with AI and LLM tools"
+    ],
+    "score": 60,
+    "verdict": "stretch"
+   },
+   "posted_at": "2026-11-02",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer - Java/Python GenAI",
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Software-Engineer---Sr-Consultant-level--Java---Python--GenAI--Cloud--11-15-years--experience-_REF084892W-1",
+   "workplace": "Work From Office"
+  },
+  "visa-consolidated-support-services-india:c71266bff695": {
+   "company": "Visa Consolidated Support Services India",
+   "first_seen": "2026-11-03",
+   "location": "Bengaluru, India",
+   "match": {
+    "at": "2026-11-03",
+    "basis": "title",
+    "gaps": [
+     "Full description"
+    ],
+    "keywords": [
+     "Java"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected and shipped no-fix vulnerability support for the Nexpose security console, which directly enabled a $10M ARR renewal.",
+    "reasons": [
+     "Senior Software Engineer experience",
+     "Java and Spring Boot expertise",
+     "Enterprise-scale backend systems"
+    ],
+    "score": 60,
+    "verdict": "stretch"
+   },
+   "posted_at": "2026-11-02",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "senior",
+   "title": "Sr Consultant Software Engineer (Java or .Net)",
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Sr-Consultant-Software-Engineer--Java-or-Net-_REF087728W",
+   "workplace": "Work From Office"
+  },
+  "visa-consolidated-support-services-india:e326cba9b668": {
+   "company": "Visa Consolidated Support Services India",
+   "first_seen": "2026-11-03",
+   "location": "Bengaluru, India",
+   "match": {
+    "at": "2026-11-03",
+    "basis": "title",
+    "gaps": [
+     "Full description"
+    ],
+    "keywords": [
+     "Java",
+     "Python",
+     "AWS"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected an AI-driven remediation workflow that cut average security vulnerability fix time from 1 day to 2–3 hours, achieving a 75% improvement in efficiency.",
+    "reasons": [
+     "Senior Software Engineer title",
+     "Java and AWS expertise",
+     "Experience with GenAI and LLM tools"
+    ],
+    "score": 60,
+    "verdict": "stretch"
+   },
+   "posted_at": "2026-11-02",
+   "role": "java",
+   "soft_dedupe": true,
+   "source": "jobspy-naukri",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Software Engineer - Java/Python AWS GenAI",
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/IN---Bengaluru-India/Software-Engineer--Sr-Consultant-Level_REF079515W",
+   "workplace": "Work From Office"
+  },
   "visa-consolidated-support-services-india:ec24ac6d0b74": {
    "company": "Visa Consolidated Support Services India",
    "first_seen": "2026-10-19",
@@ -174130,6 +175275,45 @@
    "title": "Java Developer",
    "url": "https://in.indeed.com/viewjob?jk=dc9bfb6e99d8f690"
   },
+  "zeiss-group:174ab0f5105a": {
+   "company": "ZEISS Group",
+   "employment_type": "Full-time",
+   "first_seen": "2026-11-03",
+   "location": "KA, India",
+   "match": {
+    "at": "2026-11-03",
+    "basis": "description",
+    "gaps": [
+     ".NET Core",
+     "React or Angular",
+     "Azure"
+    ],
+    "keywords": [
+     "Python",
+     "Microservices",
+     "Docker",
+     "REST API",
+     "SQL"
+    ],
+    "model": "gemini-3.1-flash-lite",
+    "pitch": "I architected an AI-driven remediation workflow that cut average security fix time by 75% and delivered a microservice that reduced manual BPM task handoffs by 40%.",
+    "reasons": [
+     "Java-focused backend experience",
+     "No professional experience with .NET or C#",
+     "No professional experience with modern frontend frameworks like React or Angular"
+    ],
+    "score": 45,
+    "verdict": "poor"
+   },
+   "posted_at": "2026-11-02",
+   "role": "fullstack",
+   "soft_dedupe": true,
+   "source": "jobspy-indeed",
+   "status": "new",
+   "tier": "senior",
+   "title": "Senior Full Stack Developer",
+   "url": "https://zeissgroup.wd3.myworkdayjobs.com/en-US/External/job/Bangalore/Senior-Full-Stack-Developer_JR_1054647"
+  },
   "zelis-healthcare:9a1c8126a322": {
    "company": "Zelis Healthcare",
    "employment_type": "Full-time",
@@ -175424,439 +176608,439 @@
   "Accenture": {
    "best": 387,
    "last": 387,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Adobe": {
    "best": 80,
    "last": 38,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Agoda": {
    "best": 329,
-   "last": 308,
-   "last_ok": "2026-11-02"
+   "last": 307,
+   "last_ok": "2026-11-03"
   },
   "Airbnb": {
-   "best": 206,
-   "last": 206,
-   "last_ok": "2026-11-02"
+   "best": 212,
+   "last": 212,
+   "last_ok": "2026-11-03"
   },
   "Amazon": {
    "best": 247,
-   "last": 230,
-   "last_ok": "2026-11-02"
+   "last": 227,
+   "last_ok": "2026-11-03"
   },
   "Applied Materials": {
    "best": 134,
    "last": 127,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Athenahealth": {
    "best": 39,
    "last": 37,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Atlan": {
    "best": 7,
    "last": 7,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Autodesk": {
    "best": 33,
    "last": 1,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Barclays": {
    "best": 239,
-   "last": 232,
-   "last_ok": "2026-11-02"
+   "last": 230,
+   "last_ok": "2026-11-03"
   },
   "BlackRock": {
    "best": 165,
-   "last": 141,
-   "last_ok": "2026-11-02"
+   "last": 143,
+   "last_ok": "2026-11-03"
   },
   "Boeing": {
    "best": 8,
    "last": 2,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Broadridge": {
    "best": 40,
    "last": 25,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "CRED": {
    "best": 14,
    "last": 14,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Capital One": {
    "best": 264,
-   "last": 250,
-   "last_ok": "2026-11-02"
+   "last": 240,
+   "last_ok": "2026-11-03"
   },
   "Ciena": {
    "best": 12,
    "last": 11,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Cisco": {
    "best": 268,
-   "last": 262,
-   "last_ok": "2026-11-02"
+   "last": 264,
+   "last_ok": "2026-11-03"
   },
   "Citi": {
    "best": 292,
    "last": 261,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Cloudflare": {
    "best": 469,
    "last": 469,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Coinbase": {
    "best": 269,
-   "last": 269,
-   "last_ok": "2026-11-02"
+   "last": 267,
+   "last_ok": "2026-11-03"
   },
   "Databricks": {
    "best": 914,
-   "last": 914,
-   "last_ok": "2026-11-02"
+   "last": 910,
+   "last_ok": "2026-11-03"
   },
   "Datadog": {
    "best": 445,
-   "last": 404,
-   "last_ok": "2026-11-02"
+   "last": 405,
+   "last_ok": "2026-11-03"
   },
   "Deutsche Bank": {
    "best": 160,
    "last": 145,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Druva": {
    "best": 35,
-   "last": 28,
-   "last_ok": "2026-11-02"
+   "last": 29,
+   "last_ok": "2026-11-03"
   },
   "Elastic": {
    "best": 415,
-   "last": 415,
-   "last_ok": "2026-11-02"
+   "last": 409,
+   "last_ok": "2026-11-03"
   },
   "Expedia": {
    "best": 134,
-   "last": 115,
-   "last_ok": "2026-11-02"
+   "last": 113,
+   "last_ok": "2026-11-03"
   },
   "Experian": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Fidelity": {
    "best": 18,
    "last": 14,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Fivetran": {
    "best": 188,
-   "last": 165,
-   "last_ok": "2026-11-02"
+   "last": 158,
+   "last_ok": "2026-11-03"
   },
   "Flexport": {
    "best": 212,
-   "last": 193,
-   "last_ok": "2026-11-02"
+   "last": 192,
+   "last_ok": "2026-11-03"
   },
   "Freshworks": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "GitLab": {
    "best": 240,
-   "last": 237,
-   "last_ok": "2026-11-02"
+   "last": 235,
+   "last_ok": "2026-11-03"
   },
   "Google": {
    "best": 105,
    "last": 101,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Groww": {
    "best": 11,
    "last": 9,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "HP": {
    "best": 94,
    "last": 82,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "HackerRank": {
    "best": 33,
-   "last": 29,
-   "last_ok": "2026-11-02"
+   "last": 28,
+   "last_ok": "2026-11-03"
   },
   "Harvey": {
    "best": 389,
-   "last": 376,
-   "last_ok": "2026-11-02"
+   "last": 374,
+   "last_ok": "2026-11-03"
   },
   "Hevo Data": {
    "best": 55,
    "last": 53,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "HighRadius": {
    "best": 80,
    "last": 69,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "InMobi": {
    "best": 82,
    "last": 81,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Indeed India (JobSpy)": {
    "best": 265,
-   "last": 164,
-   "last_ok": "2026-11-02"
+   "last": 185,
+   "last_ok": "2026-11-03"
   },
   "Intel": {
    "best": 197,
-   "last": 190,
-   "last_ok": "2026-11-02"
+   "last": 192,
+   "last_ok": "2026-11-03"
   },
   "Komodo Health": {
    "best": 28,
-   "last": 23,
-   "last_ok": "2026-11-02"
+   "last": 22,
+   "last_ok": "2026-11-03"
   },
   "LinkedIn (JobSpy)": {
    "best": 479,
-   "last": 374,
-   "last_ok": "2026-11-02"
+   "last": 204,
+   "last_ok": "2026-11-03"
   },
   "Lowe's": {
    "best": 166,
-   "last": 148,
-   "last_ok": "2026-11-02"
+   "last": 147,
+   "last_ok": "2026-11-03"
   },
   "Mastercard": {
    "best": 275,
-   "last": 244,
-   "last_ok": "2026-11-02"
+   "last": 243,
+   "last_ok": "2026-11-03"
   },
   "Meesho": {
    "best": 59,
    "last": 51,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Mindtickle": {
    "best": 21,
    "last": 19,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Mixpanel": {
    "best": 66,
-   "last": 43,
-   "last_ok": "2026-11-02"
+   "last": 42,
+   "last_ok": "2026-11-03"
   },
   "MongoDB": {
    "best": 404,
    "last": 358,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Morgan Stanley": {
    "best": 102,
    "last": 83,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Motorola Solutions": {
    "best": 7,
    "last": 7,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Naukri (JobSpy)": {
    "best": 399,
-   "last": 342,
-   "last_ok": "2026-11-02"
+   "last": 314,
+   "last_ok": "2026-11-03"
   },
   "Netskope": {
    "best": 151,
-   "last": 119,
-   "last_ok": "2026-11-02"
+   "last": 121,
+   "last_ok": "2026-11-03"
   },
   "New Relic": {
    "best": 58,
-   "last": 51,
-   "last_ok": "2026-11-02"
+   "last": 48,
+   "last_ok": "2026-11-03"
   },
   "NielsenIQ": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Nike": {
    "best": 175,
-   "last": 160,
-   "last_ok": "2026-11-02"
+   "last": 161,
+   "last_ok": "2026-11-03"
   },
   "Notion": {
    "best": 149,
-   "last": 149,
-   "last_ok": "2026-11-02"
+   "last": 146,
+   "last_ok": "2026-11-03"
   },
   "Nvidia": {
-   "best": 165,
-   "last": 165,
-   "last_ok": "2026-11-02"
+   "best": 166,
+   "last": 166,
+   "last_ok": "2026-11-03"
   },
   "Okta": {
    "best": 399,
-   "last": 393,
-   "last_ok": "2026-11-02"
+   "last": 396,
+   "last_ok": "2026-11-03"
   },
   "PayPal": {
    "best": 170,
    "last": 164,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Paytm": {
    "best": 201,
    "last": 198,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "PubMatic": {
    "best": 86,
    "last": 77,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Red Hat": {
    "best": 9,
    "last": 7,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Roblox": {
    "best": 271,
-   "last": 267,
-   "last_ok": "2026-11-02"
+   "last": 265,
+   "last_ok": "2026-11-03"
   },
   "Rubrik": {
    "best": 158,
    "last": 157,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Sabre": {
    "best": 44,
    "last": 36,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Salesforce": {
    "best": 113,
-   "last": 82,
-   "last_ok": "2026-11-02"
+   "last": 83,
+   "last_ok": "2026-11-03"
   },
   "Samsara": {
    "best": 340,
-   "last": 336,
-   "last_ok": "2026-11-02"
+   "last": 330,
+   "last_ok": "2026-11-03"
   },
   "Sarvam AI": {
    "best": 59,
    "last": 46,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "ServiceNow": {
    "best": 100,
    "last": 100,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Sigmoid": {
    "best": 45,
    "last": 45,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Snowflake": {
    "best": 369,
-   "last": 367,
-   "last_ok": "2026-11-02"
+   "last": 368,
+   "last_ok": "2026-11-03"
   },
   "State Street": {
    "best": 161,
    "last": 122,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Stripe": {
    "best": 746,
-   "last": 741,
-   "last_ok": "2026-11-02"
+   "last": 740,
+   "last_ok": "2026-11-03"
   },
   "Target": {
    "best": 76,
    "last": 56,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Thomson Reuters": {
    "best": 7,
    "last": 7,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Toast": {
-   "best": 341,
-   "last": 341,
-   "last_ok": "2026-11-02"
+   "best": 343,
+   "last": 343,
+   "last_ok": "2026-11-03"
   },
   "Twilio": {
    "best": 145,
    "last": 134,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Verizon": {
    "best": 149,
-   "last": 135,
-   "last_ok": "2026-11-02"
+   "last": 139,
+   "last_ok": "2026-11-03"
   },
   "Waymo": {
    "best": 372,
-   "last": 372,
-   "last_ok": "2026-11-02"
+   "last": 370,
+   "last_ok": "2026-11-03"
   },
   "Wells Fargo": {
    "best": 123,
    "last": 76,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Workday": {
    "best": 29,
    "last": 24,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Yugabyte": {
    "best": 16,
    "last": 13,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Zeta": {
    "best": 31,
    "last": 31,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   },
   "Zscaler": {
    "best": 370,
-   "last": 358,
-   "last_ok": "2026-11-02"
+   "last": 356,
+   "last_ok": "2026-11-03"
   },
   "eBay": {
    "best": 101,
    "last": 86,
-   "last_ok": "2026-11-02"
+   "last_ok": "2026-11-03"
   }
  },
- "updated": "2026-11-02T19:30:02Z",
+ "updated": "2026-11-03T02:57:35Z",
  "version": 1
 }
